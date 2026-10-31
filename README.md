@@ -2,7 +2,7 @@
 
 Code and results for:
 
-> Sachin R, Jaganath R, S T Yeshwanth and Abhishek S, "High Window-Level Accuracy Without Affect Information: Evaluation Protocol, Recording and Participant Fingerprinting in EEG Dream-Emotion Decoding," *IEEE Access*, 2026 (accepted; manuscript Access-2026-50879).
+> Sachin R, Jaganath R, S T Yeshwanth and Abhishek S, "High Window-Level Accuracy Without Affect Information: Evaluation Protocol, Recording and Participant Fingerprinting in EEG Dream-Emotion Decoding," *IEEE Access*, 2026 (accepted; manuscript Access-2026-54875).
 
 Two published studies report 92–94% accuracy for classifying dream emotion in the Dream Emotion Evaluation Dataset (DEED) without stating whether validation separated participants. This repository holds every analysis script and result file behind the paper, which shows that window-level evaluation on DEED can reach that range without information about affect, measures the protocol contrasts that account for the window-level advantage, and proposes Permutation-Calibrated Decodability (PCD), a null-referenced abstention rule.
 
