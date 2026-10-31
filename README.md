@@ -36,7 +36,7 @@ The raw recordings are not redistributed here. Obtain them from their sources:
 
 - **DEED** — Liu et al., *DEED: a dataset for dream-related emotion research*, doi:10.1101/2022.09.19.508475.
 - **Sleep-EDF Expanded** — PhysioNet (Kemp et al., 2000).
-- **Tononi serial-awakenings corpus** — Siclari et al., *The neural correlates of dreaming*, Nature Neuroscience, 2017, doi:10.1038/nn.4545; data on figshare.
+- **Tononi serial-awakenings corpus** — Siclari et al., *The neural correlates of dreaming*, Nature Neuroscience, 2017, doi:10.1038/nn.4545; data on figshare, version 3, doi:10.26180/23306054.v3 (CC BY 4.0).
 - **DREAM database**, version 9 — doi:10.26180/22133105.v9.
 
 ## Provenance and audit
