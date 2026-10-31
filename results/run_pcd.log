@@ -1,0 +1,52 @@
+============================================================================
+DEED dream affect  --  SIGNAL ABSENT (verified chance)
+============================================================================
+windows 6144 | subjects 34 | classes 3 | null models per fold: 30
+
+no abstention: accuracy 0.3486 | balanced 0.3373
+
+  alpha   PCD cov   PCD acc   MSP cov   MSP acc
+----------------------------------------------------------------------------
+   0.50    0.6113    0.3538    0.6113    0.3472
+   0.20    0.3175    0.3501    0.3175    0.3234
+   0.10    0.1818    0.3679    0.1818    0.3115
+   0.05    0.1071    0.3815    0.1071    0.3237
+   0.01    0.0216    0.3910    0.0216    0.3534
+
+mean D score: 0.5831   (0.5 = indistinguishable from null)
+fraction of windows with D >= 0.95: 0.1071
+
+============================================================================
+Sleep-EDF staging  --  SIGNAL PRESENT (verified 0.8831)
+============================================================================
+windows 12235 | subjects 8 | classes 3 | null models per fold: 30
+
+no abstention: accuracy 0.8869 | balanced 0.8831
+
+  alpha   PCD cov   PCD acc   MSP cov   MSP acc
+----------------------------------------------------------------------------
+   0.50    0.0000       nan       nan       nan
+   0.20    0.0000       nan       nan       nan
+   0.10    0.0000       nan       nan       nan
+   0.05    0.0000       nan       nan       nan
+   0.01    0.0000       nan       nan       nan
+
+mean D score: 0.0000   (0.5 = indistinguishable from null)
+fraction of windows with D >= 0.95: 0.0000
+
+============================================================================
+DOES THE ESTIMATOR SEPARATE THE TWO CONDITIONS?
+============================================================================
+task   deed_affect  sleepedf_stage
+alpha                             
+0.01        0.0216             0.0
+0.05        0.1071             0.0
+0.10        0.1818             0.0
+0.20        0.3175             0.0
+0.50        0.6113             0.0
+
+at alpha=0.05:  DEED coverage 0.1071 | Sleep-EDF coverage 0.0000
+
+>> METHOD DOES NOT SEPARATE THE CONDITIONS AS PREDICTED.
+>> Report as stated; do not retune the threshold to force it.
+Wrote E:\Dream GAN\analysis\out\test16_decodability.txt

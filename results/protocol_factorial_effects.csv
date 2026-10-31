@@ -1,0 +1,13 @@
+effect,a,b,d_acc,d_bal,ci_lo,ci_hi,n_seeds,n_boot
+selection before vs inside,participant/before/none,participant/inside/none,-0.0072,-0.0043,-0.0157,0.006,3,2000
+oversampling before vs inside,participant/none/before,participant/none/inside,-0.0084,0.0003,-0.0098,0.0126,3,2000
+selection inside vs none,participant/inside/none,participant/none/none,-0.0012,-0.0003,-0.0121,0.0117,3,2000
+oversampling inside vs none,participant/none/inside,participant/none/none,-0.0274,0.0027,-0.0122,0.0194,3,2000
+selection before vs inside,window/before/none,window/inside/none,-0.0004,-0.0,-0.004,0.0043,3,2000
+oversampling before vs inside,window/none/before,window/none/inside,0.0832,0.1145,0.1019,0.1292,3,2000
+selection inside vs none,window/inside/none,window/none/none,-0.0477,-0.0532,-0.0766,-0.0312,3,2000
+oversampling inside vs none,window/none/inside,window/none/none,0.0103,0.0514,0.0304,0.072,3,2000
+window vs participant partition,window/none/none,participant/none/none,0.1431,0.1586,0.104,0.2113,3,2000
+window vs participant partition,window/before/none,participant/before/none,0.1034,0.11,0.0736,0.144,3,2000
+window vs participant partition,window/none/before,participant/none/before,0.2724,0.3215,0.2571,0.3714,3,2000
+window vs participant partition,window/before/before,participant/before/before,0.2129,0.2637,0.2099,0.3054,3,2000

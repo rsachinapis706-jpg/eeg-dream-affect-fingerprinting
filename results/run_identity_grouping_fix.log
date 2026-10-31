@@ -1,0 +1,5 @@
+all 7,418 windows (Table 9)       night (oid)             0.4862
+all 7,418 windows (Table 9)       recording (segment_id)  0.7477
+6,144 valence windows (Table 8)   recording (segment_id)  0.7321
+published Table 9 middle column, all features: 0.4862
+published Table 8 recording-grouped (10-seed mean): 0.7254

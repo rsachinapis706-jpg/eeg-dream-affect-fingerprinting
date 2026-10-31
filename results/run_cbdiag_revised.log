@@ -1,0 +1,46 @@
+[revised_20260727] windows 6144 | participants 34 | classes ['neg', 'neu', 'pos'] | input |x| median 0.624, p99 2.811 (pretraining convention: EEG / 100 uV)
+[revised_20260727] 002: bal 0.2188 constant False epoch 11/15 (4.4 min)
+[revised_20260727] 003: bal 0.3333 constant False epoch 4/8 (5.6 min)
+[revised_20260727] 004: bal 0.3100 constant False epoch 3/7 (6.8 min)
+[revised_20260727] 005: bal 0.3073 constant False epoch 4/8 (8.1 min)
+[revised_20260727] 007: bal 0.3384 constant False epoch 4/8 (9.6 min)
+[revised_20260727] 011: bal 0.0952 constant False epoch 2/6 (10.8 min)
+[revised_20260727] 012: bal 0.4639 constant False epoch 9/13 (13.7 min)
+[revised_20260727] 013: bal 0.5000 constant False epoch 4/8 (15.7 min)
+[revised_20260727] 014: bal 0.0357 constant False epoch 6/10 (18.6 min)
+[revised_20260727] 015: bal 0.2806 constant False epoch 1/5 (19.7 min)
+[revised_20260727] 016: bal 0.5000 constant True epoch 2/6 (22.2 min)
+[revised_20260727] 017: bal 0.3333 constant True epoch 1/5 (23.9 min)
+[revised_20260727] 018: bal 0.0000 constant False epoch 4/8 (26.6 min)
+[revised_20260727] 020: bal 0.0000 constant False epoch 4/8 (28.8 min)
+[revised_20260727] 021: bal 0.2895 constant False epoch 5/9 (30.0 min)
+[revised_20260727] 022: bal 0.3259 constant False epoch 4/8 (31.6 min)
+[revised_20260727] 023: bal 0.3333 constant True epoch 3/7 (33.0 min)
+[revised_20260727] 024: bal 0.3612 constant False epoch 9/13 (34.9 min)
+[revised_20260727] 025: bal 0.4706 constant False epoch 6/10 (36.3 min)
+[revised_20260727] 027: bal 0.3070 constant False epoch 3/7 (37.9 min)
+[revised_20260727] 028: bal 0.3360 constant False epoch 8/12 (41.4 min)
+[revised_20260727] 029: bal 0.3348 constant False epoch 7/11 (44.0 min)
+[revised_20260727] 030: bal 0.3366 constant False epoch 3/7 (45.7 min)
+[revised_20260727] 031: bal 0.5442 constant False epoch 3/7 (47.6 min)
+[revised_20260727] 032: bal 0.3333 constant True epoch 1/5 (48.9 min)
+[revised_20260727] 033: bal 0.2469 constant False epoch 4/8 (51.2 min)
+[revised_20260727] 034: bal 0.0000 constant True epoch 1/5 (52.5 min)
+[revised_20260727] 035: bal 0.4293 constant False epoch 9/13 (57.2 min)
+[revised_20260727] 036: bal 0.0000 constant False epoch 2/6 (58.6 min)
+[revised_20260727] 037: bal 0.3162 constant False epoch 6/10 (61.8 min)
+[revised_20260727] 038: bal 0.3333 constant True epoch 1/5 (63.4 min)
+[revised_20260727] 039: bal 0.3333 constant True epoch 1/5 (64.9 min)
+[revised_20260727] 040: bal 0.2503 constant False epoch 8/12 (68.1 min)
+[revised_20260727] 042: bal 0.3333 constant True epoch 2/6 (70.0 min)
+Traceback (most recent call last):
+  File "E:\Dream GAN\analysis\76_cbramod_diagnostics.py", line 236, in <module>
+    f"{int(((f.bal == 0) & (f.test_classes == 1)).sum())})")
+^^^^
+  File "E:\Dream GAN\analysis\76_cbramod_diagnostics.py", line 223, in main
+    del model
+        ^^^^^^
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Dream GAN\\analysis\\out\\cbramod_diag_revised_20260727_2_pred.npy'

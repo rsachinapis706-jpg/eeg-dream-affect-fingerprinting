@@ -1,0 +1,33 @@
+====================================================================
+TEST 1: PRE-SLEEP FILM VALENCE -> REPORTED DREAM VALENCE
+====================================================================
+Permutations: 10000 (film labels shuffled across nights within subject)
+
+Segments analysed : 493  (E0 excluded: 40)
+Nights            : 78
+Subjects          : 34
+
+-- Mean dream valence by film condition --
+          count   mean    std
+film                         
+Negative    181  3.061  0.883
+Neutral     149  3.094  0.747
+Positive    163  3.282  0.857
+
+-- Segment-level Spearman (film valence vs dream valence) --
+rho = +0.0994   permutation p = 0.1416   n = 493
+
+-- Night-level Spearman (night-mean dream valence) --
+rho = +0.2210   permutation p = 0.1473   n = 78 nights
+
+-- Within-subject contrast (subjects with both Negative and Positive nights) --
+n = 19 subjects | mean(pos - neg) = +0.191
+Wilcoxon signed-rank W = 56.0, p = 0.1987
+
+-- No-recall rate (E0) by film condition --
+          count   mean
+film                  
+Negative    193  0.062
+Neutral     165  0.097
+Positive    175  0.069
+chi2 = 1.709, p = 0.4256 (segment-level, not night-corrected -- indicative only)

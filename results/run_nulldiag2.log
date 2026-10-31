@@ -1,0 +1,11 @@
+==============================================================================
+IS THE DEED NULL CONFIGURATION-DEPENDENT?
+==============================================================================
+windows 6144 | participants 34 | recordings 492
+permutations per null: {'lr': 300, 'rf': 100, 'dummy': 100}   chance 0.3333
+
+configuration                         observed   within-p null      p   free null      p
+------------------------------------------------------------------------------------------------
+LogReg, scaled, balanced weight         0.3783    0.3376/0.3693  0.010 0.3330/0.3654  0.023
+LogReg, scaled, no weight               0.3537    0.3339/0.3552  0.076 0.3335/0.3563  0.073
+Dummy: stratified                       0.3246    0.3315/0.3402  0.891 0.3320/0.3409  0.911

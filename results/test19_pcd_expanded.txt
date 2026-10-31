@@ -1,0 +1,45 @@
+============================================================================
+PCD STRONG-SIGNAL CONDITION -- Sleep-EDF Expanded (100 subjects)
+============================================================================
+windows 25002 (capped at 250/subject, stage-stratified) | subjects 100
+null models per fold: 25
+prior 8-subject result: coverage 0.9662 at alpha=0.05
+
+  ...20/100 subjects
+  ...40/100 subjects
+  ...60/100 subjects
+  ...80/100 subjects
+  ...100/100 subjects
+
+no-abstention accuracy 0.8062 | balanced 0.7817
+
+-- PCD --
+  alpha   coverage              95% CI   accuracy              95% CI
+   0.20     0.9818   [0.9792, 0.9842]     0.8127   [0.7915, 0.8323]
+   0.10     0.9742   [0.9707, 0.9776]     0.8150   [0.7944, 0.8345]
+   0.05     0.9666   [0.9621, 0.9705]     0.8176   [0.7971, 0.8370]
+   0.01     0.9451   [0.9367, 0.9524]     0.8254   [0.8049, 0.8441]
+
+-- max-softmax at fixed thresholds --
+ thresh   coverage              95% CI   accuracy              95% CI
+   0.50     0.9685   [0.9626, 0.9736]     0.8182   [0.7976, 0.8376]
+   0.70     0.7247   [0.6986, 0.7511]     0.9020   [0.8868, 0.9152]
+   0.90     0.4298   [0.3915, 0.4687]     0.9800   [0.9751, 0.9845]
+
+-- calibration --
+mean D (observed)            : 0.9884
+mean D (leave-one-null-out)  : 0.4905   <- ~0.5 if calibrated
+P(D>=0.95) observed          : 0.9666
+P(D>=0.95) null-vs-null      : 0.0390   <- true false-positive rate
+KS vs uniform (null-vs-null) : p=1.05e-09
+
+============================================================================
+SEPARATION: 100-subject strong condition vs DEED dream affect
+============================================================================
+condition                           subjects    PCD coverage @0.05
+Sleep-EDF Expanded (strong)              100                0.9666
+Sleep-EDF 1.0.0 (strong, prior)            8                0.9662
+DEED dream affect (absent)                34                0.1071
+DEED affect, CBraMod (absent)             34                0.0828
+
+separation ratio (strong/absent): 9.02x

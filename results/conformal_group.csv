@@ -1,0 +1,5 @@
+condition,comparator,calibration_units,calibration_size_median,set_size,singleton,true_label_coverage,share_finite
+Sleep-EDF staging,window-level split conformal (empirical),windows,,1.5501,0.493,0.9582,1.0
+Sleep-EDF staging,"group-aware split conformal, one window per calibration participant",participants,20.0,1.6986,0.4411,0.9547,1.0
+DEED affect,window-level split conformal (empirical),windows,,2.7101,0.035,0.9154,1.0
+DEED affect,"group-aware split conformal, one window per calibration participant",participants,6.0,3.0,0.0,1.0,0.0

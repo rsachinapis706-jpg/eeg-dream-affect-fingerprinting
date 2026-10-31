@@ -1,0 +1,25 @@
+condition,stratum,alpha,coverage,bal_retained,part_cov_min,part_cov_median,part_cov_max
+DEED affect,pooled,0.1,0.1144,0.3176,0.0,0.0669,0.3763
+DEED affect,pooled,0.05,0.0618,0.3177,0.0,0.0272,0.2554
+DEED affect,pooled,0.01,0.0156,0.2773,0.0,0.0053,0.0833
+DEED affect,recording,0.1,0.1087,0.3236,0.0291,0.0878,0.3077
+DEED affect,recording,0.05,0.0588,0.3227,0.0,0.0416,0.1917
+DEED affect,recording,0.01,0.0146,0.383,0.0,0.0082,0.078
+DEED affect,participant,0.1,0.1035,0.3074,0.0238,0.0856,0.2796
+DEED affect,participant,0.05,0.0575,0.309,0.0,0.039,0.1833
+DEED affect,participant,0.01,0.0145,0.3756,0.0,0.01,0.0435
+DEED affect,input,0.1,0.1185,0.3279,0.0163,0.0918,0.4328
+DEED affect,input,0.05,0.0656,0.3521,0.0,0.0384,0.3199
+DEED affect,input,0.01,0.0179,0.4576,0.0,0.0046,0.1586
+Sleep-EDF staging,pooled,0.1,0.8876,0.8108,0.7421,0.8993,0.9763
+Sleep-EDF staging,pooled,0.05,0.8601,0.8186,0.6886,0.8724,0.9715
+Sleep-EDF staging,pooled,0.01,0.7561,0.848,0.3922,0.7875,0.9298
+Sleep-EDF staging,recording,0.1,0.9082,0.8045,0.7111,0.9188,0.9697
+Sleep-EDF staging,recording,0.05,0.8857,0.8113,0.5506,0.901,0.9651
+Sleep-EDF staging,recording,0.01,0.8187,0.8309,0.3931,0.852,0.9444
+Sleep-EDF staging,participant,0.1,0.9065,0.8047,0.7078,0.9184,0.9715
+Sleep-EDF staging,participant,0.05,0.8831,0.812,0.5552,0.9011,0.9651
+Sleep-EDF staging,participant,0.01,0.8106,0.8335,0.3722,0.8505,0.9437
+Sleep-EDF staging,input,0.1,0.9587,0.7889,0.8763,0.9648,0.9935
+Sleep-EDF staging,input,0.05,0.955,0.7901,0.8664,0.9619,0.993
+Sleep-EDF staging,input,0.01,0.9472,0.7927,0.844,0.9552,0.9916

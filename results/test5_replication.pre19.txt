@@ -1,0 +1,32 @@
+Extracting nonlinear features (DWT+EMD) for 533 segments on all cores...
+Extracted 7421 epochs x 240 features
+
+========================================================================
+REPLICATION + SUBJECT-WISE RE-VALIDATION
+========================================================================
+epochs 6147 | features 240 | subjects 34
+majority-class baseline = 0.4617 | chance = 0.3333
+published: Mahmoudi 2025 = 93.83% | Mojdehbar 2026 = 92.33%
+
+classifierheld out    accuracy   balanced
+------------------------------------------------------------------------
+KNN     random        0.4067     0.3715
+KNN     segment       0.3929     0.3665
+KNN     subject       0.3763     0.3306
+------------------------------------------------------------------------
+SVM     random        0.4711     0.3562
+SVM     segment       0.4649     0.3559
+SVM     subject       0.4474     0.3291
+------------------------------------------------------------------------
+RF      random        0.4649     0.3475
+RF      segment       0.4739     0.3646
+RF      subject       0.4531     0.3298
+------------------------------------------------------------------------
+
+best random-split accuracy  : 0.4711
+best subject-wise accuracy  : 0.4531
+collapse                    : +0.0181
+
+>> Published range NOT reproduced (best random = 0.471 vs ~0.92 reported).
+>> The gap is UNEXPLAINED by validation protocol alone and must be
+>> reported as such. Do not claim their number is leakage.

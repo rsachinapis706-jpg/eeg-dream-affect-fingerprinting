@@ -1,0 +1,412 @@
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['deed']  R_NULL 100  jobs 3
+[   0.0 min] DEED affect: running
+[   1.0 min]   check vs 77 (DEED affect): max |p diff| 1.31e-03; coverage 77 0.0701, here 0.0703
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['deed']  R_NULL 100  jobs 4
+[   0.0 min] DEED affect: running
+[   0.9 min]   check vs 77 (DEED affect): max |p diff| 0.00e+00; coverage 77 0.0701, here 0.0701
+[   0.9 min] 
+  condition     stratum  alpha  coverage  bal_retained  part_cov_min  part_cov_median  part_cov_max
+DEED affect      pooled   0.05    0.0701        0.3558           0.0           0.0255        0.2621
+DEED affect   recording   0.05    0.0614        0.3559           0.0           0.0400        0.2143
+DEED affect participant   0.05    0.0620        0.3714           0.0           0.0394        0.1918
+DEED affect       input   0.05    0.0614        0.4108           0.0           0.0361        0.2204
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['deednull']  R_NULL 20  jobs 4
+[   0.9 min]   null rep 0: pooled 0.0661, participant 0.0680, input 0.0641
+[   1.7 min]   null rep 1: pooled 0.0366, participant 0.0374, input 0.0317
+[   2.5 min]   null rep 2: pooled 0.0361, participant 0.0394, input 0.0337
+[   3.2 min]   null rep 3: pooled 0.0461, participant 0.0501, input 0.0379
+[   4.0 min]   null rep 4: pooled 0.0617, participant 0.0627, input 0.0472
+[   4.7 min]   null rep 5: pooled 0.0503, participant 0.0529, input 0.0505
+[   5.4 min]   null rep 6: pooled 0.0417, participant 0.0446, input 0.0438
+[   6.3 min]   null rep 7: pooled 0.0553, participant 0.0566, input 0.0627
+[   7.1 min]   null rep 8: pooled 0.0469, participant 0.0485, input 0.0387
+[   8.0 min]   null rep 9: pooled 0.0721, participant 0.0776, input 0.0851
+[   8.9 min]   null rep 10: pooled 0.0444, participant 0.0485, input 0.0469
+[   9.6 min]   null rep 11: pooled 0.0597, participant 0.0550, input 0.0552
+[  10.4 min]   null rep 12: pooled 0.0345, participant 0.0446, input 0.0410
+[  11.3 min]   null rep 13: pooled 0.0503, participant 0.0521, input 0.0562
+[  12.2 min]   null rep 14: pooled 0.0506, participant 0.0571, input 0.0555
+[  13.1 min]   null rep 15: pooled 0.0636, participant 0.0605, input 0.0635
+[  13.9 min]   null rep 16: pooled 0.0503, participant 0.0534, input 0.0588
+[  14.7 min]   null rep 17: pooled 0.0454, participant 0.0467, input 0.0529
+[  15.5 min]   null rep 18: pooled 0.0614, participant 0.0594, input 0.0480
+[  16.2 min]   null rep 19: pooled 0.0511, participant 0.0492, input 0.0448
+[  16.2 min] DEED null, expected rate per participant over 20 reps:
+[  16.2 min] 
+    stratum  reps  marginal_rate  participant_expected_max  participant_expected_p90  participant_expected_median  n_participants_above_2alpha  n_participants_signif_above_alpha
+     pooled    20         0.0512                    0.1044                    0.0891                       0.0437                            1                                  5
+  recording    20         0.0519                    0.0717                    0.0623                       0.0520                            0                                  0
+participant    20         0.0532                    0.0671                    0.0636                       0.0545                            0                                  1
+      input    20         0.0509                    0.0734                    0.0635                       0.0535                            0                                  0
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['sims']  R_NULL 100  jobs 4
+[   0.0 min] sims: running
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['sims']  R_NULL 100  jobs 3
+[   0.0 min] sims: running
+[   2.4 min]   check vs 77 (sims): max |pooled rate diff| 9.71e-17
+[   2.4 min] simulations, median over datasets:
+[   2.4 min] 
+                fpr  part_fpr_mean  part_fpr_p90  part_frac_above_2alpha
+stratum                                                                 
+pooled       0.0492         0.0489        0.1033                  0.1167
+recording    0.0467         0.0474        0.0927                  0.1000
+participant  0.0498         0.0495        0.0754                  0.0333
+input        0.0374         0.0387        0.0826                  0.0667
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['sleepedf']  R_NULL 100  jobs 3
+[   0.0 min] Sleep-EDF staging: running
+[  15.5 min]   check vs 77 (Sleep-EDF staging): max |p diff| 0.00e+00; coverage 77 0.8588, here 0.8588
+[  15.6 min] 
+        condition     stratum  alpha  coverage  bal_retained  part_cov_min  part_cov_median  part_cov_max
+      DEED affect      pooled   0.05    0.0701        0.3558        0.0000           0.0255        0.2621
+      DEED affect   recording   0.05    0.0614        0.3559        0.0000           0.0400        0.2143
+      DEED affect participant   0.05    0.0620        0.3714        0.0000           0.0394        0.1918
+      DEED affect       input   0.05    0.0614        0.4108        0.0000           0.0361        0.2204
+Sleep-EDF staging      pooled   0.05    0.8588        0.8160        0.6991           0.8717        0.9715
+Sleep-EDF staging   recording   0.05    0.8862        0.8075        0.5902           0.8957        0.9619
+Sleep-EDF staging participant   0.05    0.8832        0.8084        0.5936           0.8931        0.9619
+Sleep-EDF staging       input   0.05    0.9579        0.7871        0.8932           0.9630        0.9903
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['deednull']  R_NULL 100  jobs 3
+[   1.1 min]   null rep 20: pooled 0.0928, participant 0.0957, input 0.1063
+[   2.1 min]   null rep 21: pooled 0.0482, participant 0.0417, input 0.0373
+[   3.1 min]   null rep 22: pooled 0.0553, participant 0.0592, input 0.0618
+[   4.2 min]   null rep 23: pooled 0.0339, participant 0.0446, input 0.0311
+[   5.1 min]   null rep 24: pooled 0.0389, participant 0.0366, input 0.0282
+[   6.1 min]   null rep 25: pooled 0.0701, participant 0.0739, input 0.0872
+[   7.2 min]   null rep 26: pooled 0.0602, participant 0.0648, input 0.0760
+[   8.2 min]   null rep 27: pooled 0.0952, participant 0.0765, input 0.0920
+[   9.2 min]   null rep 28: pooled 0.0687, participant 0.0687, input 0.0718
+[  10.1 min]   null rep 29: pooled 0.0498, participant 0.0431, input 0.0345
+[  11.1 min]   null rep 30: pooled 0.0518, participant 0.0524, input 0.0495
+[  12.1 min]   null rep 31: pooled 0.0560, participant 0.0475, input 0.0405
+[  13.1 min]   null rep 32: pooled 0.0335, participant 0.0295, input 0.0343
+[  14.1 min]   null rep 33: pooled 0.0649, participant 0.0643, input 0.0641
+[  15.0 min]   null rep 34: pooled 0.0444, participant 0.0422, input 0.0428
+[  15.9 min]   null rep 35: pooled 0.0594, participant 0.0579, input 0.0622
+[  16.9 min]   null rep 36: pooled 0.0545, participant 0.0589, input 0.0415
+[  17.9 min]   null rep 37: pooled 0.0540, participant 0.0532, input 0.0566
+[  18.9 min]   null rep 38: pooled 0.0439, participant 0.0495, input 0.0472
+[  19.9 min]   null rep 39: pooled 0.0413, participant 0.0456, input 0.0539
+[  20.8 min]   null rep 40: pooled 0.0812, participant 0.0749, input 0.0732
+[  21.9 min]   null rep 41: pooled 0.0363, participant 0.0366, input 0.0241
+[  22.8 min]   null rep 42: pooled 0.0433, participant 0.0505, input 0.0555
+[  23.8 min]   null rep 43: pooled 0.0762, participant 0.0768, input 0.0809
+[  24.8 min]   null rep 44: pooled 0.0568, participant 0.0576, input 0.0402
+[  25.8 min]   null rep 45: pooled 0.0581, participant 0.0487, input 0.0430
+[  26.8 min]   null rep 46: pooled 0.0535, participant 0.0545, input 0.0563
+[  27.8 min]   null rep 47: pooled 0.0405, participant 0.0409, input 0.0358
+[  28.8 min]   null rep 48: pooled 0.0409, participant 0.0365, input 0.0343
+[  29.8 min]   null rep 49: pooled 0.0728, participant 0.0729, input 0.0744
+[  30.8 min]   null rep 50: pooled 0.0496, participant 0.0537, input 0.0488
+[  31.8 min]   null rep 51: pooled 0.0273, participant 0.0329, input 0.0329
+[  32.8 min]   null rep 52: pooled 0.0290, participant 0.0366, input 0.0365
+[  33.8 min]   null rep 53: pooled 0.0511, participant 0.0492, input 0.0487
+[  34.8 min]   null rep 54: pooled 0.0506, participant 0.0552, input 0.0581
+[  35.7 min]   null rep 55: pooled 0.0605, participant 0.0633, input 0.0755
+[  36.7 min]   null rep 56: pooled 0.0578, participant 0.0617, input 0.0594
+[  37.7 min]   null rep 57: pooled 0.0549, participant 0.0591, input 0.0671
+[  38.8 min]   null rep 58: pooled 0.0350, participant 0.0382, input 0.0350
+[  39.7 min]   null rep 59: pooled 0.0812, participant 0.0840, input 0.0889
+[  40.7 min]   null rep 60: pooled 0.0479, participant 0.0505, input 0.0488
+[  41.7 min]   null rep 61: pooled 0.0492, participant 0.0571, input 0.0566
+[  42.5 min]   null rep 62: pooled 0.0542, participant 0.0578, input 0.0698
+[  43.4 min]   null rep 63: pooled 0.0495, participant 0.0459, input 0.0545
+[  44.2 min]   null rep 64: pooled 0.0438, participant 0.0355, input 0.0239
+[  44.9 min]   null rep 65: pooled 0.0894, participant 0.0845, input 0.0967
+[  45.6 min]   null rep 66: pooled 0.0763, participant 0.0838, input 0.0885
+[  46.4 min]   null rep 67: pooled 0.0474, participant 0.0492, input 0.0540
+[  47.1 min]   null rep 68: pooled 0.0339, participant 0.0366, input 0.0260
+[  48.0 min]   null rep 69: pooled 0.0400, participant 0.0426, input 0.0343
+[  48.7 min]   null rep 70: pooled 0.0488, participant 0.0465, input 0.0465
+[  49.4 min]   null rep 71: pooled 0.0558, participant 0.0571, input 0.0508
+[  50.2 min]   null rep 72: pooled 0.0438, participant 0.0495, input 0.0449
+[  51.0 min]   null rep 73: pooled 0.0402, participant 0.0503, input 0.0418
+[  51.8 min]   null rep 74: pooled 0.0555, participant 0.0566, input 0.0661
+[  53.0 min]   null rep 75: pooled 0.0488, participant 0.0501, input 0.0448
+[  54.2 min]   null rep 76: pooled 0.0426, participant 0.0439, input 0.0498
+[  58.8 min]   null rep 77: pooled 0.0503, participant 0.0472, input 0.0353
+[  83.6 min]   null rep 78: pooled 0.0534, participant 0.0400, input 0.0340
+[  87.9 min]   null rep 79: pooled 0.0490, participant 0.0475, input 0.0386
+[  89.0 min]   null rep 80: pooled 0.0340, participant 0.0324, input 0.0324
+[  90.1 min]   null rep 81: pooled 0.0609, participant 0.0630, input 0.0688
+[  91.5 min]   null rep 82: pooled 0.0500, participant 0.0570, input 0.0688
+[  92.8 min]   null rep 83: pooled 0.0490, participant 0.0438, input 0.0352
+[  93.9 min]   null rep 84: pooled 0.0417, participant 0.0366, input 0.0177
+[  95.1 min]   null rep 85: pooled 0.0560, participant 0.0531, input 0.0449
+[  96.3 min]   null rep 86: pooled 0.0617, participant 0.0540, input 0.0527
+[  97.5 min]   null rep 87: pooled 0.0630, participant 0.0685, input 0.0653
+[  98.6 min]   null rep 88: pooled 0.0622, participant 0.0643, input 0.0687
+[  99.8 min]   null rep 89: pooled 0.0615, participant 0.0605, input 0.0640
+[ 100.9 min]   null rep 90: pooled 0.0352, participant 0.0353, input 0.0327
+[ 101.4 min]   null rep 91: pooled 0.0622, participant 0.0591, input 0.0552
+[ 102.3 min]   null rep 92: pooled 0.0449, participant 0.0477, input 0.0498
+[ 103.2 min]   null rep 93: pooled 0.0394, participant 0.0413, input 0.0457
+[ 104.1 min]   null rep 94: pooled 0.0461, participant 0.0386, input 0.0407
+[ 104.9 min]   null rep 95: pooled 0.0402, participant 0.0451, input 0.0477
+[ 105.8 min]   null rep 96: pooled 0.0356, participant 0.0374, input 0.0345
+[ 106.6 min]   null rep 97: pooled 0.0477, participant 0.0467, input 0.0487
+[ 107.5 min]   null rep 98: pooled 0.0586, participant 0.0555, input 0.0615
+[ 112.2 min]   null rep 99: pooled 0.0653, participant 0.0671, input 0.0729
+[ 112.3 min] DEED null, expected rate per participant over 100 reps:
+[ 112.3 min] 
+    stratum  reps  marginal_rate  participant_expected_max  participant_expected_p90  participant_expected_median  n_participants_above_2alpha  n_participants_signif_above_alpha
+     pooled   100         0.0523                    0.1123                    0.0840                       0.0420                            1                                  8
+  recording   100         0.0521                    0.0634                    0.0579                       0.0510                            0                                  1
+participant   100         0.0529                    0.0619                    0.0586                       0.0520                            0                                  2
+      input   100         0.0522                    0.0648                    0.0604                       0.0512                            0                                  0
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['deednull']  R_NULL 100  jobs 4
+[   0.0 min] DEED null, expected rate per participant over 100 reps:
+[   0.0 min] 
+    stratum  reps  marginal_rate  marginal_se  participant_expected_max  participant_expected_p90  participant_expected_median  n_participants_above_2alpha  n_participants_signif_above_alpha
+     pooled   100         0.0523       0.0013                    0.1123                    0.0840                       0.0420                            1                                  8
+  recording   100         0.0521       0.0014                    0.0634                    0.0579                       0.0510                            0                                  1
+participant   100         0.0529       0.0013                    0.0619                    0.0586                       0.0520                            0                                  2
+      input   100         0.0522       0.0017                    0.0648                    0.0604                       0.0512                            0                                  0
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['deednull_fixed']  R_NULL 100  jobs 3
+[   1.0 min]   null_fixedfolds rep 0: pooled 0.0675, participant 0.0726, input 0.0809
+[   8.8 min]   null_fixedfolds rep 1: pooled 0.0321, participant 0.0327, input 0.0282
+[  12.3 min]   null_fixedfolds rep 2: pooled 0.0259, participant 0.0233, input 0.0256
+[  13.0 min]   null_fixedfolds rep 3: pooled 0.0480, participant 0.0542, input 0.0477
+[  13.8 min]   null_fixedfolds rep 4: pooled 0.0529, participant 0.0465, input 0.0347
+[  14.6 min]   null_fixedfolds rep 5: pooled 0.0623, participant 0.0684, input 0.0659
+[  15.4 min]   null_fixedfolds rep 6: pooled 0.0457, participant 0.0518, input 0.0509
+[  16.2 min]   null_fixedfolds rep 7: pooled 0.0583, participant 0.0758, input 0.0789
+[  17.0 min]   null_fixedfolds rep 8: pooled 0.0480, participant 0.0501, input 0.0404
+[  17.8 min]   null_fixedfolds rep 9: pooled 0.0736, participant 0.0724, input 0.0768
+[  18.6 min]   null_fixedfolds rep 10: pooled 0.0501, participant 0.0470, input 0.0389
+[  19.3 min]   null_fixedfolds rep 11: pooled 0.0651, participant 0.0604, input 0.0366
+[  20.2 min]   null_fixedfolds rep 12: pooled 0.0392, participant 0.0519, input 0.0508
+[  20.9 min]   null_fixedfolds rep 13: pooled 0.0623, participant 0.0674, input 0.0705
+[  21.7 min]   null_fixedfolds rep 14: pooled 0.0339, participant 0.0413, input 0.0420
+[  22.5 min]   null_fixedfolds rep 15: pooled 0.0501, participant 0.0461, input 0.0477
+[  23.2 min]   null_fixedfolds rep 16: pooled 0.0666, participant 0.0682, input 0.0666
+[  23.9 min]   null_fixedfolds rep 17: pooled 0.0353, participant 0.0373, input 0.0366
+[  24.8 min]   null_fixedfolds rep 18: pooled 0.0659, participant 0.0662, input 0.0591
+[  25.5 min]   null_fixedfolds rep 19: pooled 0.0353, participant 0.0374, input 0.0329
+[  26.3 min]   null_fixedfolds rep 20: pooled 0.0555, participant 0.0524, input 0.0591
+[  27.0 min]   null_fixedfolds rep 21: pooled 0.0500, participant 0.0420, input 0.0330
+[  27.8 min]   null_fixedfolds rep 22: pooled 0.0394, participant 0.0430, input 0.0400
+[  28.6 min]   null_fixedfolds rep 23: pooled 0.0514, participant 0.0516, input 0.0433
+[  29.4 min]   null_fixedfolds rep 24: pooled 0.0352, participant 0.0296, input 0.0296
+[  30.1 min]   null_fixedfolds rep 25: pooled 0.0397, participant 0.0451, input 0.0488
+[  31.0 min]   null_fixedfolds rep 26: pooled 0.0495, participant 0.0496, input 0.0547
+[  31.8 min]   null_fixedfolds rep 27: pooled 0.0490, participant 0.0479, input 0.0457
+[  32.5 min]   null_fixedfolds rep 28: pooled 0.0573, participant 0.0620, input 0.0750
+[  33.3 min]   null_fixedfolds rep 29: pooled 0.0461, participant 0.0433, input 0.0379
+[  34.0 min]   null_fixedfolds rep 30: pooled 0.0643, participant 0.0671, input 0.0659
+[  34.8 min]   null_fixedfolds rep 31: pooled 0.0423, participant 0.0405, input 0.0353
+[  35.6 min]   null_fixedfolds rep 32: pooled 0.0394, participant 0.0410, input 0.0431
+[  36.4 min]   null_fixedfolds rep 33: pooled 0.0552, participant 0.0583, input 0.0474
+[  37.2 min]   null_fixedfolds rep 34: pooled 0.0327, participant 0.0309, input 0.0317
+[  38.0 min]   null_fixedfolds rep 35: pooled 0.0505, participant 0.0539, input 0.0495
+[  38.8 min]   null_fixedfolds rep 36: pooled 0.0654, participant 0.0591, input 0.0583
+[  39.5 min]   null_fixedfolds rep 37: pooled 0.0480, participant 0.0443, input 0.0386
+[  40.3 min]   null_fixedfolds rep 38: pooled 0.0583, participant 0.0524, input 0.0501
+[  41.2 min]   null_fixedfolds rep 39: pooled 0.0441, participant 0.0422, input 0.0327
+[  41.9 min]   null_fixedfolds rep 40: pooled 0.0812, participant 0.0726, input 0.0711
+[  42.7 min]   null_fixedfolds rep 41: pooled 0.0360, participant 0.0405, input 0.0322
+[  43.4 min]   null_fixedfolds rep 42: pooled 0.0501, participant 0.0495, input 0.0549
+[  44.2 min]   null_fixedfolds rep 43: pooled 0.0682, participant 0.0674, input 0.0809
+[  45.0 min]   null_fixedfolds rep 44: pooled 0.0409, participant 0.0396, input 0.0267
+[  45.8 min]   null_fixedfolds rep 45: pooled 0.0718, participant 0.0575, input 0.0599
+[  46.6 min]   null_fixedfolds rep 46: pooled 0.0496, participant 0.0535, input 0.0513
+[  47.5 min]   null_fixedfolds rep 47: pooled 0.0622, participant 0.0589, input 0.0513
+[  48.6 min]   null_fixedfolds rep 48: pooled 0.0386, participant 0.0353, input 0.0352
+[  49.7 min]   null_fixedfolds rep 49: pooled 0.0653, participant 0.0658, input 0.0666
+[  50.7 min]   null_fixedfolds rep 50: pooled 0.0581, participant 0.0503, input 0.0519
+[  51.8 min]   null_fixedfolds rep 51: pooled 0.0387, participant 0.0322, input 0.0291
+[  52.7 min]   null_fixedfolds rep 52: pooled 0.0475, participant 0.0467, input 0.0436
+[  53.7 min]   null_fixedfolds rep 53: pooled 0.0343, participant 0.0374, input 0.0376
+[  54.8 min]   null_fixedfolds rep 54: pooled 0.0387, participant 0.0394, input 0.0464
+[  55.8 min]   null_fixedfolds rep 55: pooled 0.0493, participant 0.0513, input 0.0516
+[  56.8 min]   null_fixedfolds rep 56: pooled 0.0627, participant 0.0640, input 0.0532
+[  57.8 min]   null_fixedfolds rep 57: pooled 0.0493, participant 0.0596, input 0.0614
+[  58.9 min]   null_fixedfolds rep 58: pooled 0.0319, participant 0.0337, input 0.0353
+[  59.8 min]   null_fixedfolds rep 59: pooled 0.0614, participant 0.0618, input 0.0592
+[  60.8 min]   null_fixedfolds rep 60: pooled 0.0578, participant 0.0566, input 0.0540
+[  61.8 min]   null_fixedfolds rep 61: pooled 0.0620, participant 0.0542, input 0.0495
+[  62.8 min]   null_fixedfolds rep 62: pooled 0.0547, participant 0.0597, input 0.0656
+[  63.6 min]   null_fixedfolds rep 63: pooled 0.0410, participant 0.0417, input 0.0405
+[  64.5 min]   null_fixedfolds rep 64: pooled 0.0309, participant 0.0334, input 0.0283
+[  66.2 min]   null_fixedfolds rep 65: pooled 0.0819, participant 0.0755, input 0.0760
+[  67.4 min]   null_fixedfolds rep 66: pooled 0.0762, participant 0.0736, input 0.0824
+[  68.7 min]   null_fixedfolds rep 67: pooled 0.0591, participant 0.0560, input 0.0645
+[  69.9 min]   null_fixedfolds rep 68: pooled 0.0485, participant 0.0459, input 0.0327
+[  71.3 min]   null_fixedfolds rep 69: pooled 0.0612, participant 0.0618, input 0.0724
+[  72.6 min]   null_fixedfolds rep 70: pooled 0.0373, participant 0.0415, input 0.0363
+[  75.6 min]   null_fixedfolds rep 71: pooled 0.0575, participant 0.0570, input 0.0545
+[  77.9 min]   null_fixedfolds rep 72: pooled 0.0571, participant 0.0529, input 0.0614
+[  79.1 min]   null_fixedfolds rep 73: pooled 0.0623, participant 0.0601, input 0.0599
+[  80.4 min]   null_fixedfolds rep 74: pooled 0.0703, participant 0.0701, input 0.0866
+[  81.6 min]   null_fixedfolds rep 75: pooled 0.0381, participant 0.0384, input 0.0369
+[  82.8 min]   null_fixedfolds rep 76: pooled 0.0496, participant 0.0584, input 0.0638
+[  83.9 min]   null_fixedfolds rep 77: pooled 0.0353, participant 0.0339, input 0.0369
+[  85.0 min]   null_fixedfolds rep 78: pooled 0.0459, participant 0.0417, input 0.0378
+[  85.8 min]   null_fixedfolds rep 79: pooled 0.0392, participant 0.0441, input 0.0474
+[  86.6 min]   null_fixedfolds rep 80: pooled 0.0358, participant 0.0397, input 0.0477
+[  87.4 min]   null_fixedfolds rep 81: pooled 0.0601, participant 0.0661, input 0.0701
+[  88.2 min]   null_fixedfolds rep 82: pooled 0.0806, participant 0.0763, input 0.0755
+[  89.0 min]   null_fixedfolds rep 83: pooled 0.0531, participant 0.0529, input 0.0549
+[  89.8 min]   null_fixedfolds rep 84: pooled 0.0436, participant 0.0407, input 0.0386
+[  90.6 min]   null_fixedfolds rep 85: pooled 0.0537, participant 0.0566, input 0.0544
+[  91.4 min]   null_fixedfolds rep 86: pooled 0.0467, participant 0.0526, input 0.0518
+[  92.2 min]   null_fixedfolds rep 87: pooled 0.0496, participant 0.0511, input 0.0475
+[  92.9 min]   null_fixedfolds rep 88: pooled 0.0544, participant 0.0596, input 0.0607
+[  93.7 min]   null_fixedfolds rep 89: pooled 0.0376, participant 0.0413, input 0.0337
+[  94.5 min]   null_fixedfolds rep 90: pooled 0.0386, participant 0.0444, input 0.0487
+[  95.3 min]   null_fixedfolds rep 91: pooled 0.0589, participant 0.0612, input 0.0615
+[  96.1 min]   null_fixedfolds rep 92: pooled 0.0347, participant 0.0381, input 0.0347
+[  97.0 min]   null_fixedfolds rep 93: pooled 0.0339, participant 0.0345, input 0.0314
+[  97.8 min]   null_fixedfolds rep 94: pooled 0.0309, participant 0.0309, input 0.0272
+[  98.6 min]   null_fixedfolds rep 95: pooled 0.0369, participant 0.0400, input 0.0345
+[  99.4 min]   null_fixedfolds rep 96: pooled 0.0335, participant 0.0283, input 0.0265
+[ 102.1 min]   null_fixedfolds rep 97: pooled 0.0389, participant 0.0417, input 0.0420
+[ 102.9 min]   null_fixedfolds rep 98: pooled 0.1115, participant 0.1040, input 0.1248
+[ 103.8 min]   null_fixedfolds rep 99: pooled 0.0622, participant 0.0514, input 0.0547
+[ 103.8 min] DEED null_fixedfolds, expected rate per participant over 100 reps:
+[ 103.8 min] 
+    stratum  reps  marginal_rate  marginal_se  participant_expected_max  participant_expected_p90  participant_expected_median  n_participants_above_2alpha  n_participants_signif_above_alpha
+     pooled   100         0.0509       0.0014                    0.0955                    0.0814                       0.0455                            0                                  7
+  recording   100         0.0508       0.0014                    0.0591                    0.0562                       0.0506                            0                                  0
+participant   100         0.0511       0.0014                    0.0584                    0.0560                       0.0504                            0                                  0
+      input   100         0.0504       0.0017                    0.0700                    0.0588                       0.0501                            0                                  0
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['deed', 'deednull', 'sims', 'sleepedf']  R_NULL 100  jobs 8
+[   0.0 min] DEED affect: running
+[   1.0 min]   check vs 77 (DEED affect): max |p diff| 0.00e+00; coverage 77 0.0618, here 0.0618
+[   1.6 min]   null rep 0: pooled 0.0607, participant 0.0648, input 0.0785
+[   2.2 min]   null rep 1: pooled 0.0391, participant 0.0381, input 0.0296
+[   2.9 min]   null rep 2: pooled 0.0386, participant 0.0409, input 0.0402
+[   3.6 min]   null rep 3: pooled 0.0316, participant 0.0355, input 0.0324
+[   4.3 min]   null rep 4: pooled 0.0527, participant 0.0506, input 0.0397
+[   5.0 min]   null rep 5: pooled 0.0485, participant 0.0542, input 0.0529
+[   5.7 min]   null rep 6: pooled 0.0509, participant 0.0492, input 0.0373
+[   6.4 min]   null rep 7: pooled 0.0739, participant 0.0695, input 0.0768
+[   7.1 min]   null rep 8: pooled 0.0539, participant 0.0581, input 0.0451
+[   7.8 min]   null rep 9: pooled 0.0864, participant 0.0825, input 0.0895
+[   8.5 min]   null rep 10: pooled 0.0490, participant 0.0640, input 0.0708
+[   9.2 min]   null rep 11: pooled 0.0454, participant 0.0368, input 0.0327
+[   9.9 min]   null rep 12: pooled 0.0444, participant 0.0503, input 0.0439
+[  10.6 min]   null rep 13: pooled 0.0405, participant 0.0534, input 0.0641
+[  11.3 min]   null rep 14: pooled 0.0581, participant 0.0618, input 0.0602
+[  12.0 min]   null rep 15: pooled 0.0680, participant 0.0581, input 0.0477
+[  12.6 min]   null rep 16: pooled 0.0361, participant 0.0394, input 0.0358
+[  13.2 min]   null rep 17: pooled 0.0259, participant 0.0260, input 0.0249
+[  13.9 min]   null rep 18: pooled 0.0516, participant 0.0526, input 0.0446
+[  14.5 min]   null rep 19: pooled 0.0405, participant 0.0373, input 0.0296
+[  15.1 min]   null rep 20: pooled 0.0422, participant 0.0436, input 0.0376
+[  15.7 min]   null rep 21: pooled 0.0531, participant 0.0480, input 0.0365
+[  16.3 min]   null rep 22: pooled 0.0410, participant 0.0462, input 0.0496
+[  17.0 min]   null rep 23: pooled 0.0290, participant 0.0363, input 0.0304
+[  17.6 min]   null rep 24: pooled 0.0322, participant 0.0317, input 0.0306
+[  18.3 min]   null rep 25: pooled 0.0405, participant 0.0480, input 0.0505
+[  18.9 min]   null rep 26: pooled 0.0412, participant 0.0439, input 0.0560
+[  19.6 min]   null rep 27: pooled 0.0552, participant 0.0592, input 0.0552
+[  20.3 min]   null rep 28: pooled 0.0509, participant 0.0542, input 0.0614
+[  20.9 min]   null rep 29: pooled 0.0474, participant 0.0439, input 0.0304
+[  21.6 min]   null rep 30: pooled 0.0397, participant 0.0451, input 0.0500
+[  22.3 min]   null rep 31: pooled 0.0374, participant 0.0394, input 0.0306
+[  23.0 min]   null rep 32: pooled 0.0452, participant 0.0374, input 0.0350
+[  23.7 min]   null rep 33: pooled 0.0553, participant 0.0627, input 0.0648
+[  24.4 min]   null rep 34: pooled 0.0410, participant 0.0399, input 0.0405
+[  25.1 min]   null rep 35: pooled 0.0641, participant 0.0645, input 0.0508
+[  25.7 min]   null rep 36: pooled 0.0516, participant 0.0529, input 0.0449
+[  26.4 min]   null rep 37: pooled 0.0457, participant 0.0382, input 0.0324
+[  27.0 min]   null rep 38: pooled 0.0386, participant 0.0417, input 0.0457
+[  27.7 min]   null rep 39: pooled 0.0422, participant 0.0430, input 0.0436
+[  28.3 min]   null rep 40: pooled 0.0758, participant 0.0879, input 0.0889
+[  28.9 min]   null rep 41: pooled 0.0459, participant 0.0409, input 0.0280
+[  29.6 min]   null rep 42: pooled 0.0535, participant 0.0550, input 0.0575
+[  30.2 min]   null rep 43: pooled 0.0568, participant 0.0550, input 0.0607
+[  30.9 min]   null rep 44: pooled 0.0540, participant 0.0443, input 0.0327
+[  31.5 min]   null rep 45: pooled 0.0638, participant 0.0535, input 0.0573
+[  32.2 min]   null rep 46: pooled 0.0417, participant 0.0423, input 0.0404
+[  32.9 min]   null rep 47: pooled 0.0592, participant 0.0558, input 0.0433
+[  33.5 min]   null rep 48: pooled 0.0296, participant 0.0339, input 0.0382
+[  34.2 min]   null rep 49: pooled 0.0615, participant 0.0653, input 0.0711
+[  34.8 min]   null rep 50: pooled 0.0674, participant 0.0690, input 0.0801
+[  35.5 min]   null rep 51: pooled 0.0601, participant 0.0452, input 0.0400
+[  36.2 min]   null rep 52: pooled 0.0428, participant 0.0373, input 0.0430
+[  36.8 min]   null rep 53: pooled 0.0355, participant 0.0301, input 0.0347
+[  37.5 min]   null rep 54: pooled 0.0413, participant 0.0480, input 0.0579
+[  38.1 min]   null rep 55: pooled 0.0519, participant 0.0550, input 0.0592
+[  38.7 min]   null rep 56: pooled 0.0558, participant 0.0601, input 0.0685
+[  39.3 min]   null rep 57: pooled 0.0524, participant 0.0522, input 0.0539
+[  40.0 min]   null rep 58: pooled 0.0462, participant 0.0547, input 0.0521
+[  40.6 min]   null rep 59: pooled 0.0490, participant 0.0545, input 0.0623
+[  41.3 min]   null rep 60: pooled 0.0589, participant 0.0651, input 0.0801
+[  41.9 min]   null rep 61: pooled 0.0661, participant 0.0636, input 0.0724
+[  42.6 min]   null rep 62: pooled 0.0571, participant 0.0571, input 0.0509
+[  43.2 min]   null rep 63: pooled 0.0506, participant 0.0495, input 0.0514
+[  43.9 min]   null rep 64: pooled 0.0358, participant 0.0361, input 0.0270
+[  44.6 min]   null rep 65: pooled 0.0503, participant 0.0563, input 0.0599
+[  45.2 min]   null rep 66: pooled 0.0498, participant 0.0521, input 0.0605
+[  45.9 min]   null rep 67: pooled 0.0799, participant 0.0775, input 0.0977
+[  46.6 min]   null rep 68: pooled 0.0545, participant 0.0470, input 0.0439
+[  47.4 min]   null rep 69: pooled 0.0576, participant 0.0547, input 0.0575
+[  48.3 min]   null rep 70: pooled 0.0312, participant 0.0350, input 0.0296
+[  49.2 min]   null rep 71: pooled 0.0588, participant 0.0584, input 0.0518
+[  49.9 min]   null rep 72: pooled 0.0410, participant 0.0452, input 0.0524
+[  50.5 min]   null rep 73: pooled 0.0363, participant 0.0387, input 0.0321
+[  51.1 min]   null rep 74: pooled 0.0601, participant 0.0571, input 0.0625
+[  51.6 min]   null rep 75: pooled 0.0591, participant 0.0524, input 0.0363
+[  52.2 min]   null rep 76: pooled 0.0627, participant 0.0651, input 0.0783
+[  52.9 min]   null rep 77: pooled 0.0355, participant 0.0332, input 0.0295
+[  53.5 min]   null rep 78: pooled 0.0448, participant 0.0457, input 0.0452
+[  54.2 min]   null rep 79: pooled 0.0498, participant 0.0545, input 0.0583
+[  54.8 min]   null rep 80: pooled 0.0392, participant 0.0409, input 0.0363
+[  55.4 min]   null rep 81: pooled 0.0796, participant 0.0915, input 0.1110
+[  56.0 min]   null rep 82: pooled 0.0521, participant 0.0431, input 0.0405
+[  56.7 min]   null rep 83: pooled 0.0322, participant 0.0399, input 0.0345
+[  57.3 min]   null rep 84: pooled 0.0369, participant 0.0373, input 0.0337
+[  57.9 min]   null rep 85: pooled 0.0609, participant 0.0604, input 0.0583
+[  58.6 min]   null rep 86: pooled 0.0794, participant 0.0614, input 0.0646
+[  59.2 min]   null rep 87: pooled 0.0562, participant 0.0553, input 0.0544
+[  59.8 min]   null rep 88: pooled 0.0575, participant 0.0584, input 0.0579
+[  60.4 min]   null rep 89: pooled 0.0413, participant 0.0397, input 0.0386
+[  60.9 min]   null rep 90: pooled 0.0566, participant 0.0448, input 0.0374
+[  61.5 min]   null rep 91: pooled 0.0532, participant 0.0560, input 0.0519
+[  62.1 min]   null rep 92: pooled 0.0337, participant 0.0412, input 0.0368
+[  62.7 min]   null rep 93: pooled 0.0501, participant 0.0474, input 0.0485
+[  63.4 min]   null rep 94: pooled 0.0618, participant 0.0506, input 0.0534
+[  63.9 min]   null rep 95: pooled 0.0430, participant 0.0430, input 0.0459
+[  64.6 min]   null rep 96: pooled 0.0451, participant 0.0425, input 0.0335
+[  65.2 min]   null rep 97: pooled 0.0552, participant 0.0539, input 0.0599
+[  65.9 min]   null rep 98: pooled 0.0706, participant 0.0671, input 0.0628
+[  66.4 min]   null rep 99: pooled 0.0537, participant 0.0496, input 0.0485
+[  66.4 min] DEED null, expected rate per participant over 100 reps:
+[  66.4 min] 
+    stratum  reps  marginal_rate  marginal_se  participant_expected_max  participant_expected_p90  participant_expected_median  n_participants_above_2alpha  n_participants_signif_above_alpha
+     pooled   100         0.0503       0.0012                    0.1191                    0.0769                       0.0390                            3                                  6
+  recording   100         0.0498       0.0013                    0.0573                    0.0562                       0.0506                            0                                  0
+participant   100         0.0505       0.0012                    0.0630                    0.0579                       0.0510                            0                                  1
+      input   100         0.0501       0.0017                    0.0586                    0.0570                       0.0523                            0                                  0
+[  66.4 min] sims: running
+[  68.0 min]   check vs 77 (sims): max |pooled rate diff| 9.71e-17
+[  68.0 min] simulations, median over datasets:
+[  68.0 min] 
+                fpr  part_fpr_mean  part_fpr_p90  part_frac_above_2alpha
+stratum                                                                 
+pooled       0.0481         0.0485        0.0960                  0.1000
+recording    0.0468         0.0466        0.0885                  0.0667
+participant  0.0487         0.0485        0.0769                  0.0333
+input        0.0339         0.0339        0.0778                  0.0667
+[  68.0 min] Sleep-EDF staging: running
+[  80.5 min]   check vs 77 (Sleep-EDF staging): max |p diff| 0.00e+00; coverage 77 0.8601, here 0.8601
+[  80.6 min] 
+        condition     stratum  alpha  coverage  bal_retained  part_cov_min  part_cov_median  part_cov_max
+      DEED affect      pooled   0.05    0.0618        0.3177        0.0000           0.0272        0.2554
+      DEED affect   recording   0.05    0.0588        0.3227        0.0000           0.0416        0.1917
+      DEED affect participant   0.05    0.0575        0.3090        0.0000           0.0390        0.1833
+      DEED affect       input   0.05    0.0656        0.3521        0.0000           0.0384        0.3199
+Sleep-EDF staging      pooled   0.05    0.8601        0.8186        0.6886           0.8724        0.9715
+Sleep-EDF staging   recording   0.05    0.8857        0.8113        0.5506           0.9010        0.9651
+Sleep-EDF staging participant   0.05    0.8831        0.8120        0.5552           0.9011        0.9651
+Sleep-EDF staging       input   0.05    0.9550        0.7901        0.8664           0.9619        0.9930

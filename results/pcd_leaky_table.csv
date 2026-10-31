@@ -1,0 +1,26 @@
+partition,rule,quantity,labellings,mean,sd,se
+participant-separated,Entropy<0.9,cov,100,0.2768,0.041,0.0041
+participant-separated,Entropy<0.9,bal,100,0.3331,0.0293,0.0029
+participant-separated,Max-softmax>0.5,cov,100,0.3594,0.0399,0.004
+participant-separated,Max-softmax>0.5,bal,100,0.3351,0.0282,0.0028
+participant-separated,PCD alpha=0.01,cov,100,0.0106,0.0051,0.0005
+participant-separated,PCD alpha=0.01,bal,100,0.3196,0.097,0.0097
+participant-separated,PCD alpha=0.05,cov,100,0.0512,0.0155,0.0016
+participant-separated,PCD alpha=0.05,bal,100,0.332,0.0573,0.0057
+participant-separated,PCD alpha=0.10,cov,100,0.102,0.0241,0.0024
+participant-separated,PCD alpha=0.10,bal,100,0.3348,0.0436,0.0044
+participant-separated,all inputs,cov,100,1.0,0.0,0.0
+participant-separated,all inputs,bal,100,0.3354,0.0176,0.0018
+window-level,Entropy<0.9,cov,100,0.2166,0.0421,0.0042
+window-level,Entropy<0.9,bal,100,0.5556,0.0279,0.0028
+window-level,Max-softmax>0.5,cov,100,0.3001,0.0411,0.0041
+window-level,Max-softmax>0.5,bal,100,0.5491,0.023,0.0023
+window-level,PCD alpha=0.01,cov,100,0.0108,0.0056,0.0006
+window-level,PCD alpha=0.01,bal,100,0.5447,0.0976,0.0098
+window-level,PCD alpha=0.05,cov,100,0.0526,0.0166,0.0017
+window-level,PCD alpha=0.05,bal,100,0.5903,0.0514,0.0051
+window-level,PCD alpha=0.10,cov,100,0.1032,0.0242,0.0024
+window-level,PCD alpha=0.10,bal,100,0.5872,0.0373,0.0037
+window-level,all inputs,cov,100,1.0,0.0,0.0
+window-level,all inputs,bal,100,0.4614,0.0153,0.0015
+window-level,,test windows sharing a recording with training,100,0.9987,,

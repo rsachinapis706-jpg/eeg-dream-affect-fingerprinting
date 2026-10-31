@@ -1,0 +1,114 @@
+==============================================================================
+STRONG SIGNAL -- Sleep-EDF sleep stage
+   verified reference accuracy: 0.8831
+==============================================================================
+windows 12235 | subjects 8 | no-abstention accuracy 0.8869 (balanced 0.8831)
+
+-- PCD (permutation-calibrated) --
+  alpha   coverage              95% CI   accuracy              95% CI
+   0.20     0.9823   [0.9749, 0.9894]     0.8934   [0.8356, 0.9392]
+   0.10     0.9745   [0.9650, 0.9826]     0.8964   [0.8384, 0.9420]
+   0.05     0.9662   [0.9531, 0.9778]     0.8998   [0.8409, 0.9442]
+   0.01     0.9432   [0.9150, 0.9634]     0.9081   [0.8534, 0.9494]
+
+-- Max-softmax at FIXED thresholds (what a practitioner would use) --
+ thresh   coverage              95% CI   accuracy              95% CI
+   0.50     0.9933   [0.9911, 0.9955]     0.8891   [0.8297, 0.9373]
+   0.70     0.8868   [0.8318, 0.9337]     0.9274   [0.8768, 0.9632]
+   0.90     0.7038   [0.5804, 0.8061]     0.9611   [0.9214, 0.9851]
+
+-- Calibration --
+mean D (observed model)      : 0.9878
+mean D (leave-one-null-out)  : 0.5052   <- should be ~0.5 if calibrated
+P(D>=0.95) observed          : 0.9662
+P(D>=0.95) null-vs-null      : 0.0391   <- the true false-positive rate
+KS vs uniform: observed p=0 | null-vs-null p=0.000439
+
+==============================================================================
+INTERMEDIATE SIGNAL -- DEED sleep stage
+   verified reference accuracy: 0.4459
+==============================================================================
+windows 6287 | subjects 34 | no-abstention accuracy 0.4196 (balanced 0.4076)
+
+-- PCD (permutation-calibrated) --
+  alpha   coverage              95% CI   accuracy              95% CI
+   0.20     0.3786   [0.3278, 0.4376]     0.4718   [0.4016, 0.5445]
+   0.10     0.2354   [0.1861, 0.2910]     0.4993   [0.4161, 0.5795]
+   0.05     0.1505   [0.1136, 0.1983]     0.5169   [0.4221, 0.6025]
+   0.01     0.0472   [0.0263, 0.0770]     0.5455   [0.3955, 0.6507]
+
+-- Max-softmax at FIXED thresholds (what a practitioner would use) --
+ thresh   coverage              95% CI   accuracy              95% CI
+   0.50     0.5010   [0.3899, 0.6197]     0.4511   [0.3983, 0.5271]
+   0.70     0.0826   [0.0426, 0.1244]     0.4624   [0.3745, 0.5779]
+   0.90     0.0091   [0.0027, 0.0175]     0.2807   [0.1481, 0.5187]
+
+-- Calibration --
+mean D (observed model)      : 0.6192
+mean D (leave-one-null-out)  : 0.5112   <- should be ~0.5 if calibrated
+P(D>=0.95) observed          : 0.1505
+P(D>=0.95) null-vs-null      : 0.0523   <- the true false-positive rate
+KS vs uniform: observed p=9.91e-187 | null-vs-null p=3.4e-05
+
+==============================================================================
+NO SIGNAL -- DEED dream affect
+   verified reference accuracy: 0.3373
+==============================================================================
+windows 6144 | subjects 34 | no-abstention accuracy 0.3486 (balanced 0.3373)
+
+-- PCD (permutation-calibrated) --
+  alpha   coverage              95% CI   accuracy              95% CI
+   0.20     0.3175   [0.2679, 0.3733]     0.3501   [0.2902, 0.4202]
+   0.10     0.1818   [0.1400, 0.2314]     0.3679   [0.2954, 0.4488]
+   0.05     0.1071   [0.0777, 0.1410]     0.3815   [0.2980, 0.4653]
+   0.01     0.0216   [0.0136, 0.0300]     0.3910   [0.2568, 0.5409]
+
+-- Max-softmax at FIXED thresholds (what a practitioner would use) --
+ thresh   coverage              95% CI   accuracy              95% CI
+   0.50     0.3547   [0.2726, 0.4408]     0.3235   [0.2620, 0.4038]
+   0.70     0.0500   [0.0203, 0.0823]     0.3583   [0.2320, 0.4880]
+   0.90     0.0026   [0.0013, 0.0043]     0.4375   [0.0833, 0.7500]
+
+-- Calibration --
+mean D (observed model)      : 0.5831
+mean D (leave-one-null-out)  : 0.5137   <- should be ~0.5 if calibrated
+P(D>=0.95) observed          : 0.1071
+P(D>=0.95) null-vs-null      : 0.0558   <- the true false-positive rate
+KS vs uniform: observed p=2.53e-93 | null-vs-null p=0.000998
+
+==============================================================================
+NO SIGNAL -- DEED affect on CBraMod embeddings
+   verified reference accuracy: 0.3147
+==============================================================================
+windows 6144 | subjects 34 | no-abstention accuracy 0.3656 (balanced 0.3565)
+
+-- PCD (permutation-calibrated) --
+  alpha   coverage              95% CI   accuracy              95% CI
+   0.20     0.2609   [0.2351, 0.2933]     0.3624   [0.3107, 0.4109]
+   0.10     0.1499   [0.1248, 0.1827]     0.3464   [0.2799, 0.4139]
+   0.05     0.0828   [0.0648, 0.1084]     0.3399   [0.2600, 0.4184]
+   0.01     0.0215   [0.0134, 0.0325]     0.3864   [0.2692, 0.5028]
+
+-- Max-softmax at FIXED thresholds (what a practitioner would use) --
+ thresh   coverage              95% CI   accuracy              95% CI
+   0.50     0.5041   [0.4613, 0.5485]     0.3691   [0.3274, 0.4085]
+   0.70     0.0876   [0.0607, 0.1178]     0.3476   [0.2761, 0.4214]
+   0.90     0.0072   [0.0037, 0.0115]     0.2273   [0.0645, 0.3571]
+
+-- Calibration --
+mean D (observed model)      : 0.5367
+mean D (leave-one-null-out)  : 0.4795   <- should be ~0.5 if calibrated
+P(D>=0.95) observed          : 0.0828
+P(D>=0.95) null-vs-null      : 0.0379   <- the true false-positive rate
+KS vs uniform: observed p=6.04e-22 | null-vs-null p=1.9e-07
+
+==============================================================================
+IS PCD GRADED? (coverage at alpha = 0.05)
+==============================================================================
+condition             reference acc   PCD coverage    MSP@0.5 cov
+strong                       0.8869         0.9662         0.9933
+intermediate                 0.4196         0.1505         0.5010
+absent                       0.3486         0.1071         0.3547
+absent_cbramod               0.3656         0.0828         0.5041
+
+Wrote E:\Dream GAN\analysis\out\test17_pcd_validation.txt

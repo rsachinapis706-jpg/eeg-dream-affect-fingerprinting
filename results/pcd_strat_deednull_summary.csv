@@ -1,0 +1,5 @@
+stratum,reps,marginal_rate,marginal_se,participant_expected_max,participant_expected_p90,participant_expected_median,n_participants_above_2alpha,n_participants_signif_above_alpha
+pooled,100,0.0503,0.0012,0.1191,0.0769,0.039,3,6
+recording,100,0.0498,0.0013,0.0573,0.0562,0.0506,0,0
+participant,100,0.0505,0.0012,0.063,0.0579,0.051,0,1
+input,100,0.0501,0.0017,0.0586,0.057,0.0523,0,0

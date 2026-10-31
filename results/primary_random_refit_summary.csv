@@ -1,0 +1,3 @@
+config,refit_sd_within_partition,partition_sd_within_seed
+"RF, scaled, balanced",0.003,0.0082
+"RF, unweighted (headline)",0.0021,0.0043

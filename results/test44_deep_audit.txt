@@ -1,0 +1,59 @@
+==============================================================================
+DEEP STRUCTURAL AUDIT
+==============================================================================
+
+1. Table column arithmetic
+  ok    tab:pcdcompare: all rows match 4 columns
+  ok    tab:datasets: all rows match 6 columns
+  ok    tab:datasets: all rows match 2 columns
+  ok    tab:control: all rows match 5 columns
+  ok    tab:protocol: all rows match 3 columns
+  ok    tab:weak: all rows match 5 columns
+  ok    tab:overlap: all rows match 4 columns
+  ok    tab:stack: all rows match 5 columns
+  ok    tab:fingerprint: all rows match 2 columns
+  ok    tab:identity: all rows match 5 columns
+  ok    tab:crossmodal: all rows match 4 columns
+  ok    tab:replication: all rows match 3 columns
+  ok    tab:selective: all rows match 4 columns
+  ok    tab:pcd: all rows match 4 columns
+  ok    tab:comparison: all rows match 9 columns
+  ok    tab:comparison: all rows match 4 columns
+
+2. Every float referenced in the text
+  ok    14 tables and 9 figures examined
+
+3. Equations
+        7 numbered equations, 7 labelled
+  ok    every labelled equation is referenced
+  ok    equation braces balanced
+
+4. Cross-references
+  ok    all 44 \ref targets exist
+  ok    no duplicate labels
+
+5. Duplicated sentences (editing artefacts)
+  ok    601 long sentences, none duplicated
+
+6. Key quantities stated consistently
+  ok    participant-separated balanced accuracy (headline): 0.3224 x10
+  ok    best configuration: 0.3768 x12, 0.3783 x1
+  ok    leakage ceiling: 0.9055 x18, 0.906 x1
+  ok    identity, window-shuffled: 0.8040 x6, 0.804 x8
+  ok    identity-only oracle: 0.5465 x7, 0.547 x1
+  ok    CBraMod matched control: 0.7906 x4, 0.791 x1
+  ok    spectral matched control: 0.7799 x4
+  ok    every shortened form of a canonical quantity rounds correctly
+
+7. Draft leftovers
+  ok    no TODO
+  ok    no FIXME
+  ok    no XXX
+  ok    no ?? (broken ref)
+  ok    no \todo
+  ok    no lorem ipsum
+  ok    no doubled words
+
+==============================================================================
+VERDICT: structurally clean.
+==============================================================================

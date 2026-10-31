@@ -1,0 +1,25 @@
+RF, unweighted (headline) seed 20260727 done
+RF, unweighted (headline) seed 20260728 done
+RF, unweighted (headline) seed 20260729 done
+RF, unweighted (headline) seed 20260730 done
+RF, unweighted (headline) seed 20260731 done
+RF, unweighted (headline) seed 20260732 done
+RF, unweighted (headline) seed 20260733 done
+RF, unweighted (headline) seed 20260734 done
+RF, unweighted (headline) seed 20260735 done
+RF, unweighted (headline) seed 20260736 done
+LogReg, scaled, balanced seed 20260727 done
+LogReg, scaled, balanced seed 20260728 done
+LogReg, scaled, balanced seed 20260729 done
+LogReg, scaled, balanced seed 20260730 done
+LogReg, scaled, balanced seed 20260731 done
+LogReg, scaled, balanced seed 20260732 done
+LogReg, scaled, balanced seed 20260733 done
+LogReg, scaled, balanced seed 20260734 done
+LogReg, scaled, balanced seed 20260735 done
+LogReg, scaled, balanced seed 20260736 done
+config
+LogReg, scaled, balanced     0.3768
+RF, unweighted (headline)    0.3224
+dtype: float64
+manifests, folds and predictions written to E:\Dream GAN\analysis\out\supplement

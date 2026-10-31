@@ -1,0 +1,53 @@
+==============================================================================
+FINAL MANUSCRIPT AUDIT
+==============================================================================
+file: E:\Dream_Analysis\accesstemp.tex
+words: 21859
+
+1. LaTeX structure
+  ok    braces balanced (1085)
+  ok    environments balanced
+  ok    all 37 references defined
+  ok    footnotes paired in tab:datasets
+  ok    footnotes paired in tab:fingerprint
+  ok    footnotes paired in tab:comparison
+
+2. Bibliography
+  ok    all 39 citations resolve
+  ok    all 39 entries cited
+
+3. Graphics
+  ok    8 of 12 graphics present
+  note  author photographs absent: ['abishek.jpeg', 'jagan1.jpeg', 'sachin.png', 'yeshwanth.jpeg']
+        author-supplied assets, required before compiling
+
+4. Number provenance (delegated to 41_audit_manuscript.py)
+  ok    428 matched to result files, 64 derived, 0 unaccounted
+
+5. Superseded values still asserted
+  ok    0.8217 (CBraMod on the 8-recording cohort) only appears where disclosed
+  ok    0.3070 (participant-separated bal. acc., scikit-learn 1.4.1) only appears where disclosed
+  ok    0.4025 (participant-separated accuracy, scikit-learn 1.4.1) only appears where disclosed
+
+6. Claim consistency
+  ok    absent: 'no detectable dream-affect signal'
+  ok    absent: 'no statistically detectable'
+  ok    absent: 'no participant-generalizable affect signal is detectable'
+  ok    absent: 'no dream-affect signal was detected'
+  ok    'at most a weak' present (7)
+  ok    '0.3224' present (10)
+  ok    '0.3768' present (12)
+  ok    '0.9055' present (18)
+
+7. Terminology
+  ok    participant-separated used 46 times
+  ok    participant-wise eliminated
+  ok    subject-wise only in citations, keywords and the definition
+
+==============================================================================
+VERDICT: no mechanical defects found.
+
+This covers what can be checked automatically. It does not
+cover whether the arguments are sound, whether the reviewers
+will accept them, or whether the prose reads well.
+==============================================================================

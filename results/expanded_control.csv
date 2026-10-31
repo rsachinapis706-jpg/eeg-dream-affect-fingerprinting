@@ -1,0 +1,5 @@
+task,model,n,subjects,accuracy,acc_lo,acc_hi,balanced,bal_lo,bal_hi,kappa,macro_f1
+W/N1/N2 -- comparable with all prior results,logreg,183775,100,0.8007,0.7807,0.8215,0.7748,0.7595,0.7916,0.6859,0.7467
+W/N1/N2 -- comparable with all prior results,rf,183775,100,0.8234,0.8057,0.8399,0.7719,0.7579,0.7853,0.7149,0.7576
+5-class -- standard sleep-staging benchmark,logreg,237370,100,0.7129,0.6925,0.7327,0.7039,0.6877,0.7198,0.6238,0.668
+5-class -- standard sleep-staging benchmark,rf,237370,100,0.731,0.7125,0.7478,0.6932,0.6761,0.7086,0.6412,0.6745

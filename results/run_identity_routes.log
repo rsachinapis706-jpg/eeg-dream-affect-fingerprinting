@@ -1,0 +1,40 @@
+6144 window-shuffled    seed 20260727: nearest training window same recording 0.2677, same participant 0.7303
+6144 recording-grouped  seed 20260727: nearest training window same recording 0.0000, same participant 0.6107
+6144 window-shuffled    seed 20260728: nearest training window same recording 0.2674, same participant 0.7282
+6144 recording-grouped  seed 20260728: nearest training window same recording 0.0000, same participant 0.6079
+6144 window-shuffled    seed 20260729: nearest training window same recording 0.2664, same participant 0.7280
+6144 recording-grouped  seed 20260729: nearest training window same recording 0.0000, same participant 0.6108
+balanced 0 window-shuffled    acc 0.4838 bal 0.4838 | NN same recording 0.2521, same participant 0.7451
+balanced 0 recording-grouped  acc 0.2577 bal 0.2577 | NN same recording 0.0000, same participant 0.6275
+   check: window-shuffled acc 0.4838 vs 74 0.4838
+balanced 1 window-shuffled    acc nan bal nan | NN same recording 0.2473, same participant 0.7335
+balanced 1 recording-grouped  acc 0.2373 bal 0.2373 | NN same recording 0.0000, same participant 0.6391
+balanced 2 window-shuffled    acc nan bal nan | NN same recording 0.2537, same participant 0.7411
+balanced 2 recording-grouped  acc 0.2601 bal 0.2601 | NN same recording 0.0000, same participant 0.6403
+balanced 3 window-shuffled    acc nan bal nan | NN same recording 0.2537, same participant 0.7391
+balanced 3 recording-grouped  acc 0.2621 bal 0.2621 | NN same recording 0.0000, same participant 0.6242
+balanced 4 window-shuffled    acc nan bal nan | NN same recording 0.2689, same participant 0.7451
+balanced 4 recording-grouped  acc 0.2273 bal 0.2273 | NN same recording 0.0000, same participant 0.6222
+balanced 5 window-shuffled    acc nan bal nan | NN same recording 0.2501, same participant 0.7447
+balanced 5 recording-grouped  acc 0.2525 bal 0.2525 | NN same recording 0.0000, same participant 0.6198
+balanced 6 window-shuffled    acc nan bal nan | NN same recording 0.2533, same participant 0.7347
+balanced 6 recording-grouped  acc 0.2589 bal 0.2589 | NN same recording 0.0000, same participant 0.6363
+balanced 7 window-shuffled    acc nan bal nan | NN same recording 0.2589, same participant 0.7379
+balanced 7 recording-grouped  acc 0.2457 bal 0.2457 | NN same recording 0.0000, same participant 0.6202
+balanced 8 window-shuffled    acc nan bal nan | NN same recording 0.2605, same participant 0.7499
+balanced 8 recording-grouped  acc 0.2625 bal 0.2625 | NN same recording 0.0000, same participant 0.6339
+balanced 9 window-shuffled    acc nan bal nan | NN same recording 0.2593, same participant 0.7323
+balanced 9 recording-grouped  acc 0.2673 bal 0.2673 | NN same recording 0.0000, same participant 0.6110
+
+summary
+                   nn_same_recording  nn_same_participant
+partition                                                
+recording-grouped             0.0000               0.6098
+window-shuffled               0.2672               0.7288
+                      acc             bal  ... nn_same_recording nn_same_participant        
+                     mean     std    mean  ...               std                mean     std
+partition                                  ...                                              
+recording-grouped  0.2531  0.0127  0.2531  ...            0.0000              0.6275  0.0096
+window-shuffled    0.4838     NaN  0.4838  ...            0.0062              0.7403  0.0058
+
+[2 rows x 8 columns]

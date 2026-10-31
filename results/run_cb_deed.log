@@ -1,0 +1,49 @@
+========================================================================
+CBraMod on DEED dream affect (leave-one-subject-out)
+========================================================================
+device cuda | windows 6144 | subjects 34
+mode: full fine-tune | classes ['neg', 'neu', 'pos']
+chance 0.3333 | spectral-feature reference 0.3430
+
+  held-out 002: bacc 0.3333 (n=184)
+  held-out 003: bacc 0.3333 (n=392)
+  held-out 004: bacc 0.3333 (n=245)
+  held-out 005: bacc 0.3333 (n=241)
+  held-out 007: bacc 0.3333 (n=490)
+  held-out 011: bacc 0.0000 (n=42)
+  held-out 012: bacc 0.0000 (n=95)
+  held-out 013: bacc 0.0000 (n=26)
+  held-out 014: bacc 0.0000 (n=56)
+  held-out 015: bacc 0.3333 (n=267)
+  held-out 016: bacc 0.5000 (n=213)
+  held-out 017: bacc 0.3333 (n=212)
+  held-out 018: bacc 1.0000 (n=7)
+  held-out 020: bacc 0.5000 (n=103)
+  held-out 021: bacc 0.3333 (n=372)
+  held-out 022: bacc 0.3333 (n=206)
+  held-out 023: bacc 0.3333 (n=172)
+  held-out 024: bacc 0.3333 (n=363)
+  held-out 025: bacc 0.5000 (n=46)
+  held-out 027: bacc 0.3333 (n=102)
+  held-out 028: bacc 0.3333 (n=322)
+  held-out 029: bacc 0.3333 (n=171)
+  held-out 030: bacc 0.3333 (n=155)
+  held-out 031: bacc 0.3333 (n=72)
+  held-out 032: bacc 0.3333 (n=158)
+  held-out 033: bacc 0.3333 (n=120)
+  held-out 034: bacc 0.3587 (n=219)
+  held-out 035: bacc 0.3333 (n=164)
+  held-out 036: bacc 0.0000 (n=62)
+  held-out 037: bacc 0.3333 (n=125)
+  held-out 038: bacc 0.3333 (n=126)
+  held-out 039: bacc 0.3333 (n=358)
+  held-out 040: bacc 0.3333 (n=135)
+  held-out 042: bacc 0.3333 (n=123)
+
+POOLED accuracy 0.3330 | balanced 0.3147
+confusion (rows=true):
+[[ 422  688  250]
+ [ 721 1243  872]
+ [ 734  833  381]]
+
+Wrote E:\Dream GAN\analysis\out\test13_cbramod_deed.txt

@@ -1,0 +1,79 @@
+====================================================================
+DEED MASTER TABLE AUDIT
+====================================================================
+EEG segments            : 533
+Nights (Online_id)      : 78
+Subjects (LOSO groups)  : 34
+Dream report rows       : 464  (68 nights)
+
+-- Sleep stage tag distribution --
+stage
+N1     219
+N2     143
+W      103
+nan     48
+REM     18
+N3       2
+
+-- Reported emotion distribution --
+E
+E0     40
+E1     11
+E2     85
+E3    244
+E4    128
+E5     25
+
+-- Night-level condition M --
+M
+M1    193
+M3    175
+M2    165
+Nights where M varies within night: 0 of 78
+
+-- Segment/report alignment by night --
+Nights with equal counts (joinable) : 51
+Nights with unequal counts          : 28
+Nights with segments but no reports : 11
+
+-- M -> film valence verification (unambiguous nights only) --
+Video_type  Negative  Neutral  Positive
+M                                      
+M1                16        0         0
+M2                 1       13         0
+M3                 0        1        16
+Nights checked: 47 | agreement: 45/47 = 95.7%
+Nights with conflicting Video_list rows (excluded): 10
+
+Duplicate rows dropped from status sheet: 2
+
+-- Coverage of the joined master table --
+Rows (== segments)              : 533
+Segments with dream narrative   : 358 / 533
+Segments with film condition    : 533 / 533
+Segments with BOTH              : 358
+Subjects retained (text+film)   : 25
+
+-- Film condition x reported emotion (ALL segments) --
+E         E0  E1  E2  E3  E4  E5
+film                            
+Negative  12   7  36  85  45   8
+Neutral   16   2  25  83  35   4
+Positive  12   2  24  76  48  13
+
+-- Film condition x reported emotion (row %) --
+E          E0   E1    E2    E3    E4   E5
+film                                     
+Negative  6.2  3.6  18.7  44.0  23.3  4.1
+Neutral   9.7  1.2  15.2  50.3  21.2  2.4
+Positive  6.9  1.1  13.7  43.4  27.4  7.4
+
+-- Sleep stage x reported emotion (confound check) --
+E      E0  E1  E2  E3  E4  E5
+stage                        
+N1      9   7  38  97  58  10
+N2     15   0  22  72  24  10
+N3      0   0   1   0   1   0
+REM     1   1   4   7   5   0
+W       3   3  10  55  27   5
+nan    12   0  10  13  13   0

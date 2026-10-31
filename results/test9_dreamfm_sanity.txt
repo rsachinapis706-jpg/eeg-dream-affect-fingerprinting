@@ -1,0 +1,20 @@
+======================================================================
+STAGE 1 (GATE): DreamFM supervised on Sleep-EDF sleep staging
+======================================================================
+device cuda | windows 12252 | subjects 8
+classes ['N1', 'N2', 'W'] | spectral-feature reference bacc = 0.8831
+
+  held-out sc4002e0: bacc 0.5527 (n=2317)
+  held-out sc4012e0: bacc 0.6113 (n=2576)
+  held-out sc4102e0: bacc 0.7009 (n=2633)
+  held-out sc4112e0: bacc 0.7808 (n=2518)
+  held-out st7022j0: bacc 0.7279 (n=494)
+  held-out st7052j0: bacc 0.6650 (n=638)
+  held-out st7121j0: bacc 0.5730 (n=552)
+  held-out st7132j0: bacc 0.5506 (n=524)
+
+POOLED accuracy 0.7551 | balanced 0.6788
+spectral features reference : 0.8831
+
+>> GATE NOT PASSED -- DreamFM underperforms handcrafted features.
+   A null on dream affect is only meaningful once this passes.

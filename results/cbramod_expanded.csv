@@ -1,0 +1,4 @@
+model,accuracy,balanced
+spectral_logreg,0.7816,0.7799
+spectral_rf,,0.7762
+cbramod,0.7915,0.7906

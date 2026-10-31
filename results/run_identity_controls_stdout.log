@@ -1,0 +1,36 @@
+==============================================================================
+IDENTITY CONTROLS
+==============================================================================
+windows 6144 | participants 34 | recordings 492
+
+-- A. identity rule estimated from training folds only --
+                                         acc             bal        
+                                        mean     std    mean     std
+partition         predictor                                         
+recording-grouped EEG random forest   0.4397  0.0057  0.3594  0.0054
+                  identity rule (CV)  0.4320  0.0271  0.3775  0.0307
+                  majority class      0.4616  0.0000  0.3333  0.0000
+window-shuffled   EEG random forest   0.5708  0.0050  0.4918  0.0064
+                  identity rule (CV)  0.5385  0.0002  0.4900  0.0014
+                  majority class      0.4616  0.0000  0.3333  0.0000
+  window-shuffled    acc: identity - majority +0.0769 | EEG - majority +0.1092 | EEG - identity +0.0323 (sd 0.0048)
+  window-shuffled    bal: identity - majority +0.1567 | EEG - majority +0.1585 | EEG - identity +0.0018 (sd 0.0077)
+  recording-grouped  acc: identity - majority -0.0296 | EEG - majority -0.0219 | EEG - identity +0.0078 (sd 0.0214)
+  recording-grouped  bal: identity - majority +0.0441 | EEG - majority +0.0261 | EEG - identity -0.0180 (sd 0.0253)
+  [3.8 min]
+
+-- B1. subgroup with no class above 70% of recordings --
+all 34: NMI 0.1531 (excess 0.0811, p 0.0005) | RF acc 0.5732 bal 0.4942 | identity-CV acc 0.5387
+subgroup 21: NMI 0.0815 (excess 0.0250, p 0.0315) | RF acc 0.5509 bal 0.5322 | identity-CV acc 0.4669
+
+-- B2. 20 random subsets of 21 participants --
+  nmi     draws median 0.1469 [0.1119, 0.1793] | subgroup 0.0815 | share of draws at or below the subgroup 0.000
+  acc     draws median 0.5895 [0.5480, 0.6412] | subgroup 0.5509 | share of draws at or below the subgroup 0.050
+  bal     draws median 0.5155 [0.4531, 0.5419] | subgroup 0.5322 | share of draws at or below the subgroup 0.850
+  id_acc  draws median 0.5398 [0.5025, 0.5851] | subgroup 0.4669 | share of draws at or below the subgroup 0.000
+  correlation across draws, NMI vs RF accuracy: 0.070
+
+-- B3. 24 participants with all three classes, windows balanced within each participant (10 subsamples) --
+  window-level NMI 0.0000 | windows 2499
+  RF acc 0.4834 ± 0.0076 | bal 0.4834 ± 0.0076 | identity-CV acc 0.2457 (chance 0.3333, classes equal)
+  [11.8 min]

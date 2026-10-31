@@ -1,0 +1,30 @@
+====================================================================
+FEATURE EXTRACTION
+====================================================================
+fs                 : 200.0 Hz (empirically determined)
+epoch length       : 20 s (4000 samples)
+segments processed : 532 / 533
+epochs extracted   : 7490
+features per epoch : 108
+subjects           : 34
+
+epochs per segment:
+count    532.00
+mean      14.08
+std       13.48
+min        1.00
+25%        7.75
+50%       10.00
+75%       14.00
+max       91.00
+
+epochs by stage:
+stage
+N1     2765
+N2     2455
+W      1123
+REM     218
+N3       17
+
+skipped segments   : 1
+   G_S0021_M3_E3_R5_nan_raw_ref.mat: too short: 3200 samples

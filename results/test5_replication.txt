@@ -1,0 +1,31 @@
+[cache] loaded 7421 epochs from features_nonlinear.parquet
+
+========================================================================
+REPLICATION + SUBJECT-WISE RE-VALIDATION
+========================================================================
+epochs 6147 | features 240 | subjects 34
+majority-class baseline = 0.4617 | chance = 0.3333
+published: Mahmoudi 2025 = 93.83% | Mojdehbar 2026 = 92.33%
+
+classifierheld out    accuracy   balanced
+------------------------------------------------------------------------
+KNN     random        0.4067     0.3715
+KNN     segment       0.3844     0.3496
+KNN     subject       0.3721     0.3330
+------------------------------------------------------------------------
+SVM     random        0.4711     0.3562
+SVM     segment       0.4617     0.3514
+SVM     subject       0.4532     0.3345
+------------------------------------------------------------------------
+RF      random        0.4649     0.3475
+RF      segment       0.4628     0.3493
+RF      subject       0.4573     0.3333
+------------------------------------------------------------------------
+
+best random-split accuracy  : 0.4711
+best subject-wise accuracy  : 0.4573
+collapse                    : +0.0138
+
+>> Published range NOT reproduced (best random = 0.471 vs ~0.92 reported).
+>> The gap is UNEXPLAINED by validation protocol alone and must be
+>> reported as such. Do not claim their number is leakage.

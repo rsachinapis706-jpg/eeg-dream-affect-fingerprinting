@@ -1,0 +1,6 @@
+                    config  observed_mean  participant_boot_lo  participant_boot_hi  n_boot
+ RF, unweighted (headline)         0.3222               0.3092               0.3362    2000
+      RF, scaled, balanced         0.3242               0.3014               0.3487    2000
+LogReg, scaled, unweighted         0.3238               0.3000               0.3499    2000
+  LogReg, scaled, balanced         0.3393               0.2972               0.3838    2000
+EXIT 0

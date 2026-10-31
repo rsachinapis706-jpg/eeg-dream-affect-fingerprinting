@@ -1,0 +1,17 @@
+[scratch_revised_20260727] windows 6144 | participants 34 | classes ['neg', 'neu', 'pos'] | input |x| median 0.624, p99 2.811 (pretraining convention: EEG / 100 uV)
+[scratch_revised_20260727] 031: bal 0.4061 constant False epoch 3/7 (2.0 min)
+[scratch_revised_20260727] 032: bal 0.3318 constant False epoch 4/8 (4.6 min)
+[scratch_revised_20260727] 033: bal 0.3755 constant False epoch 2/6 (7.2 min)
+[scratch_revised_20260727] 034: bal 0.0868 constant False epoch 1/5 (8.5 min)
+[scratch_revised_20260727] 035: bal 0.2906 constant False epoch 4/8 (10.6 min)
+[scratch_revised_20260727] 036: bal 0.2615 constant False epoch 2/6 (12.3 min)
+[scratch_revised_20260727] 037: bal 0.3306 constant False epoch 5/9 (15.4 min)
+[scratch_revised_20260727] 038: bal 0.2950 constant False epoch 6/10 (18.3 min)
+[scratch_revised_20260727] 039: bal 0.3292 constant False epoch 5/9 (20.7 min)
+[scratch_revised_20260727] 040: bal 0.3296 constant False epoch 10/14 (23.2 min)
+[scratch_revised_20260727] 042: bal 0.3076 constant False epoch 1/5 (23.7 min)
+[scratch_revised_20260727] POOLED balanced 0.3267 | accuracy 0.3247 | constant folds 0/34 | zero-bal folds 1 (of which single-class test folds 1)
+[scratch_revised_20260727] confusion (rows = true neg/neu/pos):
+[[ 417  437  506]
+ [ 981  849 1006]
+ [ 600  619  729]]

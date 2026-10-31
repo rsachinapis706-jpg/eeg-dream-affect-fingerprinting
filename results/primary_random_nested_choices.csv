@@ -1,0 +1,5 @@
+chosen,count
+"LogReg, scaled, balanced",74
+"RF, scaled, balanced",14
+"RF, unweighted (headline)",10
+"LogReg, scaled, unweighted",2

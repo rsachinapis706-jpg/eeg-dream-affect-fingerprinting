@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Code and results for: High Window-Level Accuracy Without Affect Information"
+license: MIT
+authors:
+  - family-names: "R"
+    given-names: "Sachin"
+  - family-names: "R"
+    given-names: "Jaganath"
+  - family-names: "Yeshwanth"
+    given-names: "S T"
+  - family-names: "S"
+    given-names: "Abhishek"
+preferred-citation:
+  type: article
+  title: "High Window-Level Accuracy Without Affect Information: Evaluation Protocol, Recording and Participant Fingerprinting in EEG Dream-Emotion Decoding"
+  authors:
+    - family-names: "R"
+      given-names: "Sachin"
+    - family-names: "R"
+      given-names: "Jaganath"
+    - family-names: "Yeshwanth"
+      given-names: "S T"
+    - family-names: "S"
+      given-names: "Abhishek"
+  journal: "IEEE Access"
+  year: 2026

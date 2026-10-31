@@ -1,0 +1,21 @@
+[   0.0 min] ======================================================================
+[   0.0 min] NESTED SELECTION over 4 candidates, 10 fold assignments, 3 workers
+[  20.4 min] 
+[  20.4 min] 
+                         statistic    bal  bal_lo  bal_hi     sd  count  share
+               assignment 20260727 0.3650  0.3265  0.3968    NaN    NaN    NaN
+               assignment 20260728 0.3657  0.3271  0.3986    NaN    NaN    NaN
+               assignment 20260729 0.3754  0.3421  0.4056    NaN    NaN    NaN
+               assignment 20260730 0.3754  0.3421  0.4056    NaN    NaN    NaN
+               assignment 20260731 0.3659  0.3252  0.4003    NaN    NaN    NaN
+               assignment 20260732 0.3754  0.3421  0.4056    NaN    NaN    NaN
+               assignment 20260733 0.3718  0.3349  0.4031    NaN    NaN    NaN
+               assignment 20260734 0.3754  0.3421  0.4056    NaN    NaN    NaN
+               assignment 20260735 0.3656  0.3241  0.3991    NaN    NaN    NaN
+               assignment 20260736 0.3767  0.3372  0.4085    NaN    NaN    NaN
+         mean over ten assignments 0.3712  0.3393  0.3998 0.0048    NaN    NaN
+ chosen: RF, unweighted (headline)    NaN     NaN     NaN    NaN    3.0   0.06
+      chosen: RF, scaled, balanced    NaN     NaN     NaN    NaN    4.0   0.08
+chosen: LogReg, scaled, unweighted    NaN     NaN     NaN    NaN    3.0   0.06
+  chosen: LogReg, scaled, balanced    NaN     NaN     NaN    NaN   40.0   0.80
+nested exit 0 Fri Oct  2 16:42:04 IST 2026

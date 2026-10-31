@@ -1,0 +1,6 @@
+condition,rule,coverage,bal_retained,err_retained,set_size,set_coverage
+"DEED affect, CBraMod embeddings",PCD p<=0.05,0.0516,0.3719,0.6057,,
+"DEED affect, CBraMod embeddings",Max-softmax>0.5,0.7181,0.3532,0.6228,,
+"DEED affect, CBraMod embeddings",Entropy<0.9,0.6989,0.3507,0.6248,,
+"DEED affect, CBraMod embeddings",Split conformal 0.05,0.0356,,,2.6839,0.9141
+"DEED affect, CBraMod embeddings",all inputs,1.0,0.3445,0.633,,

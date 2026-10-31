@@ -1,0 +1,24 @@
+[    0.0 min] RESTRICTED NULLS ('night', 'night_block'), block 3; observed from 120: RF, unweight 0.3222, RF, scaled,  0.3242, LogReg, scal 0.3238, LogReg, scal 0.3393
+[  483.4 min] night:RF, unweig k=16 | night:RF, scaled k=16 | night:LogReg, sc k=16 | night:LogReg, sc k=16 | night:RF, unweig k=16 | night:RF, scaled k=16 | night:LogReg, sc k=16 | night:LogReg, sc k=16
+--- restarted Wed Oct 21 21:13:15 IST 2026 with needs-sized batches ---
+[    0.0 min] RESTRICTED NULLS ('night', 'night_block'), block 3; observed from 120: RF, unweight 0.3222, RF, scaled,  0.3242, LogReg, scal 0.3238, LogReg, scal 0.3393
+[  181.2 min] night:RF, unweig k=22 | night:RF, scaled k=30 | night:LogReg, sc k=26 | night:LogReg, sc k=31 | night:RF, unweig k=29 | night:RF, scaled k=32 | night:LogReg, sc k=32 | night:LogReg, sc k=32
+[  248.8 min] night:RF, unweig k=25 | night:RF, scaled k=36 | night:LogReg, sc k=29 | night:LogReg, sc k=40 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=41 | night:LogReg, sc k=45 | night:LogReg, sc k=48
+[  276.9 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=38 | night:LogReg, sc k=30 | night:LogReg, sc k=46 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=46 | night:LogReg, sc k=48 | night:LogReg, sc k=63
+[  296.9 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=40 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=51 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=49 | night:LogReg, sc k=50 | night:LogReg, sc k=74
+[  307.5 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=41 p=0.4878 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=54 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=51 | night:LogReg, sc k=51 | night:LogReg, sc k=82
+[  315.9 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=41 p=0.4878 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=55 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=53 | night:LogReg, sc k=52 | night:LogReg, sc k=88
+[  322.6 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=41 p=0.4878 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=56 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=54 | night:LogReg, sc k=53 p=0.3774 | night:LogReg, sc k=91
+[  329.4 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=41 p=0.4878 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=57 p=0.3509 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=55 p=0.3636 | night:LogReg, sc k=53 p=0.3774 | night:LogReg, sc k=94
+[  330.1 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=41 p=0.4878 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=57 p=0.3509 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=55 p=0.3636 | night:LogReg, sc k=53 p=0.3774 | night:LogReg, sc k=96
+[  330.6 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=41 p=0.4878 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=57 p=0.3509 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=55 p=0.3636 | night:LogReg, sc k=53 p=0.3774 | night:LogReg, sc k=97
+[  331.2 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=41 p=0.4878 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=57 p=0.3509 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=55 p=0.3636 | night:LogReg, sc k=53 p=0.3774 | night:LogReg, sc k=98
+[  331.7 min] night:RF, unweig k=26 p=0.7692 | night:RF, scaled k=41 p=0.4878 | night:LogReg, sc k=31 p=0.6452 | night:LogReg, sc k=57 p=0.3509 | night:RF, unweig k=31 p=0.6452 | night:RF, scaled k=55 p=0.3636 | night:LogReg, sc k=53 p=0.3774 | night:LogReg, sc k=99 p=0.2020
+[  331.7 min] 
+                            observed_mean  night_k  night_p  night_null_mean  night_block_k  night_block_p  night_block_null_mean  night_p_holm  night_block_p_holm
+config                                                                                                                                                             
+RF, unweighted (headline)          0.3222       26   0.7692           0.3264             31         0.6452                 0.3254           1.0              1.0000
+RF, scaled, balanced               0.3242       41   0.4878           0.3253             55         0.3636                 0.3207           1.0              1.0000
+LogReg, scaled, unweighted         0.3238       31   0.6452           0.3284             53         0.3774                 0.3202           1.0              1.0000
+LogReg, scaled, balanced           0.3393       57   0.3509           0.3340             99         0.2020                 0.3257           1.0              0.8081
+EXIT 0

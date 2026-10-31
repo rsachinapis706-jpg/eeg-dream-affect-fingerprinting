@@ -1,0 +1,7 @@
+[   0.0 min] DEED null_fixedfolds, expected rate per participant over 53 reps:
+[   0.0 min] 
+    stratum  reps  marginal_rate  marginal_se  participant_expected_max  participant_expected_p90  participant_expected_median  n_participants_above_2alpha  n_participants_signif_above_alpha
+     pooled    53         0.0509       0.0017                    0.1032                    0.0795                       0.0449                            1                                  6
+  recording    53         0.0497       0.0018                    0.0655                    0.0556                       0.0490                            0                                  0
+participant    53         0.0509       0.0017                    0.0655                    0.0581                       0.0499                            0                                  0
+      input    53         0.0488       0.0021                    0.0725                    0.0546                       0.0486                            0                                  0

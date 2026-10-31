@@ -1,0 +1,141 @@
+[    0.0 min] all windows: 6144 windows, 492 recordings, 34 participants
+[    0.0 min] corroborated recordings: 3825 windows, 351 recordings, 25 participants
+[    0.0 min] last 60 s before awakening: 1461 windows, 492 recordings, 34 participants
+[   25.1 min] observed all windows            RF, unweighted (headline)  window 0.3222 recording 0.3280 participant_weighted 0.3268
+[   25.1 min] observed all windows            RF, scaled, balanced       window 0.3242 recording 0.3144 participant_weighted 0.3320
+[   25.1 min] observed all windows            LogReg, scaled, unweighted window 0.3238 recording 0.3424 participant_weighted 0.3284
+[   25.1 min] observed all windows            LogReg, scaled, balanced   window 0.3393 recording 0.3385 participant_weighted 0.3491
+[   25.1 min] observed corroborated recording RF, unweighted (headline)  window 0.3065 recording 0.3111 participant_weighted 0.3012
+[   25.1 min] observed corroborated recording RF, scaled, balanced       window 0.3026 recording 0.2984 participant_weighted 0.2929
+[   25.1 min] observed corroborated recording LogReg, scaled, unweighted window 0.3054 recording 0.3009 participant_weighted 0.3097
+[   25.1 min] observed corroborated recording LogReg, scaled, balanced   window 0.3365 recording 0.3209 participant_weighted 0.3363
+[   25.1 min] observed last 60 s before awake RF, unweighted (headline)  window 0.3446 recording 0.3421 participant_weighted 0.3462
+[   25.1 min] observed last 60 s before awake RF, scaled, balanced       window 0.3398 recording 0.3457 participant_weighted 0.3375
+[   25.1 min] observed last 60 s before awake LogReg, scaled, unweighted window 0.3595 recording 0.3527 participant_weighted 0.3562
+[   25.1 min] observed last 60 s before awake LogReg, scaled, balanced   window 0.3767 recording 0.3693 participant_weighted 0.3811
+[  444.7 min] permutations: 192 done; 192 in last batch
+[    0.0 min] all windows: 6144 windows, 492 recordings, 34 participants
+[    0.0 min] corroborated recordings: 3825 windows, 351 recordings, 25 participants
+[    0.0 min] last 60 s before awakening: 1461 windows, 492 recordings, 34 participants
+[  102.7 min] permutations: 346 done; 154 in last batch
+[  167.6 min] permutations: 470 done; 124 in last batch
+[  209.1 min] permutations: 568 done; 98 in last batch
+[  232.6 min] permutations: 650 done; 82 in last batch
+[  250.6 min] permutations: 725 done; 75 in last batch
+[  262.1 min] permutations: 788 done; 63 in last batch
+[  272.3 min] permutations: 848 done; 60 in last batch
+[  280.6 min] permutations: 902 done; 54 in last batch
+[  288.8 min] permutations: 955 done; 53 in last batch
+[  294.9 min] permutations: 1003 done; 48 in last batch
+[  299.7 min] permutations: 1046 done; 43 in last batch
+[  304.4 min] permutations: 1088 done; 42 in last batch
+[  308.9 min] permutations: 1128 done; 40 in last batch
+[  313.3 min] permutations: 1167 done; 39 in last batch
+[  317.5 min] permutations: 1205 done; 38 in last batch
+[  321.7 min] permutations: 1243 done; 38 in last batch
+[  325.2 min] permutations: 1280 done; 37 in last batch
+[  328.2 min] permutations: 1315 done; 35 in last batch
+[  331.1 min] permutations: 1350 done; 35 in last batch
+[  333.3 min] permutations: 1384 done; 34 in last batch
+[  335.5 min] permutations: 1418 done; 34 in last batch
+[  338.2 min] permutations: 1451 done; 33 in last batch
+[  340.9 min] permutations: 1483 done; 32 in last batch
+[  343.6 min] permutations: 1515 done; 32 in last batch
+[  344.9 min] permutations: 1545 done; 30 in last batch
+[  346.1 min] permutations: 1574 done; 29 in last batch
+[  347.4 min] permutations: 1603 done; 29 in last batch
+[  348.8 min] permutations: 1632 done; 29 in last batch
+[  349.9 min] permutations: 1661 done; 29 in last batch
+[  351.0 min] permutations: 1690 done; 29 in last batch
+[  351.9 min] permutations: 1716 done; 26 in last batch
+[  352.8 min] permutations: 1741 done; 25 in last batch
+[  353.8 min] permutations: 1766 done; 25 in last batch
+[  354.8 min] permutations: 1791 done; 25 in last batch
+[  355.6 min] permutations: 1814 done; 23 in last batch
+[  356.3 min] permutations: 1837 done; 23 in last batch
+[  356.9 min] permutations: 1860 done; 23 in last batch
+[  357.6 min] permutations: 1883 done; 23 in last batch
+[  358.2 min] permutations: 1905 done; 22 in last batch
+[  358.9 min] permutations: 1927 done; 22 in last batch
+[  359.5 min] permutations: 1949 done; 22 in last batch
+[  360.1 min] permutations: 1970 done; 21 in last batch
+[  360.7 min] permutations: 1991 done; 21 in last batch
+[  361.5 min] permutations: 2012 done; 21 in last batch
+[  362.3 min] permutations: 2033 done; 21 in last batch
+[  363.0 min] permutations: 2054 done; 21 in last batch
+[  363.6 min] permutations: 2075 done; 21 in last batch
+[  364.2 min] permutations: 2095 done; 20 in last batch
+[  364.7 min] permutations: 2115 done; 20 in last batch
+[  365.3 min] permutations: 2135 done; 20 in last batch
+[  365.9 min] permutations: 2155 done; 20 in last batch
+[  366.4 min] permutations: 2175 done; 20 in last batch
+[  366.9 min] permutations: 2195 done; 20 in last batch
+[  367.5 min] permutations: 2215 done; 20 in last batch
+[  368.0 min] permutations: 2235 done; 20 in last batch
+[  368.6 min] permutations: 2254 done; 19 in last batch
+[  369.1 min] permutations: 2273 done; 19 in last batch
+[  369.5 min] permutations: 2292 done; 19 in last batch
+[  370.0 min] permutations: 2310 done; 18 in last batch
+[  370.4 min] permutations: 2327 done; 17 in last batch
+[  370.8 min] permutations: 2342 done; 15 in last batch
+[  371.1 min] permutations: 2356 done; 14 in last batch
+[  371.5 min] permutations: 2370 done; 14 in last batch
+[  371.9 min] permutations: 2383 done; 13 in last batch
+[  372.2 min] permutations: 2396 done; 13 in last batch
+[  372.5 min] permutations: 2409 done; 13 in last batch
+[  372.9 min] permutations: 2422 done; 13 in last batch
+[  373.2 min] permutations: 2435 done; 13 in last batch
+[  373.5 min] permutations: 2448 done; 13 in last batch
+[  373.8 min] permutations: 2461 done; 13 in last batch
+[  374.1 min] permutations: 2474 done; 13 in last batch
+[  374.4 min] permutations: 2487 done; 13 in last batch
+[  374.7 min] permutations: 2500 done; 13 in last batch
+[  375.1 min] permutations: 2512 done; 12 in last batch
+[  375.3 min] permutations: 2522 done; 10 in last batch
+[  375.5 min] permutations: 2532 done; 10 in last batch
+[  375.7 min] permutations: 2541 done; 9 in last batch
+[  375.9 min] permutations: 2550 done; 9 in last batch
+[  376.1 min] permutations: 2559 done; 9 in last batch
+[  376.4 min] permutations: 2568 done; 9 in last batch
+[  376.6 min] permutations: 2577 done; 9 in last batch
+[  376.8 min] permutations: 2586 done; 9 in last batch
+[  377.0 min] permutations: 2595 done; 9 in last batch
+[  377.2 min] permutations: 2604 done; 9 in last batch
+[  377.4 min] permutations: 2613 done; 9 in last batch
+[  377.6 min] permutations: 2622 done; 9 in last batch
+[  377.9 min] permutations: 2629 done; 7 in last batch
+[  378.0 min] permutations: 2634 done; 5 in last batch
+[  378.1 min] permutations: 2638 done; 4 in last batch
+[  378.2 min] permutations: 2642 done; 4 in last batch
+[  378.3 min] permutations: 2646 done; 4 in last batch
+[  378.4 min] permutations: 2650 done; 4 in last batch
+[  378.5 min] permutations: 2654 done; 4 in last batch
+[  378.6 min] permutations: 2658 done; 4 in last batch
+[  378.7 min] permutations: 2662 done; 4 in last batch
+[  378.8 min] permutations: 2666 done; 4 in last batch
+[  378.9 min] permutations: 2670 done; 4 in last batch
+[  379.0 min] permutations: 2674 done; 4 in last batch
+[  379.1 min] permutations: 2678 done; 4 in last batch
+[  379.2 min] permutations: 2682 done; 4 in last batch
+[  379.3 min] permutations: 2686 done; 4 in last batch
+[  379.4 min] permutations: 2690 done; 4 in last batch
+[  379.5 min] permutations: 2694 done; 4 in last batch
+[  379.6 min] permutations: 2698 done; 4 in last batch
+[  379.7 min] permutations: 2702 done; 4 in last batch
+[  379.8 min] permutations: 2706 done; 4 in last batch
+[  379.9 min] permutations: 2710 done; 4 in last batch
+[  380.0 min] permutations: 2714 done; 4 in last batch
+[  380.1 min] permutations: 2718 done; 4 in last batch
+[  380.2 min] permutations: 2722 done; 4 in last batch
+[  380.3 min] permutations: 2726 done; 4 in last batch
+[  380.4 min] permutations: 2730 done; 4 in last batch
+[  380.5 min] permutations: 2734 done; 4 in last batch
+[  380.6 min] permutations: 2738 done; 4 in last batch
+[  380.8 min] permutations: 2742 done; 4 in last batch
+[  380.9 min] permutations: 2746 done; 4 in last batch
+[  381.0 min] permutations: 2750 done; 4 in last batch
+[  381.1 min] permutations: 2754 done; 4 in last batch
+[  381.2 min] permutations: 2758 done; 4 in last batch
+[  381.3 min] permutations: 2762 done; 4 in last batch
+[  381.4 min] permutations: 2765 done; 3 in last batch
+[  381.4 min] permutation part finished

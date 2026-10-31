@@ -1,0 +1,13 @@
+dataset,quantity,mean,sd,n_seeds,bal_mean,bal_sd
+DEED,identity window-shuffled,0.804,0.0014,10,,
+DEED,identity recording-grouped,0.7254,0.0028,10,,
+DEED,oracle accuracy,0.5465,0.0,0,,
+DEED,oracle balanced,0.5021,0.0,0,,
+DEED,mi normalised,0.1624,0.0,0,,
+Tononi,acc window-shuffled,0.6398,0.0111,10,0.6034,0.0107
+Tononi,acc recording-grouped,0.3611,0.0143,10,0.3262,0.0144
+Tononi,acc participant-wise,0.3946,0.0115,10,0.3381,0.0128
+Tononi,identity window-shuffled,0.8722,0.0056,10,,
+Tononi,identity recording-grouped,0.7311,0.0064,10,,
+Tononi,oracle accuracy,0.5778,0.0,0,,
+Tononi,mi normalised,0.1902,0.0,0,,

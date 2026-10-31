@@ -1,0 +1,9 @@
+rung,description,overlap,leaky_acc,leaky_acc_sd,leaky_bal,sound_acc,sound_acc_sd,sound_bal,gap,n_seeds
+0,0  honest baseline,0,0.4208,0.001,0.3246,0.4208,0.001,0.3246,0.0,3
+1,1  + window-shuffled CV,0,0.5658,0.0005,0.486,0.4208,0.001,0.3246,0.145,3
+2,2  + 90% window overlap,90,0.8827,0.0005,0.8595,0.4195,0.0011,0.3323,0.4632,3
+3,3  + scaling on all data,90,0.8827,0.0005,0.8595,0.4195,0.0011,0.3323,0.4632,3
+4,4  + selection on all data,90,0.8391,0.0005,0.8064,0.4175,0.0016,0.3301,0.4215,3
+5,5  + oversampling before split,90,0.9055,0.0004,0.9055,0.4044,0.0016,0.3335,0.5011,3
+6,6  + tuning on all data,90,0.9055,0.0004,0.9055,0.4044,0.0016,0.3335,0.5011,3
+7,7  + best of three models,90,0.9055,0.0004,0.9055,0.4044,0.0016,0.3335,0.5011,3

@@ -1,0 +1,7 @@
+target,held_out,acc_mean,acc_sd,bal_mean,bal_sd,bal_lo,bal_hi,majority,n_seeds
+Dream valence,Random (window-shuffled),0.5701,0.0028,0.4909,0.0035,0.4457,0.5453,0.4616,10
+Dream valence,Recording,0.4335,0.0052,0.3535,0.0057,0.327,0.3818,0.4616,10
+Dream valence,Participant,0.4184,0.0021,0.3224,0.0017,0.3044,0.3356,0.4616,10
+Sleep stage (W/N1/N2),Random (window-shuffled),0.5973,0.003,0.517,0.003,0.4536,0.5763,0.4368,10
+Sleep stage (W/N1/N2),Recording,0.4807,0.008,0.4094,0.0072,0.3657,0.4794,0.4368,10
+Sleep stage (W/N1/N2),Participant,0.4685,0.003,0.3978,0.003,0.3576,0.4318,0.4368,10

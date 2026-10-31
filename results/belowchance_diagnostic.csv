@@ -1,0 +1,8 @@
+config,accuracy,balanced
+"RF, class_weight=balanced",0.3789,0.3195
+"RF, no class weighting",0.4056,0.312
+"LogReg, class_weight=balanced",0.3486,0.3373
+"LogReg, no class weighting",0.3945,0.3162
+Dummy: most frequent,0.4616,0.3333
+Dummy: stratified,0.3687,0.3333
+Dummy: uniform,0.3363,0.3324

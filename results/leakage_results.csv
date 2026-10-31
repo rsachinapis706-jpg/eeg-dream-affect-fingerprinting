@@ -1,0 +1,7 @@
+target,held_out,accuracy,balanced_accuracy,majority
+Reported dream valence (3-class),random,0.5732,0.4942,0.4616
+Reported dream valence (3-class),segment,0.4243,0.3484,0.4616
+Reported dream valence (3-class),subject,0.4025,0.307,0.4616
+Sleep stage (W/N1/N2),random,0.5965,0.5162,0.4368
+Sleep stage (W/N1/N2),segment,0.4901,0.4204,0.4368
+Sleep stage (W/N1/N2),subject,0.463,0.3765,0.4368

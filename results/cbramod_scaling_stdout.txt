@@ -1,0 +1,76 @@
+start Wed Oct 21 13:50:21 IST 2026
+== /c/Users/Sachin.R/AppData/Local/Programs/Python/Python312/python 49_cbramod_expanded.py Wed Oct 21 13:50:21 IST 2026
+==============================================================================
+CBRAMOD CONTROL ON SLEEP-EDF EXPANDED
+==============================================================================
+cached raw array: (34163, 2, 4000), 100 participants
+
+computing spectral features on the identical windows...
+usable windows: 34163 of 34163
+spectral (LogReg) : accuracy 0.7816 | balanced 0.7799
+spectral (RF)     : balanced 0.7762
+CBraMod input scale: EEG / 100 uV
+
+CBraMod: device cuda, full fine-tune, 20 epochs max, batch 64
+  fold 1: balanced 0.7067 (n=6956)
+  fold 2: balanced 0.7607 (n=6671)
+  fold 3: balanced 0.7141 (n=6865)
+  fold 4: balanced 0.7357 (n=6828)
+  fold 5: balanced 0.7500 (n=6843)
+
+==============================================================================
+MATCHED COMPARISON -- same cohort, same windows, same folds
+==============================================================================
+model                                accuracy   balanced
+------------------------------------------------------------------------------
+Spectral features, LogReg              0.7816     0.7799
+Spectral features, RandomForest                   0.7762
+CBraMod (9,000 h pretraining)          0.7371     0.7337
+
+difference, CBraMod minus best spectral: -0.0462
+
+For reference, the 8-recording Sleep-EDF 1.0.0 cohort used in the
+submitted manuscript gave CBraMod 0.8217 and spectral 0.8831.
+
+Wrote E:\Dream GAN\analysis\out\cbramod_expanded.csv
+== /c/Users/Sachin.R/AppData/Local/Programs/Python/Python312/python 76_cbramod_diagnostics.py --config revised --seed 20260727 Wed Oct 21 16:15:23 IST 2026
+[revised_uv100_20260727] windows 6144 | participants 34 | classes ['neg', 'neu', 'pos'] | input |x| median 0.040, p99 0.252 (pretraining convention: EEG / 100 uV)
+[revised_uv100_20260727] 002: bal 0.3333 constant True epoch 2/6 (10.1 min)
+[revised_uv100_20260727] 003: bal 0.3423 constant False epoch 2/6 (44.9 min)
+[revised_uv100_20260727] 004: bal 0.3394 constant False epoch 7/11 (59.2 min)
+[revised_uv100_20260727] 005: bal 0.3735 constant False epoch 7/11 (62.8 min)
+[revised_uv100_20260727] 007: bal 0.3361 constant False epoch 5/9 (65.9 min)
+[revised_uv100_20260727] 011: bal 0.4762 constant False epoch 10/14 (70.9 min)
+[revised_uv100_20260727] 012: bal 0.4950 constant False epoch 2/6 (73.0 min)
+[revised_uv100_20260727] 013: bal 0.5833 constant False epoch 1/5 (74.6 min)
+[revised_uv100_20260727] 014: bal 0.4286 constant False epoch 7/11 (78.2 min)
+[revised_uv100_20260727] 015: bal 0.3475 constant False epoch 1/5 (79.8 min)
+[revised_uv100_20260727] 016: bal 0.3966 constant False epoch 1/5 (81.5 min)
+[revised_uv100_20260727] 017: bal 0.3934 constant False epoch 3/7 (84.2 min)
+[revised_uv100_20260727] 018: bal 0.1429 constant False epoch 6/10 (88.5 min)
+[revised_uv100_20260727] 020: bal 0.2000 constant False epoch 4/8 (92.6 min)
+[revised_uv100_20260727] 021: bal 0.3423 constant False epoch 1/5 (94.9 min)
+[revised_uv100_20260727] 022: bal 0.3315 constant False epoch 7/11 (100.0 min)
+[revised_uv100_20260727] 023: bal 0.3071 constant False epoch 10/14 (106.3 min)
+[revised_uv100_20260727] 024: bal 0.3729 constant False epoch 6/10 (110.9 min)
+[revised_uv100_20260727] 025: bal 0.3529 constant False epoch 1/5 (113.6 min)
+[revised_uv100_20260727] 027: bal 0.3336 constant False epoch 3/7 (118.2 min)
+[revised_uv100_20260727] 028: bal 0.3477 constant False epoch 4/8 (137.9 min)
+[revised_uv100_20260727] 029: bal 0.3176 constant False epoch 4/8 (155.6 min)
+[revised_uv100_20260727] 030: bal 0.3333 constant True epoch 1/5 (158.7 min)
+[revised_uv100_20260727] 031: bal 0.3333 constant True epoch 1/5 (162.0 min)
+[revised_uv100_20260727] 032: bal 0.4341 constant False epoch 8/12 (167.7 min)
+[revised_uv100_20260727] 033: bal 0.3027 constant False epoch 10/14 (174.1 min)
+[revised_uv100_20260727] 034: bal 0.1654 constant False epoch 1/5 (176.3 min)
+[revised_uv100_20260727] 035: bal 0.3502 constant False epoch 8/12 (183.5 min)
+[revised_uv100_20260727] 036: bal 0.4423 constant False epoch 2/6 (186.4 min)
+[revised_uv100_20260727] 037: bal 0.3333 constant False epoch 2/6 (189.5 min)
+[revised_uv100_20260727] 038: bal 0.3333 constant True epoch 2/6 (192.0 min)
+[revised_uv100_20260727] 039: bal 0.3401 constant False epoch 6/10 (195.7 min)
+[revised_uv100_20260727] 040: bal 0.3235 constant False epoch 2/6 (197.9 min)
+[revised_uv100_20260727] 042: bal 0.3218 constant False epoch 2/6 (200.2 min)
+[revised_uv100_20260727] POOLED balanced 0.3449 | accuracy 0.3271 | constant folds 4/34 | zero-bal folds 0 (of which single-class test folds 0)
+[revised_uv100_20260727] confusion (rows = true neg/neu/pos):
+[[ 620  490  250]
+ [1276  838  722]
+ [ 831  565  552]]

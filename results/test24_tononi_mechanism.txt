@@ -1,0 +1,38 @@
+============================================================================
+TONONI SERIAL AWAKENINGS -- MECHANISM TEST
+============================================================================
+windows 668 | participants 18 | recordings 113 | features 108
+classes {'3': 293, '1': 235, '2': 140}
+majority baseline 0.4386 | chance 0.3333
+
+-- precondition --
+                                      Tononi      DEED
+median label dominance                 0.536     0.750
+participants >70% one class            0.167     0.380
+
+-- partitioning rule (RandomForest, 5-fold; mirrors DEED) --
+held out        accuracy   balanced   DEED acc
+----------------------------------------------------------------------------
+random            0.6183     0.5902     0.5732
+recording         0.3757     0.3330     0.4243
+subject           0.3892     0.3365     0.4025
+
+inflation, random - subject          +0.2290   +0.1707
+
+-- fingerprinting components --
+                                      Tononi      DEED
+identity acc, window-shuffled         0.8668    0.8037
+identity acc, recording-grouped       0.7380    0.7313
+chance for identity                   0.0556    0.0294
+oracle from identity alone            0.5778    0.5465
+I(subject;label)/H(label)             0.1902    0.1624
+
+============================================================================
+VERDICT
+============================================================================
+Tononi inflation +0.2290 vs DEED +0.1707 (1.34x DEED)
+
+PREDICTION NOT SUPPORTED. Inflation is comparable despite far
+more balanced labels. Label imbalance is therefore not necessary
+for the effect, and the mechanism as stated is incomplete.
+Section 6.2 must be revised rather than reinforced.

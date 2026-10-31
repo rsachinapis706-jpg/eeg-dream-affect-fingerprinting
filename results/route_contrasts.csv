@@ -1,0 +1,11 @@
+dataset,contrast,estimate,lo,hi,share_boot_below_zero,expected_if_independent
+DEED,window-shuffled minus recording-grouped (forest),0.1374,0.0799,0.1942,0.0,
+DEED,recording-grouped minus participant-separated (forest),0.0311,0.0025,0.0606,0.017,
+DEED,window-shuffled minus participant-separated (forest),0.1685,0.1189,0.2234,0.0,
+DEED,"forest minus identity rule, window-shuffled",-0.0006,-0.0506,0.0631,0.463,
+DEED,"agreement forest vs identity rule, window-shuffled",0.609,0.5998,0.6167,,0.4573
+Tononi,window-shuffled minus recording-grouped (forest),0.2771,0.2138,0.336,0.0,
+Tononi,recording-grouped minus participant-separated (forest),-0.0119,-0.0768,0.0593,0.692,
+Tononi,window-shuffled minus participant-separated (forest),0.2652,0.1853,0.3386,0.0,
+Tononi,"forest minus identity rule, window-shuffled",0.0442,-0.0038,0.1267,0.0395,
+Tononi,"agreement forest vs identity rule, window-shuffled",0.5979,0.5719,0.6123,,0.3745

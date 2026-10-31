@@ -1,0 +1,33 @@
+============================================================================
+CONTROLLED LABEL-NOISE SWEEP
+============================================================================
+windows 4800 | subjects 40 | classes ['N1', 'N2', 'W']
+null models per fold: 20 | PCD alpha = 0.05
+
+  noise   accuracy   balanced   PCD coverage    mean D
+----------------------------------------------------------------------------
+    0.0     0.8031     0.7722         0.9344    0.9780
+    0.2     0.7054     0.6601         0.8733    0.9551
+    0.4     0.6040     0.5624         0.7983    0.9258
+    0.6     0.5144     0.4806         0.6719    0.8828
+    0.8     0.4081     0.3985         0.3696    0.7628
+    1.0     0.3423     0.3416         0.0512    0.5140
+
+============================================================================
+IS PCD GRADED?
+============================================================================
+Pearson  r (balanced acc vs PCD coverage) : +0.9110
+Spearman r                                : +1.0000
+
+range of true decodability : 0.4306
+range of PCD coverage      : 0.8831
+
+high-signal half (noise <= 0.4):
+  decodability 0.5624 -> 0.7722  (delta 0.2099)
+  coverage     0.7983 -> 0.9344  (delta 0.1360)
+
+>> PCD IS GRADED. Coverage tracks true decodability across the
+>> sweep. The earlier negative finding reflected two natural
+>> datasets that were too close together to separate.
+wrote fig8_label_noise
+Wrote E:\Dream GAN\analysis\out\test21_label_noise.txt

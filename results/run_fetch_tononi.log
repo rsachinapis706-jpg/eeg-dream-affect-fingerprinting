@@ -1,0 +1,29 @@
+target: 8 subject archives, 1.63 GB total
+
+[ 1/8] Part2-s01.zip      already complete
+[ 2/8] Part3-s02.zip       285.9 MB  (absent)
+          verified
+[ 3/8] Part4-s03.zip       235.0 MB  (absent)
+          verified
+[ 4/8] Part5-s04.zip       228.2 MB  (absent)
+          verified
+[ 5/8] Part6-s05.zip       176.8 MB  (absent)
+      attempt 1: size 83.8MB != 176.8MB
+      attempt 2 failed: URLError
+      attempt 3 failed: URLError
+      attempt 4 failed: URLError
+          FAILED after 4 attempts
+[ 6/8] Part7-s06.zip       144.8 MB  (absent)
+      attempt 1 failed: URLError
+      attempt 2: size 44.9MB != 144.8MB
+      attempt 3 failed: URLError
+      attempt 4 failed: URLError
+          FAILED after 4 attempts
+[ 7/8] Part8-s07.zip       177.7 MB  (absent)
+          verified
+[ 8/8] Part9-s08.zip       203.5 MB  (absent)
+          verified
+
+verified 6/8
+failed: ['Part6-s05.zip', 'Part7-s06.zip']
+re-run this script to retry; completed files are skipped

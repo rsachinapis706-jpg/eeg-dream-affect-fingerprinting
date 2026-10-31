@@ -1,0 +1,38 @@
+==============================================================================
+CATALOGUE PREVALENCE, RECOMPUTED WITH MUTUAL INFORMATION
+==============================================================================
+Supersedes the median-dominance analysis, which the Tononi
+replication showed does not predict inflation.
+
+dataset                        part   rec     NMI   null  excess      p  oracle    dom
+------------------------------------------------------------------------------
+LODE                             26   187   0.358  0.176   0.182  0.005   0.733  0.732
+Kumral et al., 2023              17    63   0.418  0.244   0.173  0.020   0.810  0.750
+Zhang & Wamsley 2019             28   308   0.240  0.091   0.149  0.005   0.815  0.846
+DATA1                            10   288   0.178  0.030   0.148  0.005   0.566  0.529
+Tononi Serial Awakenings         39   809   0.183  0.047   0.136  0.005   0.570  0.571
+Aamodt_morning_sleep             15    93   0.327  0.197   0.130  0.005   0.699  0.667
+Oudiette_N1Data                  63   246   0.550  0.443   0.107  0.005   0.894  1.000
+Aamodt_evening_sleep             23   150   0.320  0.216   0.104  0.010   0.747  0.750
+Multiple awakenings              19   435   0.087  0.036   0.051  0.005   0.729  0.750
+SCANDataset                      16    82   0.319  0.282   0.038  0.209   0.756  0.775
+REM_Turku                        17   132   0.342  0.311   0.032  0.199   0.917  0.917
+TWC_USA                           3    13   0.250  0.231   0.019  0.428   0.846  1.000
+
+datasets analysed                    : 12
+with identity-label association p<.05: 9
+median NMI excess                    : 0.119
+median identity-only oracle          : 0.751
+
+-- which statistic predicts measured inflation? --
+                                DEED    Tononi              ordering
+measured inflation            0.1707    0.2290         Tononi > DEED
+median dominance              0.7500    0.5360       WRONG DIRECTION
+NMI I(S;Y)/H(Y)               0.1624    0.1902               correct
+identity-only oracle          0.5465    0.5778               correct
+
+Median dominance orders the two datasets in the wrong direction.
+Mutual information and the oracle order them correctly, so they are
+used as the precondition measures from here on.
+
+regenerated fig9a and fig9b using mutual information

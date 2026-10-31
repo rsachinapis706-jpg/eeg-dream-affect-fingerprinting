@@ -1,0 +1,40 @@
+==============================================================================
+WINDOW OVERLAP AS A LEAKAGE MULTIPLIER
+==============================================================================
+RandomForest(300), 5-fold, scaling nested in both columns.
+Seeds: 5. Values are mean +/- sd across seeds.
+
+-- overlap 0% | windows 6144 | recordings 492 | subjects 34 | majority 0.4616 --
+   random   acc 0.5675 +/- 0.0025   bal 0.4879 +/- 0.0027   [23s]
+   subject  acc 0.4208 +/- 0.0009   bal 0.3248 +/- 0.0007   [22s]
+
+-- overlap 50% | windows 12036 | recordings 492 | subjects 34 | majority 0.4614 --
+   random   acc 0.6492 +/- 0.0020   bal 0.5807 +/- 0.0024   [39s]
+   subject  acc 0.4172 +/- 0.0013   bal 0.3263 +/- 0.0012   [40s]
+
+-- overlap 75% | windows 23693 | recordings 492 | subjects 34 | majority 0.4607 --
+   random   acc 0.7412 +/- 0.0016   bal 0.6897 +/- 0.0018   [82s]
+   subject  acc 0.4162 +/- 0.0009   bal 0.3245 +/- 0.0008   [78s]
+
+-- overlap 90% | windows 58624 | recordings 492 | subjects 34 | majority 0.4602 --
+   random   acc 0.8825 +/- 0.0008   bal 0.8592 +/- 0.0010   [221s]
+   subject  acc 0.4198 +/- 0.0009   bal 0.3324 +/- 0.0007   [217s]
+
+==============================================================================
+SUMMARY
+==============================================================================
+ overlap   windows   shuffled  subject-wise   inflation
+------------------------------------------------------------------------------
+      0%      6144     0.5675        0.4208     +0.1466
+     50%     12036     0.6492        0.4172     +0.2320
+     75%     23693     0.7412        0.4162     +0.3250
+     90%     58624     0.8825        0.4198     +0.4627
+
+window-shuffled, 0% -> 90% overlap : +0.3150
+participant-wise, same change             : -0.0011
+
+Overlap inflates the window-shuffled figure substantially while
+leaving the participant-separated figure unchanged. It is an
+independent leakage source, additional to fingerprinting.
+
+Wrote E:\Dream GAN\analysis\out\overlap_sweep.csv and test27_overlap_sweep.txt

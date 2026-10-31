@@ -1,0 +1,13 @@
+partition,rule,coverage,coverage_lo,coverage_hi,bal_retained,bal_retained_lo,bal_retained_hi
+participant-separated,all inputs,1.0,1.0,1.0,0.3391,0.297,0.3814
+participant-separated,PCD alpha=0.10,0.1247,0.0702,0.1837,0.3443,0.2547,0.419
+participant-separated,PCD alpha=0.05,0.071,0.0331,0.1144,0.354,0.242,0.4383
+participant-separated,PCD alpha=0.01,0.0174,0.0069,0.031,0.405,0.2462,0.5834
+participant-separated,Max-softmax>0.5,0.4056,0.3062,0.5098,0.3261,0.2681,0.3993
+participant-separated,Entropy<0.9,0.3291,0.217,0.4482,0.3238,0.2667,0.4005
+window-level,all inputs,1.0,1.0,1.0,0.4648,0.4331,0.4907
+window-level,PCD alpha=0.10,0.0996,0.0728,0.128,0.5543,0.4753,0.61
+window-level,PCD alpha=0.05,0.0456,0.032,0.0613,0.5669,0.4821,0.6297
+window-level,PCD alpha=0.01,0.0081,0.0046,0.0123,0.6174,0.3625,0.7074
+window-level,Max-softmax>0.5,0.3254,0.2617,0.3914,0.527,0.4754,0.567
+window-level,Entropy<0.9,0.2542,0.1776,0.3348,0.5244,0.4671,0.5657

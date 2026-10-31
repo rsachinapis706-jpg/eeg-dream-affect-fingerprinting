@@ -1,0 +1,101 @@
+dataset,partition,seed,predictor,acc,bal
+DEED,window-shuffled,20260727,identity rule (CV),0.5387369791666666,0.48879101544609643
+DEED,window-shuffled,20260727,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260727,"identity rule (CV), other recordings only",0.4016927083333333,0.3362457979197853
+DEED,recording-grouped,20260727,identity rule (CV),0.41259765625,0.35088184057374255
+DEED,recording-grouped,20260727,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260728,identity rule (CV),0.5382486979166666,0.4915531273778094
+DEED,window-shuffled,20260728,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260728,"identity rule (CV), other recordings only",0.3902994791666667,0.32308149558250965
+DEED,recording-grouped,20260728,identity rule (CV),0.42041015625,0.37045882950916137
+DEED,recording-grouped,20260728,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260729,identity rule (CV),0.5384114583333334,0.48972191282365535
+DEED,window-shuffled,20260729,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260729,"identity rule (CV), other recordings only",0.39892578125,0.33189284757209386
+DEED,recording-grouped,20260729,identity rule (CV),0.462890625,0.41104998099598095
+DEED,recording-grouped,20260729,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260730,identity rule (CV),0.53857421875,0.4910944939283395
+DEED,window-shuffled,20260730,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260730,"identity rule (CV), other recordings only",0.4119466145833333,0.3442271920396302
+DEED,recording-grouped,20260730,identity rule (CV),0.42578125,0.36741337370147015
+DEED,recording-grouped,20260730,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260731,identity rule (CV),0.5418294270833334,0.4958562883597672
+DEED,window-shuffled,20260731,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260731,"identity rule (CV), other recordings only",0.40185546875,0.33611584129369754
+DEED,recording-grouped,20260731,identity rule (CV),0.42626953125,0.3616178165702439
+DEED,recording-grouped,20260731,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260732,identity rule (CV),0.5393880208333334,0.49020767164962104
+DEED,window-shuffled,20260732,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260732,"identity rule (CV), other recordings only",0.3889973958333333,0.3222049007767598
+DEED,recording-grouped,20260732,identity rule (CV),0.41064453125,0.3541225113551356
+DEED,recording-grouped,20260732,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260733,identity rule (CV),0.5431315104166666,0.4966894213743281
+DEED,window-shuffled,20260733,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260733,"identity rule (CV), other recordings only",0.39501953125,0.32711508726601246
+DEED,recording-grouped,20260733,identity rule (CV),0.4248046875,0.35572773978582956
+DEED,recording-grouped,20260733,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260734,identity rule (CV),0.5377604166666666,0.48886908226971304
+DEED,window-shuffled,20260734,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260734,"identity rule (CV), other recordings only",0.38720703125,0.3179321340158993
+DEED,recording-grouped,20260734,identity rule (CV),0.3997395833333333,0.344624764465727
+DEED,recording-grouped,20260734,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260735,identity rule (CV),0.5380859375,0.487978991146393
+DEED,window-shuffled,20260735,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260735,"identity rule (CV), other recordings only",0.4015299479166667,0.33435002918606177
+DEED,recording-grouped,20260735,identity rule (CV),0.40576171875,0.34250645804439017
+DEED,recording-grouped,20260735,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260736,identity rule (CV),0.5400390625,0.49424191213311636
+DEED,window-shuffled,20260736,majority class,0.4615885416666667,0.3333333333333333
+DEED,window-shuffled,20260736,"identity rule (CV), other recordings only",0.4065755208333333,0.34105513718130503
+DEED,recording-grouped,20260736,identity rule (CV),0.431640625,0.36705246770296357
+DEED,recording-grouped,20260736,majority class,0.4615885416666667,0.3333333333333333
+Tononi,window-shuffled,20260727,identity rule (CV),0.5598802395209581,0.5577988249980117
+Tononi,window-shuffled,20260727,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260727,"identity rule (CV), other recordings only",0.45209580838323354,0.4520234032179425
+Tononi,recording-grouped,20260727,identity rule (CV),0.46407185628742514,0.44672621208820473
+Tononi,recording-grouped,20260727,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260728,identity rule (CV),0.5673652694610778,0.5709468828559672
+Tononi,window-shuffled,20260728,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260728,"identity rule (CV), other recordings only",0.4476047904191617,0.445682438250153
+Tononi,recording-grouped,20260728,identity rule (CV),0.44610778443113774,0.4629134378317444
+Tononi,recording-grouped,20260728,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260729,identity rule (CV),0.5658682634730539,0.568124526696889
+Tononi,window-shuffled,20260729,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260729,"identity rule (CV), other recordings only",0.4356287425149701,0.4336531911435695
+Tononi,recording-grouped,20260729,identity rule (CV),0.47305389221556887,0.48002185406876424
+Tononi,recording-grouped,20260729,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260730,identity rule (CV),0.562874251497006,0.5664107804184777
+Tononi,window-shuffled,20260730,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260730,"identity rule (CV), other recordings only",0.4356287425149701,0.4363801086479178
+Tononi,recording-grouped,20260730,identity rule (CV),0.47904191616766467,0.47968021134820926
+Tononi,recording-grouped,20260730,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260731,identity rule (CV),0.5583832335329342,0.5581852478119996
+Tononi,window-shuffled,20260731,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260731,"identity rule (CV), other recordings only",0.437125748502994,0.43755822276626866
+Tononi,recording-grouped,20260731,identity rule (CV),0.4341317365269461,0.43496166893160576
+Tononi,recording-grouped,20260731,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260732,identity rule (CV),0.5598802395209581,0.5566756918437986
+Tononi,window-shuffled,20260732,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260732,"identity rule (CV), other recordings only",0.4296407185628742,0.42565346086150674
+Tononi,recording-grouped,20260732,identity rule (CV),0.3562874251497006,0.36385122635213407
+Tononi,recording-grouped,20260732,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260733,identity rule (CV),0.5508982035928144,0.5480044330563537
+Tononi,window-shuffled,20260733,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260733,"identity rule (CV), other recordings only",0.4251497005988024,0.42649148832432543
+Tononi,recording-grouped,20260733,identity rule (CV),0.40119760479041916,0.4270990452676604
+Tononi,recording-grouped,20260733,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260734,identity rule (CV),0.5643712574850299,0.5628560363220155
+Tononi,window-shuffled,20260734,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260734,"identity rule (CV), other recordings only",0.4491017964071856,0.4509509286250264
+Tononi,recording-grouped,20260734,identity rule (CV),0.38323353293413176,0.3860137417831122
+Tononi,recording-grouped,20260734,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260735,identity rule (CV),0.5538922155688623,0.5514028790660844
+Tononi,window-shuffled,20260735,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260735,"identity rule (CV), other recordings only",0.41467065868263475,0.4095440383691055
+Tononi,recording-grouped,20260735,identity rule (CV),0.4101796407185629,0.3942204287132034
+Tononi,recording-grouped,20260735,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260736,identity rule (CV),0.5568862275449101,0.5513926781953795
+Tononi,window-shuffled,20260736,majority class,0.43862275449101795,0.3333333333333333
+Tononi,window-shuffled,20260736,"identity rule (CV), other recordings only",0.43263473053892215,0.435669332724739
+Tononi,recording-grouped,20260736,identity rule (CV),0.39820359281437123,0.39779246242102967
+Tononi,recording-grouped,20260736,majority class,0.43862275449101795,0.3333333333333333

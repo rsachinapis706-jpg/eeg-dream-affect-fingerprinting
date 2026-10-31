@@ -1,0 +1,35 @@
+==============================================================================
+PROTOCOL FACTORIAL: partition x selection x oversampling, RF fixed
+==============================================================================
+windows 6144 | participants 34 | cells 12 | fold assignments 3
+evaluations to run: 36
+  20/36  (4.4 min)
+  36/36  (8.2 min)
+
+                                   acc_real         bal_real         acc_all         bal_all         synth_frac_test     
+                                       mean     std     mean     std    mean     std    mean     std            mean  std
+partition   selection oversampling                                                                                       
+participant before    before         0.3942  0.0053   0.3450  0.0082  0.3631  0.0108  0.3631  0.0108          0.2779  0.0
+                      none           0.4117  0.0005   0.3226  0.0007  0.4117  0.0005  0.3226  0.0007          0.0000  0.0
+            inside    none           0.4188  0.0046   0.3269  0.0040  0.4188  0.0046  0.3269  0.0040          0.0000  0.0
+            none      before         0.3843  0.0158   0.3302  0.0200  0.3434  0.0243  0.3434  0.0243          0.2779  0.0
+                      inside         0.3926  0.0017   0.3299  0.0028  0.3926  0.0017  0.3299  0.0028          0.0000  0.0
+                      none           0.4200  0.0051   0.3272  0.0035  0.4200  0.0051  0.3272  0.0035          0.0000  0.0
+window      before    before         0.6072  0.0014   0.6087  0.0004  0.6761  0.0032  0.6761  0.0032          0.2779  0.0
+                      none           0.5151  0.0047   0.4326  0.0048  0.5151  0.0047  0.4326  0.0048          0.0000  0.0
+            inside    none           0.5155  0.0059   0.4326  0.0062  0.5155  0.0059  0.4326  0.0062          0.0000  0.0
+            none      before         0.6567  0.0036   0.6516  0.0024  0.7169  0.0039  0.7169  0.0039          0.2779  0.0
+                      inside         0.5735  0.0023   0.5372  0.0003  0.5735  0.0023  0.5372  0.0003          0.0000  0.0
+                      none           0.5632  0.0054   0.4858  0.0055  0.5632  0.0054  0.4858  0.0055          0.0000  0.0
+
+                         effect                       a                         b  d_bal_mean  d_bal_sd  d_acc_mean  d_acc_sd  d_bal_ci_lo  d_bal_ci_hi  n_seeds
+     selection before vs inside participant/before/none   participant/inside/none     -0.0043    0.0039     -0.0072    0.0047      -0.0221       0.0050        3
+  oversampling before vs inside participant/none/before   participant/none/inside      0.0003    0.0209     -0.0084    0.0151      -0.0418      -0.0049        3
+     selection before vs inside      window/before/none        window/inside/none     -0.0000    0.0102     -0.0004    0.0103       0.0008       0.0220        3
+  oversampling before vs inside      window/none/before        window/none/inside      0.1145    0.0027      0.0832    0.0056       0.0934       0.1294        3
+window vs participant partition        window/none/none     participant/none/none      0.1586    0.0060      0.1431    0.0071       0.1046       0.2157        3
+window vs participant partition      window/none/inside   participant/none/inside      0.2073    0.0029      0.1808    0.0040       0.1477       0.2627        3
+window vs participant partition      window/none/before   participant/none/before      0.3215    0.0177      0.2724    0.0126       0.2810       0.3946        3
+window vs participant partition      window/inside/none   participant/inside/none      0.1057    0.0076      0.0966    0.0081       0.0686       0.1236        3
+window vs participant partition      window/before/none   participant/before/none      0.1100    0.0052      0.1034    0.0052       0.0850       0.1484        3
+window vs participant partition    window/before/before participant/before/before      0.2637    0.0080      0.2129    0.0057       0.2060       0.2994        3

@@ -1,0 +1,9 @@
+condition,rule,coverage,accuracy_on_kept,mean_set_size,singleton_rate
+DEED dream affect,PCD (alpha=0.05),0.0964,0.3412,,
+DEED dream affect,Max-softmax > 0.5,0.408,0.3897,,
+DEED dream affect,Entropy < 0.8,0.1353,0.3586,,
+DEED dream affect,Split conformal (alpha=0.05),0.0251,,2.842,0.0251
+Sleep-EDF staging,PCD (alpha=0.05),0.9712,0.7949,,
+Sleep-EDF staging,Max-softmax > 0.5,0.9748,0.7946,,
+Sleep-EDF staging,Entropy < 0.8,0.9553,0.8012,,
+Sleep-EDF staging,Split conformal (alpha=0.05),0.5003,,1.5297,0.5003

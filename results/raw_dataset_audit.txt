@@ -1,0 +1,32 @@
+==================================================================
+RAW EEG TENSORS FOR DreamFM
+==================================================================
+20s windows @ 200.0 Hz = 4000 samples
+preprocessing identical to the feature pipeline
+
+Sleep-EDF (pretraining + positive control):
+  sc4002e0: 2829 windows
+  sc4012e0: 2848 windows
+  sc4102e0: 2857 windows
+  sc4112e0: 2780 windows
+  st7022j0: 936 windows
+  st7052j0: 1043 windows
+  st7121j0: 1021 windows
+  st7132j0: 843 windows
+  -> (15157, 2, 4000)  subjects 8
+stage
+W      8035
+N2     3618
+REM    1608
+N3     1297
+N1      599
+
+DEED (target task):
+  -> (7418, 6, 4000)  subjects 34 segments 532
+
+amplitude check (should be ~0 mean, ~1 sd after z-norm):
+  DEED      mean -0.0000  sd 1.0000
+  Sleep-EDF mean +0.0000  sd 1.0000
+
+pretraining pool: 15157 windows (unlabelled use)
+target pool     : 7418 windows

@@ -1,0 +1,21 @@
+  150/533
+  300/533
+  450/533
+====================================================================
+FEATURE EXTRACTION (FILTERED)
+====================================================================
+bandpass 0.5-45 Hz | notch 50 Hz | artifact threshold 300.0 uV
+epochs kept      : 7418
+epochs rejected  : 72  by stage: {nan: 14, 'N1': 19, 'N2': 26, 'W': 11, 'REM': 2}
+segments kept    : 532 / 533
+subjects         : 34
+
+epochs by stage:
+stage
+N1     2746
+N2     2429
+W      1112
+REM     216
+N3       17
+
+skipped segments : 1

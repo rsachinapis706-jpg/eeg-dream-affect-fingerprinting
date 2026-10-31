@@ -1,0 +1,48 @@
+E:\Dream GAN\analysis\153_label_text.py:66: PerformanceWarning: indexing past lexsort depth may impact performance.
+  assert t.loc[(last, CFG[0])].p_within.min() >= 0.05
+E:\Dream GAN\analysis\153_label_text.py:67: PerformanceWarning: indexing past lexsort depth may impact performance.
+  assert t.loc[(last, CFG[1])].p_within.min() >= 0.05
+E:\Dream GAN\analysis\153_label_text.py:68: PerformanceWarning: indexing past lexsort depth may impact performance.
+  assert min(t.loc[(last, c)].p_within.min() for c in lr) < 0.05
+E:\Dream GAN\analysis\153_label_text.py:69: PerformanceWarning: indexing past lexsort depth may impact performance.
+  lo_ = min(t.loc[(last, c)].p_within.min() for c in lr)
+E:\Dream GAN\analysis\153_label_text.py:70: PerformanceWarning: indexing past lexsort depth may impact performance.
+  hi_ = max(t.loc[(last, c)].p_within.max() for c in lr)
+E:\Dream GAN\analysis\153_label_text.py:71: PerformanceWarning: indexing past lexsort depth may impact performance.
+  rf_min = min(t.loc[(last, c)].p_within.min() for c in CFG[:2])
+\subsubsection{Corroborated labels, the interval before awakening and the unit of prediction}
+
+Three further versions of the primary evaluation address how the labels were attached and what a prediction is of. First, it was repeated on the 351 valence recordings whose interval the ratings workbook corroborates (Section~\ref{sec:reporting}; 25 participants, 3{,}825 windows). Second, because one report labels a whole recording of variable length, it was repeated on the last minute before each awakening, the final three 20\,s windows of every recording (1{,}461 windows from all 492 recordings). Third, for all windows and for both subsets, balanced accuracy is reported at three units: over windows, which weights each recording by its length; over recordings, each predicted from the mean class probabilities of its windows, which scores the prediction of an awakening report; and over windows weighted inversely to each participant's window count, which gives every participant equal weight. Each is tested against the within-participant null with the sequential procedure of the primary evaluation, and Holm's procedure corrects across the four configurations (Table~\ref{tab:labelsens}).
+
+Neither the restriction to corroborated recordings nor the unit of prediction changes the result: on all windows and on the corroborated recordings no configuration is distinguishable from its null at any unit (smallest $p$ 0.1058). In the last minute before awakening the two logistic regressions score higher, 0.3767 and 0.3595 over windows, 0.3693 and 0.3527 over recordings and 0.3811 and 0.3562 with participants weighted equally, with uncorrected $p$ from 0.0170 to 0.0752; after Holm's correction across the four configurations the smallest is 0.0680, and the 36 tests of the table would call for a stronger correction still. The forests show no such tendency ($p \ge 0.12$). The pattern is the one this analysis was designed to detect, an association concentrated near the awakening and diluted when one report labels a whole recording, but at this cohort size it is not distinguishable from chance after correction, and it is reported as a hypothesis for a larger cohort, not as a finding.
+
+\begin{table*}[htbp]
+\centering
+\caption{The primary evaluation on corroborated labels and on the last minute before awakening, at three units. Balanced accuracy averaged over the 20 random participant partitions, with its sequential within-participant permutation $p$ in parentheses. Window: over windows. Recording: over recordings, each predicted from the mean of its windows' class probabilities. Participant-weighted: over windows weighted inversely to each participant's window count. Holm's correction across the four configurations leaves no $p$ below 0.05 (smallest 0.0680). Chance is 0.3333.}
+\label{tab:labelsens}
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+Data & Configuration & Window & Recording & Participant-weighted \\
+\midrule
+All windows & RF, unweighted (headline) & 0.3222 (1.0000) & 0.3280 (0.6061) & 0.3268 (0.5000) \\
+ & RF, scaled, balanced & 0.3242 (0.7692) & 0.3144 (0.9091) & 0.3320 (0.4878) \\
+ & LogReg, scaled, unweighted & 0.3238 (0.8696) & 0.3424 (0.1639) & 0.3284 (0.4762) \\
+ & LogReg, scaled, balanced & 0.3393 (0.4167) & 0.3385 (0.5882) & 0.3491 (0.2857) \\
+\midrule
+Corroborated recordings & RF, unweighted (headline) & 0.3065 (0.9091) & 0.3111 (0.8000) & 0.3012 (0.9524) \\
+ & RF, scaled, balanced & 0.3026 (0.8696) & 0.2984 (0.8696) & 0.2929 (1.0000) \\
+ & LogReg, scaled, unweighted & 0.3054 (0.6667) & 0.3009 (0.6897) & 0.3097 (0.5714) \\
+ & LogReg, scaled, balanced & 0.3365 (0.1058) & 0.3209 (0.2247) & 0.3363 (0.1869) \\
+\midrule
+Last 60\,s before awakening & RF, unweighted (headline) & 0.3446 (0.1575) & 0.3421 (0.2222) & 0.3462 (0.1266) \\
+ & RF, scaled, balanced & 0.3398 (0.4444) & 0.3457 (0.3226) & 0.3375 (0.6452) \\
+ & LogReg, scaled, unweighted & 0.3595 (0.0170) & 0.3527 (0.0633) & 0.3562 (0.0391) \\
+ & LogReg, scaled, balanced & 0.3767 (0.0170) & 0.3693 (0.0752) & 0.3811 (0.0200) \\
+\botrule
+\end{tabular}
+\normalsize
+\end{table*}
+
+

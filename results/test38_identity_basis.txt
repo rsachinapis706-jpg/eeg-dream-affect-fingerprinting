@@ -1,0 +1,30 @@
+==============================================================================
+DOES PARTICIPANT IDENTITY BEHAVE LIKE A STABLE TRAIT?
+==============================================================================
+windows 7418 | participants 34 | recordings 78
+participants with more than one session: 27 of 34
+chance for identity: 0.0294
+
+cross-session analysis restricted to the 27 multi-session participants (7043 windows, chance 0.0370)
+
+feature family              n   shuffled   rec-grouped   session held out
+------------------------------------------------------------------------------
+all features              108     0.8144        0.4862             0.5296
+amplitude-dependent        42     0.8253        0.4802             0.5270
+absolute power             36     0.8257        0.4830             0.5312
+log-variance                6     0.5634        0.2657             0.3119
+amplitude-normalised       48     0.6513        0.3625             0.4071
+relative power             36     0.6451        0.3690             0.4102
+spectral shape             12     0.5011        0.2099             0.2462
+aperiodic slope             6     0.4666        0.1558             0.1803
+Hjorth                     12     0.4970        0.2057             0.2385
+
+==============================================================================
+INTERPRETATION
+==============================================================================
+all features: 0.8144 shuffled -> 0.4862 recording-grouped -> 0.5296 session held out
+cross-session identity is 14.3 times chance (0.0370)
+
+Identity transfers strongly across recording sessions. That is
+consistent with a stable individual trait and supports, without
+proving, the anatomical reading.

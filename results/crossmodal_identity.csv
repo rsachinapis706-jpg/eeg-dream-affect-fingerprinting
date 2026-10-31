@@ -1,0 +1,7 @@
+modality,channels,features,acc_shuffled,acc_night_held_out,chance,participants,participants_multinight,epochs,n_seeds
+EEG (2 ch),2,30,0.7813,0.0887,0.05,20,19,5850,3
+EOG (1 ch),1,15,0.6031,0.0716,0.05,20,19,5850,3
+EMG (1 ch),1,15,0.3607,0.0955,0.05,20,19,5850,3
+Respiration (1 ch),1,15,0.5509,0.2094,0.05,20,19,5850,3
+Temperature (1 ch),1,15,0.6944,0.2261,0.05,20,19,5850,3
+ALL non-EEG,4,60,0.9728,0.3365,0.05,20,19,5850,3

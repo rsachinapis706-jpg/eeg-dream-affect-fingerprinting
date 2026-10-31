@@ -1,0 +1,5 @@
+corpus,grouping,seeds,distinct_partitions
+DEED,participant,10,2
+DEED,recording,10,10
+Tononi,participant,10,9
+Tononi,recording,10,10

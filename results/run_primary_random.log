@@ -1,0 +1,20 @@
+[    0.0 min] PRIMARY over 20 random partitions; H=20, B_MAX=1000; 8 workers; 0 rows already done
+[    9.1 min] observed RF, unweighted (headline)    mean 0.3222
+[    9.1 min] observed RF, scaled, balanced         mean 0.3242
+[    9.1 min] observed LogReg, scaled, unweighted   mean 0.3238
+[    9.1 min] observed LogReg, scaled, balanced     mean 0.3393
+[  159.1 min] w:RF, unweight k=16 n>=16 | w:RF, scaled,  k=16 n>=15 | w:LogReg, scal k=16 n>=13 | w:LogReg, scal k=16 n>=7 | f:RF, unweight k=16 n>=14 | f:RF, scaled,  k=16 n>=12 | f:LogReg, scal k=16 n>=11 | f:LogReg, scal k=16 n>=6
+[  510.3 min] w:RF, unweight k=20 n>=20 p=1.0000 | w:RF, scaled,  k=26 n>=20 p=0.7692 | w:LogReg, scal k=23 n>=20 p=0.8696 | w:LogReg, scal k=32 n>=12 | f:RF, unweight k=24 n>=20 p=0.8333 | f:RF, scaled,  k=29 n>=20 p=0.6897 | f:LogReg, scal k=30 n>=20 p=0.6667 | f:LogReg, scal k=32 n>=11
+[  538.4 min] w:RF, unweight k=20 n>=20 p=1.0000 | w:RF, scaled,  k=26 n>=20 p=0.7692 | w:LogReg, scal k=23 n>=20 p=0.8696 | w:LogReg, scal k=48 n>=20 p=0.4167 | f:RF, unweight k=24 n>=20 p=0.8333 | f:RF, scaled,  k=29 n>=20 p=0.6897 | f:LogReg, scal k=30 n>=20 p=0.6667 | f:LogReg, scal k=48 n>=15
+[  541.3 min] w:RF, unweight k=20 n>=20 p=1.0000 | w:RF, scaled,  k=26 n>=20 p=0.7692 | w:LogReg, scal k=23 n>=20 p=0.8696 | w:LogReg, scal k=48 n>=20 p=0.4167 | f:RF, unweight k=24 n>=20 p=0.8333 | f:RF, scaled,  k=29 n>=20 p=0.6897 | f:LogReg, scal k=30 n>=20 p=0.6667 | f:LogReg, scal k=64 n>=19
+[  544.3 min] w:RF, unweight k=20 n>=20 p=1.0000 | w:RF, scaled,  k=26 n>=20 p=0.7692 | w:LogReg, scal k=23 n>=20 p=0.8696 | w:LogReg, scal k=48 n>=20 p=0.4167 | f:RF, unweight k=24 n>=20 p=0.8333 | f:RF, scaled,  k=29 n>=20 p=0.6897 | f:LogReg, scal k=30 n>=20 p=0.6667 | f:LogReg, scal k=73 n>=20 p=0.2740
+[  544.3 min] permutation part finished
+[    0.0 min] NESTED selection on 20 random partitions, 8 workers
+[   44.2 min]                              statistic    bal  partition_sd  partition_min  partition_max  above_chance  partitions  participant_boot_lo  participant_boot_hi
+nested selection, mean over partitions 0.3274        0.0138         0.3053         0.3582             8          20               0.2961               0.3589
+[   44.2 min] chosen: LogReg, scaled, balanced 74, RF, scaled, balanced 14, RF, unweighted (headline) 10, LogReg, scaled, unweighted 2
+[    0.0 min] REFIT variability: 100 forest evaluations, 8 workers
+[   13.4 min]                            refit_sd_within_partition  partition_sd_within_seed
+config                                                                        
+RF, scaled, balanced                          0.0030                    0.0082
+RF, unweighted (headline)                     0.0021                    0.0043

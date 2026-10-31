@@ -1,0 +1,5 @@
+config,mean,sd,min,max,above_chance,partitions,distinct_partitions
+"RF, unweighted (headline)",0.3222,0.0056,0.3114,0.3351,1,20,20
+"RF, scaled, balanced",0.3242,0.0092,0.3055,0.3392,3,20,20
+"LogReg, scaled, unweighted",0.3238,0.0066,0.3145,0.3373,1,20,20
+"LogReg, scaled, balanced",0.3393,0.01,0.3234,0.36,14,20,20

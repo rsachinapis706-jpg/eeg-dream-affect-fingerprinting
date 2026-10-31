@@ -1,0 +1,35 @@
+==============================================================================
+PROTOCOL TABLE, CURRENT ENVIRONMENT, 10 SEEDS
+==============================================================================
+RandomForest(300, min_samples_leaf=2), 5-fold, features fixed.
+seeds 10 | cluster bootstrap 2000 over participants
+
+### Dream valence: 6144 windows, 34 participants, majority 0.4616
+held out                            accuracy           balanced accuracy
+------------------------------------------------------------------------------
+Random (window-shuffled)      0.5701 +/- 0.0028          0.4909 +/- 0.0035  [0.4457, 0.5453]
+Recording                     0.4335 +/- 0.0052          0.3535 +/- 0.0057  [0.3270, 0.3818]
+Participant                   0.4184 +/- 0.0021          0.3224 +/- 0.0017  [0.3044, 0.3356]
+
+### Sleep stage (W/N1/N2): 6287 windows, 34 participants, majority 0.4368
+held out                            accuracy           balanced accuracy
+------------------------------------------------------------------------------
+Random (window-shuffled)      0.5973 +/- 0.0030          0.5170 +/- 0.0030  [0.4536, 0.5763]
+Recording                     0.4807 +/- 0.0080          0.4094 +/- 0.0072  [0.3657, 0.4794]
+Participant                   0.4685 +/- 0.0030          0.3978 +/- 0.0030  [0.3576, 0.4318]
+
+==============================================================================
+COMPARISON WITH THE SUBMITTED VALUES (scikit-learn 1.4.1)
+==============================================================================
+held out                    submitted acc       now   submitted bal       now
+------------------------------------------------------------------------------
+Random (window-shuffled)           0.5732    0.5701          0.4942    0.4909
+Recording                          0.4243    0.4335          0.3484    0.3535
+Participant                        0.4025    0.4184          0.3070    0.3224
+
+The window-shuffled row reproduces exactly; the grouped rows move
+because StratifiedGroupKFold changed between versions. Conclusions
+are unchanged: participant-separated accuracy stays below the
+majority baseline and balanced accuracy stays at chance.
+
+Wrote E:\Dream GAN\analysis\out\protocol_table.csv

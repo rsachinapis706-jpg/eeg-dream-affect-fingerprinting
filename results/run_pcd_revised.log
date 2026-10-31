@@ -1,0 +1,37 @@
+==============================================================================
+PCD REVISED: upper-tail p-value, stated permutation scheme
+==============================================================================
+DEED 6144 windows | Sleep-EDF 183775 windows, 36 features | B = 100 null models per fold
+
+        condition                 rule  coverage  bal_retained  err_retained  set_size  set_coverage
+      DEED affect          PCD p<=0.05    0.0618        0.3177        0.6105       NaN           NaN
+      DEED affect      Max-softmax>0.5    0.4333        0.3268        0.6461       NaN           NaN
+      DEED affect          Entropy<0.9    0.3708        0.3334        0.6449       NaN           NaN
+      DEED affect Split conformal 0.05    0.0350           NaN           NaN    2.7101        0.9154
+      DEED affect           all inputs    1.0000        0.3263        0.6538       NaN           NaN
+Sleep-EDF staging          PCD p<=0.05    0.8601        0.8186        0.1546       NaN           NaN
+Sleep-EDF staging      Max-softmax>0.5    0.9702        0.7851        0.1902       NaN           NaN
+Sleep-EDF staging          Entropy<0.9    0.9835        0.7807        0.1944       NaN           NaN
+Sleep-EDF staging Split conformal 0.05    0.4930           NaN           NaN    1.5501        0.9582
+Sleep-EDF staging           all inputs    1.0000        0.7761        0.2009       NaN           NaN
+  [10.4 min]
+
+-- at the coverage PCD attains at alpha --
+  DEED affect: PCD coverage 0.0618; nearest grid point 0.05:
+     PCD          retained bal 0.3320 err 0.6059
+     Max-softmax  retained bal 0.2907 err 0.6612
+     Entropy      retained bal 0.2950 err 0.6580
+  Sleep-EDF staging: PCD coverage 0.8601; nearest grid point 0.85:
+     PCD          retained bal 0.8219 err 0.1511
+     Max-softmax  retained bal 0.8207 err 0.1493
+     Entropy      retained bal 0.8083 err 0.1482
+
+-- DEED with labels re-randomised within participant, 20 times (alpha 0.05) --
+  overall FPR mean 0.0498, range 0.0259-0.0864, 2.5-97.5% 0.0286-0.0805
+  per-participant FPR: mean 0.0446; worst participant median over reps 0.2286; share of participants above 0.1 0.103
+  [21.5 min]
+
+-- simulation under the null, 100 datasets (clustered, imbalanced, heteroscedastic) --
+  marginal FPR mean 0.0492 (2.5-97.5% 0.0355-0.0664); share of datasets above alpha 0.420
+  per-participant FPR 90th percentile, median over datasets 0.0960; share of participants above 0.1: 0.114
+  [22.7 min]

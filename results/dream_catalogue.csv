@@ -1,0 +1,15 @@
+set_id,participants,median_records,median_dominance,frac_over_70,dataset
+2,63,4.0,1.0,0.9206,Oudiette_N1Data
+4,3,3.0,1.0,1.0,TWC_USA
+15,10,5.0,1.0,1.0,Noreika_Motor_tDCS
+6,17,7.0,0.9167,1.0,REM_Turku
+20,1,28.0,0.8571,1.0,MEG Kyushu
+1,28,13.0,0.8462,0.6786,Zhang & Wamsley 2019
+8,16,5.0,0.775,0.6875,SCANDataset
+9,19,23.0,0.75,0.7368,Multiple awakenings
+17,23,7.0,0.75,0.6087,Aamodt_evening_sleep
+19,17,4.0,0.75,0.6471,"Kumral et al., 2023"
+3,26,8.0,0.7321,0.5385,LODE
+18,15,6.0,0.6667,0.4667,Aamodt_morning_sleep
+13,39,18.0,0.5714,0.1795,Tononi Serial Awakenings
+16,10,28.5,0.5292,0.2,DATA1

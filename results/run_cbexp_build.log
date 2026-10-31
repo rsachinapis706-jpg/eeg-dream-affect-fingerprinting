@@ -1,0 +1,14 @@
+==============================================================================
+CBRAMOD CONTROL ON SLEEP-EDF EXPANDED
+==============================================================================
+recordings found: 197
+  25/197 recordings -> 4299 windows
+  50/197 recordings -> 8570 windows
+  75/197 recordings -> 13052 windows
+  100/197 recordings -> 17507 windows
+  125/197 recordings -> 21985 windows
+  150/197 recordings -> 26485 windows
+  175/197 recordings -> 30675 windows
+  197/197 recordings -> 34163 windows
+wrote E:\Dream GAN\analysis\out\sleepedf_exp_raw.npy  shape (34163, 2, 4000)  (1.09 GB)
+participants 100 | stages {'N2': np.int64(11820), 'W': np.int64(11350), 'N1': np.int64(10993)}

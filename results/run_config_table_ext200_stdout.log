@@ -1,0 +1,27 @@
+==============================================================================
+TABLE 5 REBUILT: five configurations, both nulls, shared permutations
+==============================================================================
+windows 6144 | participants 34 | recordings 492
+single-assignment permutations 200; averaged-statistic permutations 100 over 10 fold assignments
+resuming: 1605 tasks already complete
+tasks to run: 400
+Traceback (most recent call last):
+  File "E:\Dream GAN\analysis\65_config_table.py", line 346, in <module>
+    main()
+  File "E:\Dream GAN\analysis\65_config_table.py", line 324, in main
+    for i, res in enumerate(gen, 1):
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\parallel.py", line 1682, in _get_outputs
+    yield from self._retrieve()
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\parallel.py", line 1784, in _retrieve
+    self._raise_error_fast()
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\parallel.py", line 1859, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\parallel.py", line 758, in get_result
+    return self._return_or_raise()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\parallel.py", line 773, in _return_or_raise
+    raise self._result
+joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+Detailed tracebacks of the workers should have been printed to stderr in the executor process if faulthandler was not disabled.

@@ -1,0 +1,55 @@
+============================================================================
+CHANNEL-DENSITY SWEEP -- DOES SPATIAL RESOLUTION LIMIT DECODABILITY?
+============================================================================
+montage electrodes 257 | farthest-point subset 64
+first 8 selected: ['Cz', '229', '94', '37', '160', '222', '72', '247']
+
+extracting 64-channel features (one pass)...
+  Part10-s09.zip     windows 26
+  Part11-s10.zip     windows 56
+  Part12-s11.zip     windows 92
+  Part13-s12.zip     windows 126
+  Part14-s13.zip     windows 161
+  Part15-s14.zip     windows 196
+  Part16-s15.zip     windows 231
+  Part17-s16.zip     windows 276
+  Part18-s17.zip     windows 318
+  Part19-s18.zip     windows 354
+  Part2-s01.zip      windows 390
+  Part3-s02.zip      windows 418
+  Part4-s03.zip      windows 438
+  Part5-s04.zip      windows 479
+  Part6-s05.zip      windows 515
+  Part7-s06.zip      windows 545
+  Part8-s07.zip      windows 557
+  Part9-s08.zip      windows 598
+windows 598 | participants 18
+chance 0.3333 | majority 0.4565
+
+ channels  features    model   random  subject  bal.subj
+----------------------------------------------------------------------------
+        6       108   logreg   0.4716   0.3746    0.3403
+        6       108       rf   0.6639   0.4548    0.3601
+       12       216   logreg   0.5518   0.3930    0.3409
+       12       216       rf   0.6739   0.4047    0.3215
+       24       432   logreg   0.6321   0.3428    0.3069
+       24       432       rf   0.7057   0.4381    0.3416
+       48       864   logreg   0.7274   0.3997    0.3466
+       48       864       rf   0.7408   0.4415    0.3466
+       64      1152   logreg   0.7575   0.4147    0.3575
+       64      1152       rf   0.7492   0.4365    0.3411
+
+============================================================================
+VERDICT
+============================================================================
+best subject-wise balanced accuracy : 0.3601 (6 channels, rf)
+same at 6 channels                  : 0.3601
+gain from added channels            : +0.0000
+chance                              : 0.3333
+
+No gain from spatial resolution. Performance is flat from 6 to 64
+channels and remains at chance throughout, so channel count is
+not the limiting factor and the six-channel result is not an
+artefact of low density.
+
+Wrote E:\Dream GAN\analysis\out\test26_channel_density.txt

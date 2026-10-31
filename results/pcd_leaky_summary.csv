@@ -1,0 +1,13 @@
+partition,rule,coverage_mean,coverage_min,coverage_max,bal_mean,bal_min,bal_max,n
+participant-separated,Entropy<0.9,0.2768,0.1947,0.3962,0.3331,0.2615,0.3943,100
+participant-separated,Max-softmax>0.5,0.3594,0.2785,0.4808,0.3351,0.2716,0.3993,100
+participant-separated,PCD alpha=0.01,0.0106,0.0024,0.0293,0.3196,0.0833,0.557,100
+participant-separated,PCD alpha=0.05,0.0512,0.0236,0.1082,0.332,0.2185,0.4776,100
+participant-separated,PCD alpha=0.10,0.102,0.0576,0.1803,0.3348,0.2345,0.4403,100
+participant-separated,all inputs,1.0,1.0,1.0,0.3354,0.2958,0.3738,100
+window-level,Entropy<0.9,0.2166,0.1232,0.3099,0.5556,0.4922,0.6309,100
+window-level,Max-softmax>0.5,0.3001,0.2025,0.3893,0.5491,0.5044,0.6152,100
+window-level,PCD alpha=0.01,0.0108,0.0036,0.0342,0.5447,0.325,0.7584,100
+window-level,PCD alpha=0.05,0.0526,0.0254,0.0964,0.5903,0.4501,0.7027,100
+window-level,PCD alpha=0.10,0.1032,0.0586,0.1626,0.5872,0.5012,0.6813,100
+window-level,all inputs,1.0,1.0,1.0,0.4614,0.4296,0.5008,100

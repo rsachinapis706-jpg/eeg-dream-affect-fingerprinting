@@ -1,0 +1,477 @@
+start Wed Oct 21 10:30:23 IST 2026
+== /c/Users/Sachin.R/AppData/Local/Programs/Python/Python312/python 77_pcd_revised.py Wed Oct 21 10:30:23 IST 2026
+==============================================================================
+PCD REVISED: upper-tail p-value, stated permutation scheme
+==============================================================================
+DEED 6144 windows | Sleep-EDF 183775 windows, 36 features | B = 100 null models per fold
+
+        condition                 rule  coverage  bal_retained  err_retained  set_size  set_coverage
+      DEED affect          PCD p<=0.05    0.0618        0.3177        0.6105       NaN           NaN
+      DEED affect      Max-softmax>0.5    0.4333        0.3268        0.6461       NaN           NaN
+      DEED affect          Entropy<0.9    0.3708        0.3334        0.6449       NaN           NaN
+      DEED affect Split conformal 0.05    0.0350           NaN           NaN    2.7101        0.9154
+      DEED affect           all inputs    1.0000        0.3263        0.6538       NaN           NaN
+Sleep-EDF staging          PCD p<=0.05    0.8601        0.8186        0.1546       NaN           NaN
+Sleep-EDF staging      Max-softmax>0.5    0.9702        0.7851        0.1902       NaN           NaN
+Sleep-EDF staging          Entropy<0.9    0.9835        0.7807        0.1944       NaN           NaN
+Sleep-EDF staging Split conformal 0.05    0.4930           NaN           NaN    1.5501        0.9582
+Sleep-EDF staging           all inputs    1.0000        0.7761        0.2009       NaN           NaN
+  [10.4 min]
+
+-- at the coverage PCD attains at alpha --
+  DEED affect: PCD coverage 0.0618; nearest grid point 0.05:
+     PCD          retained bal 0.3320 err 0.6059
+     Max-softmax  retained bal 0.2907 err 0.6612
+     Entropy      retained bal 0.2950 err 0.6580
+  Sleep-EDF staging: PCD coverage 0.8601; nearest grid point 0.85:
+     PCD          retained bal 0.8219 err 0.1511
+     Max-softmax  retained bal 0.8207 err 0.1493
+     Entropy      retained bal 0.8083 err 0.1482
+
+-- DEED with labels re-randomised within participant, 20 times (alpha 0.05) --
+  overall FPR mean 0.0498, range 0.0259-0.0864, 2.5-97.5% 0.0286-0.0805
+  per-participant FPR: mean 0.0446; worst participant median over reps 0.2286; share of participants above 0.1 0.103
+  [21.5 min]
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+E:\Dream GAN\analysis\77_pcd_revised.py:236: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  return g.groupby("subj").apply(lambda h: (h.p_pcd <= ALPHA).mean())
+
+-- simulation under the null, 100 datasets (clustered, imbalanced, heteroscedastic) --
+  marginal FPR mean 0.0492 (2.5-97.5% 0.0355-0.0664); share of datasets above alpha 0.420
+  per-participant FPR 90th percentile, median over datasets 0.0960; share of participants above 0.1: 0.114
+  [22.7 min]
+== /c/Users/Sachin.R/AppData/Local/Programs/Python/Python312/python 85_pcd_extra.py grid cbramod nulldep noise Wed Oct 21 10:53:15 IST 2026
+-- grid --
+        condition  participants  windows            rule  coverage  cov_lo  cov_hi  bal_retained  bal_lo  bal_hi
+      DEED affect            34     6144   PCD alpha=0.1    0.1144  0.0705  0.1628        0.3176  0.2509  0.4003
+      DEED affect            34     6144  PCD alpha=0.05    0.0618  0.0345  0.0927        0.3177  0.2376  0.4295
+      DEED affect            34     6144  PCD alpha=0.01    0.0156  0.0078  0.0257        0.2773  0.1577  0.4428
+      DEED affect            34     6144 Max-softmax>0.5    0.4333  0.3472  0.5276        0.3268  0.2808  0.3809
+      DEED affect            34     6144 Max-softmax>0.7    0.0861  0.0385  0.1432        0.3276  0.2582  0.4623
+      DEED affect            34     6144 Max-softmax>0.9    0.0106  0.0044  0.0171        0.3220  0.2000  0.6927
+      DEED affect            34     6144      all inputs    1.0000  1.0000  1.0000        0.3263  0.2930  0.3620
+Sleep-EDF staging           100   183775   PCD alpha=0.1    0.8876  0.8778  0.8976        0.8108  0.7943  0.8267
+Sleep-EDF staging           100   183775  PCD alpha=0.05    0.8601  0.8482  0.8721        0.8186  0.8024  0.8340
+Sleep-EDF staging           100   183775  PCD alpha=0.01    0.7561  0.7348  0.7786        0.8480  0.8325  0.8619
+Sleep-EDF staging           100   183775 Max-softmax>0.5    0.9702  0.9645  0.9751        0.7851  0.7686  0.8014
+Sleep-EDF staging           100   183775 Max-softmax>0.7    0.7257  0.7030  0.7492        0.8548  0.8385  0.8689
+Sleep-EDF staging           100   183775 Max-softmax>0.9    0.4259  0.3890  0.4653        0.8645  0.8277  0.8952
+Sleep-EDF staging           100   183775      all inputs    1.0000  1.0000  1.0000        0.7761  0.7593  0.7928
+  [0.1 min]
+-- cbramod --
+CBraMod embeddings: 6144 windows x 400 dims, 34 participants, 492 recordings
+                      condition                 rule  coverage  bal_retained  err_retained  set_size  set_coverage
+DEED affect, CBraMod embeddings          PCD p<=0.05    0.0594        0.3471        0.6411       NaN           NaN
+DEED affect, CBraMod embeddings      Max-softmax>0.5    0.6317        0.3495        0.6362       NaN           NaN
+DEED affect, CBraMod embeddings          Entropy<0.9    0.5871        0.3509        0.6332       NaN           NaN
+DEED affect, CBraMod embeddings Split conformal 0.05    0.0200           NaN           NaN    2.7604        0.9355
+DEED affect, CBraMod embeddings           all inputs    1.0000        0.3446        0.6406       NaN           NaN
+  [3.6 min]
+-- nulldep --
+  features          9: windows 46982 | bal 0.7351 | null mean margin 0.0892 | coverage 0.7888
+  features         18: windows 46982 | bal 0.7427 | null mean margin 0.1018 | coverage 0.7958
+  features         36: windows 46982 | bal 0.7577 | null mean margin 0.1174 | coverage 0.7943
+  participants     10: windows 11091 | bal 0.6717 | null mean margin 0.1626 | coverage 0.7965
+  participants     20: windows 23648 | bal 0.7505 | null mean margin 0.1082 | coverage 0.8314
+  participants     40: windows 46982 | bal 0.7577 | null mean margin 0.1174 | coverage 0.7943
+  capacity       0.01: windows 46982 | bal 0.7510 | null mean margin 0.1108 | coverage 0.7856
+  capacity        0.1: windows 46982 | bal 0.7577 | null mean margin 0.1174 | coverage 0.7943
+  capacity        1.0: windows 46982 | bal 0.7607 | null mean margin 0.1197 | coverage 0.7976
+  [11.7 min]
+-- noise --
+  eta 0 reproduces 77's Sleep-EDF p-values exactly: True
+  eta 0.0: bal 0.7761 | PCD coverage 0.8601 | max-softmax>0.5 0.9702
+  eta 0.2: bal 0.6680 | PCD coverage 0.7890 | max-softmax>0.5 0.8650
+  eta 0.4: bal 0.5804 | PCD coverage 0.7477 | max-softmax>0.5 0.6973
+  eta 0.6: bal 0.4983 | PCD coverage 0.7163 | max-softmax>0.5 0.4071
+  eta 0.8: bal 0.4180 | PCD coverage 0.6653 | max-softmax>0.5 0.0130
+  eta 1.0: bal 0.3325 | PCD coverage 0.0502 | max-softmax>0.5 0.0001
+  Spearman(balanced, coverage) 1.0000; Pearson 0.7944
+  [52.6 min]
+== /c/Users/Sachin.R/AppData/Local/Programs/Python/Python312/python 110_pcd_stratified.py deed deednull sims sleepedf Wed Oct 21 11:46:05 IST 2026
+[   0.0 min] ======================================================================
+[   0.0 min] STRATIFIED PCD  pieces ['deed', 'deednull', 'sims', 'sleepedf']  R_NULL 100  jobs 8
+[   0.0 min] DEED affect: running
+[   1.0 min]   check vs 77 (DEED affect): max |p diff| 0.00e+00; coverage 77 0.0618, here 0.0618
+[   1.6 min]   null rep 0: pooled 0.0607, participant 0.0648, input 0.0785
+[   2.2 min]   null rep 1: pooled 0.0391, participant 0.0381, input 0.0296
+[   2.9 min]   null rep 2: pooled 0.0386, participant 0.0409, input 0.0402
+[   3.6 min]   null rep 3: pooled 0.0316, participant 0.0355, input 0.0324
+[   4.3 min]   null rep 4: pooled 0.0527, participant 0.0506, input 0.0397
+[   5.0 min]   null rep 5: pooled 0.0485, participant 0.0542, input 0.0529
+[   5.7 min]   null rep 6: pooled 0.0509, participant 0.0492, input 0.0373
+[   6.4 min]   null rep 7: pooled 0.0739, participant 0.0695, input 0.0768
+[   7.1 min]   null rep 8: pooled 0.0539, participant 0.0581, input 0.0451
+[   7.8 min]   null rep 9: pooled 0.0864, participant 0.0825, input 0.0895
+[   8.5 min]   null rep 10: pooled 0.0490, participant 0.0640, input 0.0708
+[   9.2 min]   null rep 11: pooled 0.0454, participant 0.0368, input 0.0327
+[   9.9 min]   null rep 12: pooled 0.0444, participant 0.0503, input 0.0439
+[  10.6 min]   null rep 13: pooled 0.0405, participant 0.0534, input 0.0641
+[  11.3 min]   null rep 14: pooled 0.0581, participant 0.0618, input 0.0602
+[  12.0 min]   null rep 15: pooled 0.0680, participant 0.0581, input 0.0477
+[  12.6 min]   null rep 16: pooled 0.0361, participant 0.0394, input 0.0358
+[  13.2 min]   null rep 17: pooled 0.0259, participant 0.0260, input 0.0249
+[  13.9 min]   null rep 18: pooled 0.0516, participant 0.0526, input 0.0446
+[  14.5 min]   null rep 19: pooled 0.0405, participant 0.0373, input 0.0296
+[  15.1 min]   null rep 20: pooled 0.0422, participant 0.0436, input 0.0376
+[  15.7 min]   null rep 21: pooled 0.0531, participant 0.0480, input 0.0365
+[  16.3 min]   null rep 22: pooled 0.0410, participant 0.0462, input 0.0496
+[  17.0 min]   null rep 23: pooled 0.0290, participant 0.0363, input 0.0304
+[  17.6 min]   null rep 24: pooled 0.0322, participant 0.0317, input 0.0306
+[  18.3 min]   null rep 25: pooled 0.0405, participant 0.0480, input 0.0505
+[  18.9 min]   null rep 26: pooled 0.0412, participant 0.0439, input 0.0560
+[  19.6 min]   null rep 27: pooled 0.0552, participant 0.0592, input 0.0552
+[  20.3 min]   null rep 28: pooled 0.0509, participant 0.0542, input 0.0614
+[  20.9 min]   null rep 29: pooled 0.0474, participant 0.0439, input 0.0304
+[  21.6 min]   null rep 30: pooled 0.0397, participant 0.0451, input 0.0500
+[  22.3 min]   null rep 31: pooled 0.0374, participant 0.0394, input 0.0306
+[  23.0 min]   null rep 32: pooled 0.0452, participant 0.0374, input 0.0350
+[  23.7 min]   null rep 33: pooled 0.0553, participant 0.0627, input 0.0648
+[  24.4 min]   null rep 34: pooled 0.0410, participant 0.0399, input 0.0405
+[  25.1 min]   null rep 35: pooled 0.0641, participant 0.0645, input 0.0508
+[  25.7 min]   null rep 36: pooled 0.0516, participant 0.0529, input 0.0449
+[  26.4 min]   null rep 37: pooled 0.0457, participant 0.0382, input 0.0324
+[  27.0 min]   null rep 38: pooled 0.0386, participant 0.0417, input 0.0457
+[  27.7 min]   null rep 39: pooled 0.0422, participant 0.0430, input 0.0436
+[  28.3 min]   null rep 40: pooled 0.0758, participant 0.0879, input 0.0889
+[  28.9 min]   null rep 41: pooled 0.0459, participant 0.0409, input 0.0280
+[  29.6 min]   null rep 42: pooled 0.0535, participant 0.0550, input 0.0575
+[  30.2 min]   null rep 43: pooled 0.0568, participant 0.0550, input 0.0607
+[  30.9 min]   null rep 44: pooled 0.0540, participant 0.0443, input 0.0327
+[  31.5 min]   null rep 45: pooled 0.0638, participant 0.0535, input 0.0573
+[  32.2 min]   null rep 46: pooled 0.0417, participant 0.0423, input 0.0404
+[  32.9 min]   null rep 47: pooled 0.0592, participant 0.0558, input 0.0433
+[  33.5 min]   null rep 48: pooled 0.0296, participant 0.0339, input 0.0382
+[  34.2 min]   null rep 49: pooled 0.0615, participant 0.0653, input 0.0711
+[  34.8 min]   null rep 50: pooled 0.0674, participant 0.0690, input 0.0801
+[  35.5 min]   null rep 51: pooled 0.0601, participant 0.0452, input 0.0400
+[  36.2 min]   null rep 52: pooled 0.0428, participant 0.0373, input 0.0430
+[  36.8 min]   null rep 53: pooled 0.0355, participant 0.0301, input 0.0347
+[  37.5 min]   null rep 54: pooled 0.0413, participant 0.0480, input 0.0579
+[  38.1 min]   null rep 55: pooled 0.0519, participant 0.0550, input 0.0592
+[  38.7 min]   null rep 56: pooled 0.0558, participant 0.0601, input 0.0685
+[  39.3 min]   null rep 57: pooled 0.0524, participant 0.0522, input 0.0539
+[  40.0 min]   null rep 58: pooled 0.0462, participant 0.0547, input 0.0521
+[  40.6 min]   null rep 59: pooled 0.0490, participant 0.0545, input 0.0623
+[  41.3 min]   null rep 60: pooled 0.0589, participant 0.0651, input 0.0801
+[  41.9 min]   null rep 61: pooled 0.0661, participant 0.0636, input 0.0724
+[  42.6 min]   null rep 62: pooled 0.0571, participant 0.0571, input 0.0509
+[  43.2 min]   null rep 63: pooled 0.0506, participant 0.0495, input 0.0514
+[  43.9 min]   null rep 64: pooled 0.0358, participant 0.0361, input 0.0270
+[  44.6 min]   null rep 65: pooled 0.0503, participant 0.0563, input 0.0599
+[  45.2 min]   null rep 66: pooled 0.0498, participant 0.0521, input 0.0605
+[  45.9 min]   null rep 67: pooled 0.0799, participant 0.0775, input 0.0977
+[  46.6 min]   null rep 68: pooled 0.0545, participant 0.0470, input 0.0439
+[  47.4 min]   null rep 69: pooled 0.0576, participant 0.0547, input 0.0575
+[  48.3 min]   null rep 70: pooled 0.0312, participant 0.0350, input 0.0296
+[  49.2 min]   null rep 71: pooled 0.0588, participant 0.0584, input 0.0518
+[  49.9 min]   null rep 72: pooled 0.0410, participant 0.0452, input 0.0524
+[  50.5 min]   null rep 73: pooled 0.0363, participant 0.0387, input 0.0321
+[  51.1 min]   null rep 74: pooled 0.0601, participant 0.0571, input 0.0625
+[  51.6 min]   null rep 75: pooled 0.0591, participant 0.0524, input 0.0363
+[  52.2 min]   null rep 76: pooled 0.0627, participant 0.0651, input 0.0783
+[  52.9 min]   null rep 77: pooled 0.0355, participant 0.0332, input 0.0295
+[  53.5 min]   null rep 78: pooled 0.0448, participant 0.0457, input 0.0452
+[  54.2 min]   null rep 79: pooled 0.0498, participant 0.0545, input 0.0583
+[  54.8 min]   null rep 80: pooled 0.0392, participant 0.0409, input 0.0363
+[  55.4 min]   null rep 81: pooled 0.0796, participant 0.0915, input 0.1110
+[  56.0 min]   null rep 82: pooled 0.0521, participant 0.0431, input 0.0405
+[  56.7 min]   null rep 83: pooled 0.0322, participant 0.0399, input 0.0345
+[  57.3 min]   null rep 84: pooled 0.0369, participant 0.0373, input 0.0337
+[  57.9 min]   null rep 85: pooled 0.0609, participant 0.0604, input 0.0583
+[  58.6 min]   null rep 86: pooled 0.0794, participant 0.0614, input 0.0646
+[  59.2 min]   null rep 87: pooled 0.0562, participant 0.0553, input 0.0544
+[  59.8 min]   null rep 88: pooled 0.0575, participant 0.0584, input 0.0579
+[  60.4 min]   null rep 89: pooled 0.0413, participant 0.0397, input 0.0386
+[  60.9 min]   null rep 90: pooled 0.0566, participant 0.0448, input 0.0374
+[  61.5 min]   null rep 91: pooled 0.0532, participant 0.0560, input 0.0519
+[  62.1 min]   null rep 92: pooled 0.0337, participant 0.0412, input 0.0368
+[  62.7 min]   null rep 93: pooled 0.0501, participant 0.0474, input 0.0485
+[  63.4 min]   null rep 94: pooled 0.0618, participant 0.0506, input 0.0534
+[  63.9 min]   null rep 95: pooled 0.0430, participant 0.0430, input 0.0459
+[  64.6 min]   null rep 96: pooled 0.0451, participant 0.0425, input 0.0335
+[  65.2 min]   null rep 97: pooled 0.0552, participant 0.0539, input 0.0599
+[  65.9 min]   null rep 98: pooled 0.0706, participant 0.0671, input 0.0628
+[  66.4 min]   null rep 99: pooled 0.0537, participant 0.0496, input 0.0485
+[  66.4 min] DEED null, expected rate per participant over 100 reps:
+[  66.4 min] 
+    stratum  reps  marginal_rate  marginal_se  participant_expected_max  participant_expected_p90  participant_expected_median  n_participants_above_2alpha  n_participants_signif_above_alpha
+     pooled   100         0.0503       0.0012                    0.1191                    0.0769                       0.0390                            3                                  6
+  recording   100         0.0498       0.0013                    0.0573                    0.0562                       0.0506                            0                                  0
+participant   100         0.0505       0.0012                    0.0630                    0.0579                       0.0510                            0                                  1
+      input   100         0.0501       0.0017                    0.0586                    0.0570                       0.0523                            0                                  0
+[  66.4 min] sims: running
+[  68.0 min]   check vs 77 (sims): max |pooled rate diff| 9.71e-17
+[  68.0 min] simulations, median over datasets:
+[  68.0 min] 
+                fpr  part_fpr_mean  part_fpr_p90  part_frac_above_2alpha
+stratum                                                                 
+pooled       0.0481         0.0485        0.0960                  0.1000
+recording    0.0468         0.0466        0.0885                  0.0667
+participant  0.0487         0.0485        0.0769                  0.0333
+input        0.0339         0.0339        0.0778                  0.0667
+[  68.0 min] Sleep-EDF staging: running
+[  80.5 min]   check vs 77 (Sleep-EDF staging): max |p diff| 0.00e+00; coverage 77 0.8601, here 0.8601
+[  80.6 min] 
+        condition     stratum  alpha  coverage  bal_retained  part_cov_min  part_cov_median  part_cov_max
+      DEED affect      pooled   0.05    0.0618        0.3177        0.0000           0.0272        0.2554
+      DEED affect   recording   0.05    0.0588        0.3227        0.0000           0.0416        0.1917
+      DEED affect participant   0.05    0.0575        0.3090        0.0000           0.0390        0.1833
+      DEED affect       input   0.05    0.0656        0.3521        0.0000           0.0384        0.3199
+Sleep-EDF staging      pooled   0.05    0.8601        0.8186        0.6886           0.8724        0.9715
+Sleep-EDF staging   recording   0.05    0.8857        0.8113        0.5506           0.9010        0.9651
+Sleep-EDF staging participant   0.05    0.8831        0.8120        0.5552           0.9011        0.9651
+Sleep-EDF staging       input   0.05    0.9550        0.7901        0.8664           0.9619        0.9930
+== /c/Users/Sachin.R/AppData/Local/Programs/Python/Python312/python 103_pcd_riskcov_diff.py Wed Oct 21 13:06:53 IST 2026
+DEED affect: PCD-MSP min -0.0013 max +0.0413 (at 0.05); PCD-entropy max +0.0370; |PCD-MSP| max 0.0413
+Sleep-EDF staging: PCD-MSP min +0.0000 max +0.0657 (at 0.30); PCD-entropy max +0.0797; |PCD-MSP| max 0.0657
+== /c/Users/Sachin.R/AppData/Local/Programs/Python/Python312/python 104_pcd_riskcov_ci.py Wed Oct 21 13:06:57 IST 2026
+DEED affect done
+Sleep-EDF staging done
+        condition  coverage    pcd    msp  entropy  pcd_minus_msp  msp_lo  msp_hi  pcd_minus_entropy  ent_lo  ent_hi
+      DEED affect      0.05 0.3319 0.2906   0.2949         0.0413 -0.0563  0.0763             0.0370 -0.0610  0.0703
+      DEED affect      0.10 0.3261 0.3148   0.3163         0.0113 -0.0325  0.0397             0.0097 -0.0322  0.0395
+      DEED affect      0.15 0.3398 0.3288   0.3245         0.0109 -0.0322  0.0303             0.0153 -0.0318  0.0330
+      DEED affect      0.20 0.3310 0.3323   0.3310        -0.0013 -0.0257  0.0208            -0.0000 -0.0278  0.0199
+      DEED affect      0.25 0.3335 0.3228   0.3323         0.0107 -0.0184  0.0220             0.0012 -0.0246  0.0180
+      DEED affect      0.30 0.3349 0.3253   0.3404         0.0095 -0.0116  0.0229            -0.0055 -0.0219  0.0181
+      DEED affect      0.35 0.3305 0.3225   0.3349         0.0080 -0.0111  0.0200            -0.0044 -0.0214  0.0173
+      DEED affect      0.40 0.3283 0.3266   0.3337         0.0017 -0.0111  0.0167            -0.0054 -0.0179  0.0152
+      DEED affect      0.45 0.3271 0.3259   0.3256         0.0012 -0.0123  0.0143             0.0015 -0.0155  0.0149
+      DEED affect      0.50 0.3254 0.3261   0.3269        -0.0007 -0.0118  0.0119            -0.0015 -0.0132  0.0141
+      DEED affect      0.55 0.3290 0.3280   0.3286         0.0011 -0.0108  0.0120             0.0004 -0.0097  0.0166
+      DEED affect      0.60 0.3291 0.3304   0.3285        -0.0013 -0.0104  0.0132             0.0007 -0.0071  0.0197
+      DEED affect      0.65 0.3298 0.3258   0.3229         0.0040 -0.0059  0.0128             0.0069 -0.0033  0.0193
+      DEED affect      0.70 0.3294 0.3263   0.3212         0.0032 -0.0047  0.0106             0.0083 -0.0019  0.0166
+      DEED affect      0.75 0.3273 0.3269   0.3253         0.0004 -0.0076  0.0075             0.0020 -0.0057  0.0126
+      DEED affect      0.80 0.3279 0.3287   0.3277        -0.0009 -0.0084  0.0056             0.0002 -0.0080  0.0082
+      DEED affect      0.85 0.3285 0.3295   0.3298        -0.0010 -0.0068  0.0056            -0.0013 -0.0084  0.0059
+      DEED affect      0.90 0.3282 0.3273   0.3289         0.0009 -0.0034  0.0046            -0.0007 -0.0065  0.0037
+      DEED affect      0.95 0.3259 0.3271   0.3266        -0.0011 -0.0045  0.0017            -0.0007 -0.0038  0.0024
+      DEED affect      1.00 0.3263 0.3263   0.3263         0.0000  0.0000  0.0000             0.0000  0.0000  0.0000
+Sleep-EDF staging      0.05 0.6665 0.6662   0.6662         0.0003 -0.0000  0.0032             0.0003 -0.0000  0.0033
+Sleep-EDF staging      0.10 0.6728 0.6662   0.6662         0.0066 -0.0000  0.1031             0.0066 -0.0000  0.1031
+Sleep-EDF staging      0.15 0.6763 0.6662   0.6662         0.0101 -0.0000  0.0651             0.0101  0.0000  0.0669
+Sleep-EDF staging      0.20 0.7082 0.6866   0.6798         0.0216 -0.0016  0.0762             0.0284 -0.0001  0.0849
+Sleep-EDF staging      0.25 0.7641 0.7176   0.7091         0.0465  0.0108  0.0839             0.0550  0.0153  0.0991
+Sleep-EDF staging      0.30 0.8277 0.7620   0.7480         0.0658  0.0298  0.0966             0.0797  0.0415  0.1143
+Sleep-EDF staging      0.35 0.8667 0.8113   0.7871         0.0554  0.0298  0.0917             0.0795  0.0488  0.1124
+Sleep-EDF staging      0.40 0.8882 0.8511   0.8298         0.0371  0.0199  0.0647             0.0584  0.0368  0.0889
+Sleep-EDF staging      0.45 0.8965 0.8732   0.8552         0.0233  0.0115  0.0437             0.0413  0.0263  0.0667
+Sleep-EDF staging      0.50 0.8966 0.8816   0.8630         0.0150  0.0064  0.0275             0.0336  0.0209  0.0503
+Sleep-EDF staging      0.55 0.8930 0.8838   0.8675         0.0093  0.0033  0.0179             0.0255  0.0155  0.0398
+Sleep-EDF staging      0.60 0.8853 0.8804   0.8651         0.0049  0.0006  0.0114             0.0201  0.0118  0.0292
+Sleep-EDF staging      0.65 0.8748 0.8712   0.8584         0.0036  0.0001  0.0076             0.0164  0.0103  0.0240
+Sleep-EDF staging      0.70 0.8626 0.8610   0.8474         0.0017 -0.0014  0.0053             0.0153  0.0097  0.0215
+Sleep-EDF staging      0.75 0.8496 0.8484   0.8331         0.0011 -0.0010  0.0036             0.0165  0.0110  0.0213
+Sleep-EDF staging      0.80 0.8368 0.8350   0.8196         0.0018  0.0005  0.0032             0.0173  0.0129  0.0213
+Sleep-EDF staging      0.85 0.8219 0.8207   0.8083         0.0012  0.0001  0.0022             0.0136  0.0103  0.0169
+Sleep-EDF staging      0.90 0.8070 0.8064   0.7976         0.0005 -0.0001  0.0012             0.0094  0.0067  0.0121
+Sleep-EDF staging      0.95 0.7914 0.7912   0.7882         0.0002 -0.0004  0.0008             0.0032  0.0018  0.0051
+Sleep-EDF staging      1.00 0.7761 0.7761   0.7761         0.0000  0.0000  0.0000             0.0000  0.0000  0.0000
+== /c/Users/Sachin.R/AppData/Local/Programs/Python/Python312/python 109_pcd_deednull_summary.py Wed Oct 21 13:09:06 IST 2026
+                                             quantity   value
+                                    re-randomisations 20.0000
+                                   marginal rate mean  0.0498
+                                    marginal rate min  0.0259
+                                    marginal rate max  0.0864
+worst participant rate, median over re-randomisations  0.2286
+      share of participants above twice nominal, mean  0.1029
+EXIT 0 Wed Oct 21 13:09:13 IST 2026

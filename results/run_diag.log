@@ -1,0 +1,18 @@
+==========================================================================
+DIAGNOSTIC: does the stage tag describe the whole segment or the awakening?
+==========================================================================
+epochs available: 6343 | segments: 465 | subjects: 34
+permutations: 200  (labels shuffled within subject)
+
+seg_mean     n=465   bacc=0.4459  null=0.3811  delta=+0.0648  p=0.0100
+last1        n=465   bacc=0.3373  null=0.3547  delta=-0.0173  p=0.7463
+last3        n=465   bacc=0.3824  null=0.3676  delta=+0.0148  p=0.3134
+first3       n=465   bacc=0.4174  null=0.3752  delta=+0.0422  p=0.0647
+
+Interpretation:
+  last1/last3 >> seg_mean  -> tag describes the AWAKENING; segment
+                              averaging is invalid and must be dropped.
+  all roughly equal        -> tag is segment-wide; the weak control is a
+                              feature problem, not a labelling problem.
+
+Wrote E:\Dream GAN\analysis\out\test3_stage_diagnostic.txt

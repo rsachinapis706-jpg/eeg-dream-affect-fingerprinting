@@ -1,0 +1,20 @@
+segments 533 | positionally matched to a report 358 | with both listed times 358
+samples / listed interval: median 200.00, quartiles 200.00-200.00, within 1% of 200 Hz: 358 of 358
+segment length (s): median 213, range 16-1820
+stage tag in filename:
+stage
+N1      219
+N2      143
+W       103
+none     48
+REM      18
+N3        2
+stage tag x valence code (E1-E5 only):
+E      E1  E2  E3  E4  E5
+stage                    
+N1      7  38  97  58  10
+N2      0  22  72  24  10
+N3      0   1   0   1   0
+REM     1   4   7   5   0
+W       3  10  55  27   5
+none    0  10  13  13   0

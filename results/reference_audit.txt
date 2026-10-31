@@ -1,0 +1,55 @@
+BIBLIOGRAPHY VERIFICATION AGAINST THE REGISTERED DOI RECORD
+source: E:\Dream_Analysis\references.bib  (49 entries, 49 cited keys)
+
+liu2022deed                    MATCH      
+moctezuma2025unlocking         MATCH      
+mahmoudi2025emotion            MATCH      
+mojdehbar2026automatic         MATCH      
+pillalamarri2025review         MATCH      
+naidu2024emotion               MATCH      
+vishal2025single               MATCH      
+jiang2024large                 MATCH (arXiv page)
+wang2025cbramod                MATCH (proceedings page)
+xiao2026brainomni              MATCH      
+wang2025neurottt               MATCH      
+madhav2025eeg                  MATCH      
+wong2025dreamdata              MATCH      
+xu2026electroencephalography   MATCH      
+pei2021hybrid                  MATCH (publisher page) first author bib=pei registered=shao
+li2025osamamba                 MATCH      
+hu2026eegdtf                   MATCH      
+an2026enhancing                MATCH      
+liang2026generative            MATCH      
+zhuang2026attention            MATCH      
+lomoio2026bidirectional        MATCH      
+chow1970optimum                MATCH      
+geifman2017selective           MATCH (proceedings page)
+guo2017calibration             MATCH (proceedings page)
+vovk2005algorithmic            MATCH      
+angelopoulos2023gentle         MATCH      
+ojala2010permutation           MATCH (journal page)
+siclari2017neural              MATCH      
+kapoor2023leakage              MATCH      
+saeb2017need                   MATCH      
+varoquaux2018crossvalidation   MATCH      
+varoquaux2017assessing         MATCH      
+demuru2020eeg                  MATCH      
+kumari2015brainwave            MATCH      
+ambroise2002selection          MATCH      
+chawla2002smote                MATCH      
+roy2019deep                    MATCH      
+chicco2017ten                  MATCH      
+pandey2022subject              MATCH      
+siddiqui2026extraction         MATCH      
+valsalan2026secure             MATCH      
+siddiqui2026smart              MATCH      
+siddiqui2026early              MATCH (publisher page) volume bib=19 registered=1
+wong2025dream                  MATCH      
+kemp2000analysis               MATCH      
+pollard2026physionet           MATCH      
+hemerik2018exact               MATCH      
+phipson2010permutation         MATCH      
+winkler2015multilevel          MATCH      
+
+summary: MATCH 42, MATCH (arXiv page) 1, MATCH (proceedings page) 3, MATCH (publisher page) 2, MATCH (journal page) 1
+uncited entries: none

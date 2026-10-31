@@ -1,0 +1,63 @@
+====================================================================================
+LEAKAGE LADDER WITH RANDOMISED RECORDING-LEVEL LABELS
+====================================================================================
+overlap  0%: 6144 windows, 492 recordings, 34 participants
+overlap 90%: 58624 windows, 492 recordings, 34 participants
+conditions: real (1 seeds), within and free (2 repetitions each)
+
+repetitions to run: 5
+    real r0 rung 0 leaky: acc 0.4170 bal 0.3275 [22:22:48]
+    real r0 rung 0 sound: acc 0.4165 bal 0.3270 [22:23:11]
+    real r0 rung 1 leaky: acc 0.5562 bal 0.4828 [22:23:34]
+    real r0 rung 1 sound: acc 0.4165 bal 0.3270 [22:23:34]
+    real r0 rung 2 leaky: acc 0.8733 bal 0.8490 [22:26:45]
+    real r0 rung 5 leaky: acc 0.8940 bal 0.8940 [22:28:08]
+  1/5 repetitions  (5.7 min)
+    within r0 rung 0 leaky: acc 0.4743 bal 0.3458 [22:28:15]
+    within r0 rung 0 sound: acc 0.4743 bal 0.3458 [22:28:22]
+    within r0 rung 1 leaky: acc 0.5783 bal 0.4777 [22:28:28]
+    within r0 rung 1 sound: acc 0.4743 bal 0.3458 [22:28:28]
+    within r0 rung 2 leaky: acc 0.8843 bal 0.8565 [22:29:50]
+    within r0 rung 5 leaky: acc 0.9194 bal 0.9194 [22:31:14]
+  2/5 repetitions  (8.8 min)
+    free r0 rung 0 leaky: acc 0.4587 bal 0.3217 [22:31:20]
+    free r0 rung 0 sound: acc 0.4587 bal 0.3217 [22:31:23]
+    free r0 rung 1 leaky: acc 0.5924 bal 0.4577 [22:31:30]
+    free r0 rung 1 sound: acc 0.4587 bal 0.3217 [22:31:30]
+    free r0 rung 2 leaky: acc 0.9184 bal 0.8835 [22:33:05]
+    free r0 rung 5 leaky: acc 0.9425 bal 0.9425 [22:34:51]
+  3/5 repetitions  (12.5 min)
+    within r1 rung 0 leaky: acc 0.4663 bal 0.3525 [22:34:59]
+    within r1 rung 0 sound: acc 0.4663 bal 0.3525 [22:35:06]
+    within r1 rung 1 leaky: acc 0.5868 bal 0.4828 [22:35:13]
+    within r1 rung 1 sound: acc 0.4663 bal 0.3525 [22:35:13]
+    within r1 rung 2 leaky: acc 0.8891 bal 0.8546 [22:36:39]
+    within r1 rung 5 leaky: acc 0.9006 bal 0.9006 [22:38:04]
+  4/5 repetitions  (15.7 min)
+    free r1 rung 0 leaky: acc 0.4380 bal 0.3096 [22:38:11]
+    free r1 rung 0 sound: acc 0.4380 bal 0.3096 [22:38:18]
+    free r1 rung 1 leaky: acc 0.5853 bal 0.4505 [22:38:25]
+    free r1 rung 1 sound: acc 0.4380 bal 0.3096 [22:38:25]
+    free r1 rung 2 leaky: acc 0.9061 bal 0.8673 [22:39:52]
+    free r1 rung 5 leaky: acc 0.9381 bal 0.9381 [22:41:23]
+  5/5 repetitions  (19.0 min)
+
+  mode  rung column  n    acc  acc_sd    bal  bal_sd  acc_real  bal_real  acc_synth  synth_frac
+  free     0  leaky  2 0.4483  0.0146 0.3156  0.0085    0.4483    0.3156        NaN      0.0000
+  free     0  sound  2 0.4483  0.0146 0.3157  0.0086    0.4483    0.3157        NaN      0.0000
+  free     1  leaky  2 0.5889  0.0051 0.4541  0.0050    0.5889    0.4541        NaN      0.0000
+  free     1  sound  2 0.4483  0.0146 0.3157  0.0086    0.4483    0.3157        NaN      0.0000
+  free     2  leaky  2 0.9123  0.0086 0.8754  0.0115    0.9123    0.8754        NaN      0.0000
+  free     5  leaky  2 0.9403  0.0031 0.9403  0.0031    0.9245    0.9256     0.9682      0.3629
+  real     0  leaky  1 0.4170     NaN 0.3275     NaN    0.4170    0.3275        NaN      0.0000
+  real     0  sound  1 0.4165     NaN 0.3270     NaN    0.4165    0.3270        NaN      0.0000
+  real     1  leaky  1 0.5562     NaN 0.4828     NaN    0.5562    0.4828        NaN      0.0000
+  real     1  sound  1 0.4165     NaN 0.3270     NaN    0.4165    0.3270        NaN      0.0000
+  real     2  leaky  1 0.8733     NaN 0.8490     NaN    0.8733    0.8490        NaN      0.0000
+  real     5  leaky  1 0.8940     NaN 0.8940     NaN    0.8797    0.8731     0.9317      0.2757
+within     0  leaky  2 0.4703  0.0056 0.3492  0.0048    0.4703    0.3492        NaN      0.0000
+within     0  sound  2 0.4703  0.0056 0.3492  0.0048    0.4703    0.3492        NaN      0.0000
+within     1  leaky  2 0.5825  0.0060 0.4802  0.0036    0.5825    0.4802        NaN      0.0000
+within     1  sound  2 0.4703  0.0056 0.3492  0.0048    0.4703    0.3492        NaN      0.0000
+within     2  leaky  2 0.8867  0.0034 0.8556  0.0013    0.8867    0.8556        NaN      0.0000
+within     5  leaky  2 0.9100  0.0133 0.9100  0.0133    0.8922    0.8883     0.9467      0.3259

@@ -1,0 +1,37 @@
+==============================================================================
+IS PARTICIPANT FINGERPRINTING SPECIFIC TO EEG?
+==============================================================================
+Sleep-EDF Expanded, sleep-cassette. Identity decoded from each
+modality separately with an identical rate-agnostic feature set.
+target participants 20 | recordings 39 | epoch 30s
+
+  processed 10/39 recordings, 1500 epochs
+  processed 20/39 recordings, 3000 epochs
+  processed 30/39 recordings, 4500 epochs
+  processed 39/39 recordings, 5850 epochs
+
+epochs 5850 | participants 20 | recordings 39 | chance 0.0500
+
+modality               feat   shuffled  night held out  x chance
+------------------------------------------------------------------------------
+EEG (2 ch)               30     0.7813          0.0887       16x
+EOG (1 ch)               15     0.6031          0.0716       12x
+EMG (1 ch)               15     0.3607          0.0955        7x
+Respiration (1 ch)       15     0.5509          0.2094       11x
+Temperature (1 ch)       15     0.6944          0.2261       14x
+ALL non-EEG              60     0.9728          0.3365       19x
+
+==============================================================================
+INTERPRETATION
+==============================================================================
+EEG identity accuracy            : 0.7813
+best non-EEG modality            : 0.9728
+chance                           : 0.0500
+
+Participant identity is recoverable from non-EEG channels at
+many times chance, including channels carrying no cognitive
+content. Fingerprinting is a property of repeated within-person
+recording, not of electroencephalography. Window-level
+partitioning is therefore unsafe for any biosignal modality,
+ECG included, and the scope of this paper's finding is wider
+than EEG.

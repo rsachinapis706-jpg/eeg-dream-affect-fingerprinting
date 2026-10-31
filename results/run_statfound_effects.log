@@ -1,0 +1,19 @@
+-- B. within-participant effect sizes --
+within-participant, spectral   [within_subject.csv]   (n = 28 participants)
+  mean observed             : 0.3653
+  mean null                 : 0.3365
+  mean observed - null      : +0.0288
+  Cohen's d_z               : +0.2643
+  rank-biserial correlation : +0.2020
+  above / below own null    : 16 / 12
+  Wilcoxon p, one-sided (>) : 0.1810
+  Wilcoxon p, two-sided     : 0.3620
+within-participant, CBraMod frozen   [cbramod_within_subject.csv]   (n = 28 participants)
+  mean observed             : 0.3431
+  mean null                 : 0.3432
+  mean observed - null      : -0.0001
+  Cohen's d_z               : -0.0010
+  rank-biserial correlation : -0.0837
+  above / below own null    : 11 / 17
+  Wilcoxon p, one-sided (>) : 0.6526
+  Wilcoxon p, two-sided     : 0.7114

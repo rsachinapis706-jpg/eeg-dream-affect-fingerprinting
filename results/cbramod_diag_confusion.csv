@@ -1,0 +1,13 @@
+config,true,pred_neg,pred_neu,pred_pos
+published,neg,71,639,650
+published,neu,187,1337,1312
+published,pos,88,906,954
+scratch,neg,176,687,497
+scratch,neu,375,2042,419
+scratch,pos,189,1260,499
+revised,neg,804,242,314
+revised,neu,1482,714,640
+revised,pos,1178,357,413
+scratch_revised,neg,417,437,506
+scratch_revised,neu,981,849,1006
+scratch_revised,pos,600,619,729

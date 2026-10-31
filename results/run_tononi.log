@@ -1,0 +1,43 @@
+==========================================================================
+TONONI SERIAL AWAKENINGS -- INDEPENDENT TEST OF THE MECHANISM
+==========================================================================
+montage electrodes parsed : 257
+selected channels         : Fz=Chan 15, Cz=Chan Cz, Pz=Chan 101, Oz=Chan 126, C3=Chan 59, C4=Chan 183
+report rows               : 287  subjects 39
+
+EDF channels requested    : ['Chan 15', 'Chan 257', 'Chan 101', 'Chan 126', 'Chan 59', 'Chan 183']
+archives available        : 18
+
+  Part10-s09.zip     cumulative windows 47
+  Part11-s10.zip     cumulative windows 77
+  Part12-s11.zip     cumulative windows 113
+  Part13-s12.zip     cumulative windows 147
+  Part14-s13.zip     cumulative windows 183
+  Part15-s14.zip     cumulative windows 219
+  Part16-s15.zip     cumulative windows 255
+  Part17-s16.zip     cumulative windows 303
+  Part18-s17.zip     cumulative windows 345
+  Part19-s18.zip     cumulative windows 381
+  Part2-s01.zip      cumulative windows 417
+  Part3-s02.zip      cumulative windows 477
+  Part4-s03.zip      cumulative windows 492
+  Part5-s04.zip      cumulative windows 524
+  Part6-s05.zip      cumulative windows 560
+  Part7-s06.zip      cumulative windows 590
+  Part8-s07.zip      cumulative windows 626
+  Part9-s08.zip      cumulative windows 668
+
+windows      : 668
+subjects     : 18
+recordings   : 113
+windows/rec  : 5.9
+
+label distribution (1=dreaming, 2=without recall, 3=no experience):
+dreaming
+1    235
+2    140
+3    293
+
+within-subject label dominance: median 0.536 (DEED 0.750)
+subjects >70% one class      : 0.167 (DEED 0.38)
+

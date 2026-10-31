@@ -1,0 +1,31 @@
+quantity,value
+windows after rejection,7418.0
+recordings with windows,532.0
+participants,34.0
+E0 windows,1274.0
+E0 recordings,40.0
+E0 participants,10.0
+valence windows,6144.0
+valence recordings,492.0
+valence participants,34.0
+windows neu,2836.0
+windows neu share,0.4616
+windows pos,1948.0
+windows pos share,0.3171
+windows neg,1360.0
+windows neg share,0.2214
+recordings neu,243.0
+recordings neu share,0.4939
+recordings pos,153.0
+recordings pos share,0.311
+recordings neg,96.0
+recordings neg share,0.1951
+recordings per participant median,15.0
+recordings per participant min,1.0
+recordings per participant max,37.0
+windows per participant median,161.0
+windows per participant min,7.0
+windows per participant max,490.0
+participants with 3 classes,24.0
+participants with 2 classes,7.0
+participants with 1 classes,3.0

@@ -1,0 +1,46 @@
+==============================================================================
+CBRAMOD CONVERGENCE DIAGNOSTIC
+==============================================================================
+windows 34163 | participants 100 | device cuda
+budget 24 epochs, no early stopping, one fold
+decision rule fixed in advance: re-run the full comparison if
+validation balanced accuracy at epoch 8 is still more than
+0.005 above its value at epoch 5.
+
+ epoch   val balanced   test balanced
+------------------------------------------------------------------------------
+     1         0.7665          0.7535
+     2         0.8174          0.7836
+     3         0.8170          0.7937
+     4         0.8825          0.7885
+     5         0.8402          0.8047
+     6         0.8422          0.8029
+     7         0.8735          0.8040
+     8         0.9014          0.8012
+     9         0.8533          0.8025
+    10         0.8422          0.8030
+    11         0.8820          0.8099
+    12         0.8479          0.8074
+    13         0.9045          0.8083
+    14         0.8848          0.8070
+    15         0.8873          0.8103
+    16         0.8936          0.8112
+    17         0.8958          0.8132
+    18         0.8739          0.8055
+    19         0.8986          0.8111
+    20         0.8902          0.8115
+    21         0.8816          0.8066
+    22         0.8848          0.8106
+    23         0.8848          0.8013
+    24         0.8935          0.8084
+
+==============================================================================
+VERDICT
+==============================================================================
+validation balanced accuracy: epoch 5 0.8402, epoch 8 0.9014
+best validation epoch overall: 13 (0.9045)
+test balanced accuracy at the best validation epoch: 0.8083
+final epoch 24: val 0.8935, test 0.8084
+
+STILL RISING at the 8-epoch budget. The reported comparison used
+an under-trained model and must be re-run with a longer budget.

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "E:\Dream GAN\analysis\111_write_pcd_strat.py", line 261, in <module>
+    main()
+  File "E:\Dream GAN\analysis\111_write_pcd_strat.py", line 240, in main
+    swap("and the marginal guarantee it carries follows from standard exchangeability arguments \\cite{hemerik2018exact}.",
+  File "E:\Dream GAN\analysis\111_write_pcd_strat.py", line 234, in swap
+    assert t.count(new) == 1, new[:60]
+           ^^^^^^^^^^^^^^^^^
+AssertionError: and the guarantee it carries, on average over inputs or, wit

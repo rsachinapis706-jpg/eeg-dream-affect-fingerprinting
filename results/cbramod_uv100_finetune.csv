@@ -1,0 +1,4 @@
+input,seed,pooled_bal,bal_lo,bal_hi,constant_folds,chosen_epoch_median
+units of 100 uV,20260727,0.3449,0.2839,0.4155,4.0,3.0
+standardised,20260727,0.3517,0.3004,0.4017,8.0,4.0
+difference (100 uV minus standardised),20260727,-0.0067,-0.0971,0.0931,,

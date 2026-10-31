@@ -1,0 +1,4 @@
+config,observed,within_null_mean,within_null_p95,within_p,free_null_mean,free_null_p95,free_p,n_perm
+"LogReg, scaled, balanced weight",0.3783,0.3376,0.3693,0.01,0.333,0.3654,0.0233,300
+"LogReg, scaled, no weight",0.3537,0.3339,0.3552,0.0764,0.3335,0.3563,0.0731,300
+Dummy: stratified,0.3246,0.3315,0.3402,0.8911,0.332,0.3409,0.9109,100

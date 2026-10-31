@@ -1,0 +1,59 @@
+                                   n_assignments  n_p_below_005     p_min     p_max
+config                     null                                                    
+LogReg, scaled, balanced   free               10             10  0.039604  0.049505
+                           within             10              5  0.049505  0.059406
+LogReg, scaled, unweighted free               10              0  0.079208  0.089109
+                           within             10              0  0.099010  0.108911
+       statistic   full    min min_left_out  median    max max_left_out  n_above_chance  n
+first_assignment 0.3783 0.3360          005  0.3664 0.3903          022              34 34
+          mean10 0.3768 0.3409          015  0.3667 0.3903          022              34 34
+Process LokyProcess-4:
+Process LokyProcess-3:
+Process LokyProcess-2:
+Process LokyProcess-5:
+Process LokyProcess-8:
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\process_executor.py", line 477, in _process_worker
+    is_clean = worker_exit_lock.acquire(True, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+OSError: [WinError 6] The handle is invalid
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\process_executor.py", line 477, in _process_worker
+    is_clean = worker_exit_lock.acquire(True, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 6] The handle is invalid
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\process_executor.py", line 477, in _process_worker
+    is_clean = worker_exit_lock.acquire(True, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 6] The handle is invalid
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\process_executor.py", line 477, in _process_worker
+    is_clean = worker_exit_lock.acquire(True, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 6] The handle is invalid
+  File "C:\Users\Sachin.R\AppData\Local\Programs\Python\Python312\Lib\site-packages\joblib\externals\loky\process_executor.py", line 477, in _process_worker
+    is_clean = worker_exit_lock.acquire(True, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 6] The handle is invalid

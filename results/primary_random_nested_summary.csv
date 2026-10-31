@@ -1,0 +1,2 @@
+statistic,bal,partition_sd,partition_min,partition_max,above_chance,partitions,participant_boot_lo,participant_boot_hi
+"nested selection, mean over partitions",0.3274,0.0138,0.3053,0.3582,8,20,0.2961,0.3589

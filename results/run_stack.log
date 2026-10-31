@@ -1,0 +1,16 @@
+====================================================================================
+HOW HIGH CAN REPORTED ACCURACY BE DRIVEN WITHOUT ANY SIGNAL?
+====================================================================================
+LEAKY: operation fitted on all data, partition over windows.
+SOUND: same operations fitted inside the fold, participants separated.
+RandomForest(300) unless stated. 5-fold. Mean over 3 seeds.
+
+overlap  0% : 6144 windows, 108 features, majority 0.4616
+overlap 90% : 58624 windows, 108 features, majority 0.4602
+
+rung                              LEAKY acc      bal   SOUND acc      bal      gap
+------------------------------------------------------------------------------------
+0  honest baseline                   0.4208   0.3246      0.4208   0.3246  +0.0000   [28s]
+1  + window-shuffled CV              0.5658   0.4860      0.4208   0.3246  +0.1450   [104s]
+2  + 90% window overlap              0.8827   0.8595      0.4195   0.3323  +0.4632   [430s]
+3  + scaling on all data             0.8827   0.8595      0.4195   0.3323  +0.4632   [541s]

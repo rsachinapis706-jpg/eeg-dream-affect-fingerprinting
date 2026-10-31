@@ -1,0 +1,8 @@
+family,impurity,permutation,n_features,impurity_share,per_feature
+absolute band power,0.491007,0.088361,36,0.491007,0.013639
+relative band power,0.26823,-0.030328,36,0.26823,0.007451
+signal variance,0.065258,0.001475,6,0.065258,0.010876
+aperiodic (1/f) slope,0.059631,-0.003934,6,0.059631,0.009939
+Hjorth parameters,0.058109,-0.011148,12,0.058109,0.004842
+spectral edge freq.,0.033575,-0.004426,6,0.033575,0.005596
+spectral entropy,0.02419,-0.003279,6,0.02419,0.004032

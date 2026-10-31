@@ -1,0 +1,36 @@
+==============================================================================
+PCD COVERAGE DEPENDS ON THE REFERENCE NULL, NOT ONLY ON THE TASK
+==============================================================================
+Sleep-EDF staging throughout: one dataset, one task, one label set.
+alpha = 0.05, 30 null decoders per fold, 5-fold participant-separated
+
+-- varying the number of FEATURES (participants and capacity fixed) --
+  features   windows   bal acc   null mean margin   coverage
+------------------------------------------------------------------------------
+         9     46982    0.7731             0.0085     0.9819
+        18     46982    0.7926             0.0116     0.9761
+        36     46982    0.7953             0.0160     0.9731
+
+-- varying TRAINING SIZE (features and capacity fixed) --
+ participants   windows   bal acc   null mean margin   coverage
+------------------------------------------------------------------------------
+           10     11091    0.7336             0.0415     0.9502
+           20     23648    0.7810             0.0238     0.9637
+           40     46982    0.7953             0.0160     0.9731
+
+-- varying CAPACITY (regularisation C; data fixed) --
+         C   windows   bal acc   null mean margin   coverage
+------------------------------------------------------------------------------
+      0.01     46982    0.7931             0.0136     0.9745
+      0.10     46982    0.7953             0.0160     0.9731
+      1.00     46982    0.7942             0.0168     0.9721
+
+==============================================================================
+INTERPRETATION
+==============================================================================
+features       coverage 0.9731-0.9819  (spread 0.0089)   balanced accuracy 0.7731-0.7953  (spread 0.0222)
+participants   coverage 0.9502-0.9731  (spread 0.0228)   balanced accuracy 0.7336-0.7953  (spread 0.0618)
+capacity       coverage 0.9721-0.9745  (spread 0.0024)   balanced accuracy 0.7931-0.7953  (spread 0.0023)
+
+Report the measured spreads as they stand; where coverage tracks
+achieved accuracy the two cannot be separated by this design.

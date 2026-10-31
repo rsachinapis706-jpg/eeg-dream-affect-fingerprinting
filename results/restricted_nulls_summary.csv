@@ -1,0 +1,5 @@
+config,observed_mean,night_k,night_p,night_null_mean,night_block_k,night_block_p,night_block_null_mean,night_p_holm,night_block_p_holm
+"RF, unweighted (headline)",0.3222,26,0.7692,0.3264,31,0.6452,0.3254,1.0,1.0
+"RF, scaled, balanced",0.3242,41,0.4878,0.3253,55,0.3636,0.3207,1.0,1.0
+"LogReg, scaled, unweighted",0.3238,31,0.6452,0.3284,53,0.3774,0.3202,1.0,1.0
+"LogReg, scaled, balanced",0.3393,57,0.3509,0.334,99,0.202,0.3257,1.0,0.8081

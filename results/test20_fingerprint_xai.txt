@@ -1,0 +1,64 @@
+==========================================================================
+WHAT MAKES AN EEG WINDOW IDENTIFY ITS SUBJECT?
+==========================================================================
+windows 6144 | subjects 34 | features 108
+target: subject identity (34-way). Attribution is NOT run on the
+dream-affect model, which performs at chance.
+
+held-out subject-identity accuracy (recording-grouped): 0.6975  (chance 0.0294)
+
+computing permutation importance on held-out data...
+
+-- importance by feature family --
+family                       n   impurity share   perm. importance
+--------------------------------------------------------------------------
+absolute band power         36           0.4910            0.08836
+relative band power         36           0.2682           -0.03033
+signal variance              6           0.0653            0.00148
+aperiodic (1/f) slope        6           0.0596           -0.00393
+Hjorth parameters           12           0.0581           -0.01115
+spectral edge freq.          6           0.0336           -0.00443
+spectral entropy             6           0.0242           -0.00328
+
+-- per-feature importance (controls for family size) --
+absolute band power            0.01364
+signal variance                0.01088
+aperiodic (1/f) slope          0.00994
+relative band power            0.00745
+spectral edge freq.            0.00560
+Hjorth parameters              0.00484
+spectral entropy               0.00403
+
+-- the physiological contrast --
+absolute band power (anatomy/impedance dependent) : 0.4910
+relative band power (normalises anatomy away)     : 0.2682
+aperiodic 1/f slope (individual, trait-like)      : 0.0596
+absolute + aperiodic combined                     : 0.5506
+ratio absolute:relative                           : 1.83x
+
+-- top 15 individual features --
+  ch1_beta_abs          absolute band power     0.03196
+  ch0_beta_abs          absolute band power     0.03077
+  ch0_sigma_abs         absolute band power     0.02766
+  ch1_sigma_abs         absolute band power     0.02574
+  ch1_gamma_abs         absolute band power     0.02092
+  ch1_gamma_rel         relative band power     0.01984
+  ch1_logvar            signal variance         0.01958
+  ch1_theta_abs         absolute band power     0.01850
+  ch1_alpha_abs         absolute band power     0.01847
+  ch2_alpha_abs         absolute band power     0.01649
+  ch0_alpha_abs         absolute band power     0.01641
+  ch4_alpha_abs         absolute band power     0.01602
+  ch5_alpha_abs         absolute band power     0.01590
+  ch5_theta_abs         absolute band power     0.01549
+  ch0_logvar            signal variance         0.01481
+
+>> Identity is carried mainly by ABSOLUTE power and the aperiodic
+>> slope -- quantities determined by skull thickness, electrode
+>> impedance and individual anatomy, and largely stable within a
+>> person across recordings. Relative band power, which normalises
+>> those away, contributes less. Any protocol that places the same
+>> subject in train and test can therefore recover identity, and
+>> where per-subject label distributions are skewed, identity alone
+>> predicts the label.
+wrote fig7_fingerprint_xai

@@ -1,0 +1,48 @@
+==========================================================================
+PREVALENCE OF THE MECHANISM'S PRECONDITIONS ACROSS THE DREAM DATABASE
+==========================================================================
+records 3129 | datasets 20 | participants 263
+
+-- Repeated records per participant --
+median records per participant : 4
+maximum                        : 36
+participants with >1 record    : 0.614
+
+Where a participant contributes more than one record, a partition
+formed over windows or records can place that participant on both
+sides, which is the condition under which identity becomes usable.
+
+-- Label concentration (participants with >= 3 records) --
+participants analysed          : 287
+median majority-class share    : 0.750
+share of participants >70\% one class : 0.655
+share of participants at 100\% one class: 0.307
+participants with only one class observed: 88 of 287
+
+-- Per dataset --
+dataset                         part.  med.rec  med.dom    >70%
+--------------------------------------------------------------------------
+Oudiette_N1Data                    63        4    1.000    0.92
+TWC_USA                             3        3    1.000    1.00
+Noreika_Motor_tDCS                 10        5    1.000    1.00
+REM_Turku                          17        7    0.917    1.00
+MEG Kyushu                          1       28    0.857    1.00
+Zhang & Wamsley 2019               28       13    0.846    0.68
+SCANDataset                        16        5    0.775    0.69
+Multiple awakenings                19       23    0.750    0.74
+Aamodt_evening_sleep               23        7    0.750    0.61
+Kumral et al., 2023                17        4    0.750    0.65
+LODE                               26        8    0.732    0.54
+Aamodt_morning_sleep               15        6    0.667    0.47
+Tononi Serial Awakenings           39       18    0.571    0.18
+DATA1                              10       28    0.529    0.20
+
+datasets whose median participant exceeds 70% in one class: 11 of 14
+
+Interpretation: ingredient (ii) of the mechanism is not specific to
+DEED. In most catalogued dream datasets the typical participant's
+reports are concentrated in a single category, so participant identity
+would be predictive of the label wherever identity is recoverable.
+This does not establish that those datasets yield inflated results,
+which would require access to the signals and a replication of each
+study's protocol. It establishes that the precondition is common.

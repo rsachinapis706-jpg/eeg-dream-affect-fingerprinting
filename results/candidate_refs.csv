@@ -1,0 +1,19 @@
+query,topic,status,similarity,doi,title,year,venue
+Leakage and the reproducibility crisis in machine-learning-based science,leakage,FOUND,1.0,10.1016/j.patter.2023.100804,Leakage and the reproducibility crisis in machine-learning-based science,2023,Patterns
+The need to approximate the use-case in clinical machine learning,subject-wise,FOUND,1.0,10.1093/gigascience/gix019,The need to approximate the use-case in clinical machine learning,2017,GigaScience
+Cross-validation failure: small sample sizes lead to large error bars,cross-validation,FOUND,1.0,10.1016/j.neuroimage.2017.06.061,Cross-validation failure: Small sample sizes lead to large error bars,2018,NeuroImage
+Leakage in data mining formulation detection and avoidance,leakage,NOT FOUND,0.55,,,,
+Assessing and tuning brain decoders cross-validation caveats and guidelines,cross-validation,FOUND,0.98,10.1016/j.neuroimage.2016.10.038,"Assessing and tuning brain decoders: Cross-validation, caveats, and guidelines",2017,NeuroImage
+Brain waves based user identification system a pilot study,eeg-biometrics,FOUND,0.81,10.1016/j.robot.2014.11.015,Brainwave based user identification system: A pilot study in robotics environment,2015,Robotics and Autonomous Systems
+EEG biometrics for individual recognition in resting state with closed eyes,eeg-biometrics,NOT FOUND,0.43,,,,
+EEG fingerprints subject specific signature based on the aperiodic component of power spectrum,eeg-biometrics,FOUND,0.96,10.1016/j.compbiomed.2020.103748,EEG fingerprinting: Subject-specific signature based on the aperiodic component of power spectrum,2020,Computers in Biology and Medicine
+On the vulnerability of machine learning models to biased data splits,leakage,NOT FOUND,0.6,,,,
+Deep learning based electroencephalography analysis a systematic review,eeg-review,FOUND,0.98,10.1088/1741-2552/ab260c,Deep learning-based electroencephalography analysis: a systematic review,2019,Journal of Neural Engineering
+Machine learning for neuroimaging with scikit-learn,cross-validation,NOT FOUND,0.67,,,,
+Individual differences in the resting state EEG a functional connectome fingerprint,eeg-biometrics,NOT FOUND,0.7,,,,
+Subject independent emotion recognition from EEG signals using deep learning,subject-wise,FOUND,0.89,10.1016/j.jksuci.2019.11.003,Subject independent emotion recognition from EEG using VMD and deep learning,2022,Journal of King Saud University - Computer and Information Sciences
+Reproducibility of machine learning in health research,leakage,NOT FOUND,0.67,,,,
+SMOTE synthetic minority over-sampling technique,resampling,FOUND,0.99,10.1613/jair.953,SMOTE: Synthetic Minority Over-sampling Technique,2002,Journal of Artificial Intelligence Research
+The dangers of oversampling before cross validation,resampling,NOT FOUND,0.59,,,,
+Selection bias in gene extraction on the basis of microarray gene expression data,feature-selection,FOUND,0.99,10.1073/pnas.102102699,Selection bias in gene extraction on the basis of microarray gene-expression data,2002,Proceedings of the National Academy of Sciences
+Ten quick tips for machine learning in computational biology,leakage,FOUND,1.0,10.1186/s13040-017-0155-3,Ten quick tips for machine learning in computational biology,2017,BioData Mining

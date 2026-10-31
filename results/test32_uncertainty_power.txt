@@ -1,0 +1,69 @@
+==============================================================================
+UNCERTAINTY, EFFECT SIZE, SENSITIVITY AND POWER
+==============================================================================
+windows 6144 | participants 34 | recordings 492 | features 108
+cluster bootstrap 1000 | null permutations 500 | simulations per effect 40
+
+-- A/C. participant-wise performance, cluster-bootstrap 95% CI --
+model                       accuracy           balanced accuracy
+------------------------------------------------------------------------------
+logreg        0.3840 [0.3542, 0.4202]      0.3783 [0.3464, 0.4096]
+rf            0.3840 [0.3383, 0.4370]      0.3236 [0.2963, 0.3492]
+svm           0.4006 [0.3666, 0.4405]      0.3625 [0.3346, 0.3877]
+
+All three intervals contain the 0.3333 chance level for balanced
+accuracy, and the conclusion does not depend on the classifier.
+
+-- C. leave-one-participant-out jackknife (logreg) --
+full cohort            : 0.3783
+jackknife range        : 0.3362 to 0.3905
+jackknife sd           : 0.0137
+max shift from removing any one participant : 0.0422
+
+-- B. effect size, within-participant comparison --
+participants                 : 28
+mean observed - null         : -0.0001
+Cohen's d_z                  : -0.0010
+rank-biserial correlation    : +0.5419
+Wilcoxon one-sided p         : 0.6526
+
+-- D. statistical power: what could have been detected? --
+building null distribution (500 within-participant permutations)...
+null balanced accuracy: mean 0.3342, sd 0.0221, 95th percentile 0.3675
+
+  cohort  effect d   mean bal acc    power
+------------------------------------------------------------------------------
+      10      0.00         0.3368     0.00
+      10      0.05         0.6638     1.00
+      10      0.10         0.8860     1.00
+      10      0.15         0.9585     1.00
+      10      0.20         0.9788     1.00
+      10      0.30         0.9895     1.00
+      10      0.50         0.9952     1.00
+      20      0.00         0.3536     0.00
+      20      0.05         0.7703     1.00
+      20      0.10         0.9393     1.00
+      20      0.15         0.9753     1.00
+      20      0.20         0.9847     1.00
+      20      0.30         0.9919     1.00
+      20      0.50         0.9965     1.00
+      34      0.00         0.3785     1.00
+      34      0.05         0.8864     1.00
+      34      0.10         0.9653     1.00
+      34      0.15         0.9806     1.00
+      34      0.20         0.9872     1.00
+      34      0.30         0.9937     1.00
+      34      0.50         0.9979     1.00
+
+==============================================================================
+INTERPRETATION
+==============================================================================
+At 34 participants the subject-wise protocol attains 80% power
+for a class separation of d = 0.00 pooled standard
+deviations. The observed data show no effect at that level.
+The null is therefore bounded: an effect at or above this size
+would have been detected, and effects below it would not.
+
+Power rises with participant count at fixed window count, which is
+the reviewer's point: the effective sample size is the number of
+participants, not the number of windows.

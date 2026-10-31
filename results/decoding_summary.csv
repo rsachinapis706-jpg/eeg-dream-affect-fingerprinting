@@ -1,0 +1,5 @@
+name,n,bacc,majority,null_mean,p
+POSITIVE CONTROL: sleep stage (W/N1/N2),465,0.373,0.471,0.3285,0.0597
+TARGET A: pre-sleep FILM valence (objective),532,0.299,0.3628,0.3369,0.7463
+TARGET B: reported DREAM valence (subjective),492,0.343,0.4939,0.3346,0.3582
+TARGET B (stage-controlled: N1+N2 only),338,0.3594,0.5,0.3356,0.194

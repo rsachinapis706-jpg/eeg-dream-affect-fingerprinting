@@ -1,0 +1,4 @@
+windows,grouping,n_groups,accuracy
+"all 7,418 windows (Table 9)",night (oid),78,0.4862
+"all 7,418 windows (Table 9)",recording (segment_id),532,0.7477
+"6,144 valence windows (Table 8)",recording (segment_id),492,0.7321

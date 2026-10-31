@@ -1,0 +1,61 @@
+========================================================================
+W/N1/N2 -- comparable with all prior results
+========================================================================
+windows 183775 | subjects 100 | classes ['W', 'N1', 'N2']
+majority baseline 0.4835 | chance 0.3333
+
+    ...20/100 subjects
+    ...40/100 subjects
+    ...60/100 subjects
+    ...80/100 subjects
+    ...100/100 subjects
+logreg   accuracy 0.8007 [0.7807, 0.8215] | balanced 0.7748 [0.7595, 0.7916] | kappa 0.6859 | macroF1 0.7467
+confusion (rows=true), labels ['N1', 'N2', 'W']
+[[17183  4527  3419]
+ [15261 72033  1553]
+ [11306   562 57931]]
+    ...20/100 subjects
+    ...40/100 subjects
+    ...60/100 subjects
+    ...80/100 subjects
+    ...100/100 subjects
+rf       accuracy 0.8234 [0.8057, 0.8399] | balanced 0.7719 [0.7579, 0.7853] | kappa 0.7149 | macroF1 0.7576
+
+reference: 8-subject control 0.8831 balanced | CBraMod 0.8217
+
+========================================================================
+5-class -- standard sleep-staging benchmark
+========================================================================
+windows 237370 | subjects 100 | classes ['W', 'N1', 'N2', 'N3', 'REM']
+majority baseline 0.3743 | chance 0.2000
+
+    ...20/100 subjects
+    ...40/100 subjects
+    ...60/100 subjects
+    ...80/100 subjects
+    ...100/100 subjects
+logreg   accuracy 0.7129 [0.6925, 0.7327] | balanced 0.7039 [0.6877, 0.7198] | kappa 0.6238 | macroF1 0.6680
+confusion (rows=true), labels ['N1', 'N2', 'N3', 'REM', 'W']
+[[11403  3755   359  6304  3308]
+ [ 8823 60412  9507  8771  1334]
+ [   94  1672 17424    58   195]
+ [ 7446  2471   290 22965   980]
+ [ 9527   268   562  2419 57023]]
+    ...20/100 subjects
+    ...40/100 subjects
+    ...60/100 subjects
+    ...80/100 subjects
+    ...100/100 subjects
+rf       accuracy 0.7310 [0.7125, 0.7478] | balanced 0.6932 [0.6761, 0.7086] | kappa 0.6412 | macroF1 0.6745
+
+reference: SIMSleepSM (Sleep Research 2026) reports 0.862 accuracy on Sleep-EDF-78
+
+========================================================================
+8 SUBJECTS vs 100 SUBJECTS
+========================================================================
+                                8 subj    100 subj
+recordings                           8         197
+windows                          15140      183775
+balanced accuracy               0.8831      0.7748
+95% CI                             n/a[0.760,0.792]
+Wrote E:\Dream GAN\analysis\out\test18_expanded_control.txt

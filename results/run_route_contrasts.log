@@ -1,0 +1,19 @@
+[   0.0 min] forest runs: 60, 4 workers x 3 threads
+[   9.3 min] reproduce ('DEED', 'window-shuffled'): stored 0.4909 regenerated 0.4909
+[   9.3 min] reproduce ('DEED', 'recording-grouped'): stored 0.3535 regenerated 0.3535
+[   9.3 min] reproduce ('DEED', 'participant-separated'): stored 0.3224 regenerated 0.3224
+[   9.3 min] reproduce ('Tononi', 'window-shuffled'): stored 0.6034 regenerated 0.6034
+[   9.3 min] reproduce ('Tononi', 'recording-grouped'): stored 0.3262 regenerated 0.3262
+[   9.3 min] reproduce ('Tononi', 'participant-separated'): stored 0.3381 regenerated 0.3381
+[   9.3 min] 
+dataset                                               contrast  estimate      lo     hi  share_boot_below_zero  expected_if_independent
+   DEED       window-shuffled minus recording-grouped (forest)    0.1374  0.0799 0.1942                 0.0000                      NaN
+   DEED recording-grouped minus participant-separated (forest)    0.0311  0.0025 0.0606                 0.0170                      NaN
+   DEED   window-shuffled minus participant-separated (forest)    0.1685  0.1189 0.2234                 0.0000                      NaN
+   DEED            forest minus identity rule, window-shuffled   -0.0006 -0.0506 0.0631                 0.4630                      NaN
+   DEED     agreement forest vs identity rule, window-shuffled    0.6090  0.5998 0.6167                    NaN                   0.4573
+ Tononi       window-shuffled minus recording-grouped (forest)    0.2771  0.2138 0.3360                 0.0000                      NaN
+ Tononi recording-grouped minus participant-separated (forest)   -0.0119 -0.0768 0.0593                 0.6920                      NaN
+ Tononi   window-shuffled minus participant-separated (forest)    0.2652  0.1853 0.3386                 0.0000                      NaN
+ Tononi            forest minus identity rule, window-shuffled    0.0442 -0.0038 0.1267                 0.0395                      NaN
+ Tononi     agreement forest vs identity rule, window-shuffled    0.5979  0.5719 0.6123                    NaN                   0.3745

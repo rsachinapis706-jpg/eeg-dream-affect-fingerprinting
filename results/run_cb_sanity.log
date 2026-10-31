@@ -1,0 +1,21 @@
+========================================================================
+CBraMod POSITIVE CONTROL: Sleep-EDF sleep staging (W/N1/N2)
+========================================================================
+device cuda | windows 12252 | subjects 8
+mode: full fine-tune
+reference: spectral features = 0.8831 balanced accuracy
+
+  held-out sc4002e0: bacc 0.7386 (n=2317)
+  held-out sc4012e0: bacc 0.8730 (n=2576)
+  held-out sc4102e0: bacc 0.8217 (n=2633)
+  held-out sc4112e0: bacc 0.8375 (n=2518)
+  held-out st7022j0: bacc 0.7079 (n=494)
+  held-out st7052j0: bacc 0.8704 (n=638)
+  held-out st7121j0: bacc 0.7558 (n=552)
+  held-out st7132j0: bacc 0.6130 (n=524)
+
+POOLED accuracy 0.8855 | balanced 0.8217
+spectral-feature reference     : 0.8831
+
+>> CONTROL PASSED
+Wrote E:\Dream GAN\analysis\out\test12_cbramod_sanity.txt

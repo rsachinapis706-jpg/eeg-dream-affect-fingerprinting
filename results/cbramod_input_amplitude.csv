@@ -1,0 +1,3 @@
+input,file,windows,median_abs
+standardised per window and channel,deed_raw.npy,6144,0.6269234418869019
+units of 100 uV (pretraining convention),deed_raw_uv100.npy,6144,0.03980346955358982

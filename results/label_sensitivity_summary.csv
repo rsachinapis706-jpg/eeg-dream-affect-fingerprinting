@@ -1,0 +1,37 @@
+variant,config,statistic,observed,boot_lo,boot_hi,null_mean,perms,p_within,decided
+all windows,"RF, unweighted (headline)",window,0.3222,0.3092,0.3362,0.3304,20,1.0,True
+all windows,"RF, unweighted (headline)",recording,0.328,0.3159,0.3389,0.3293,33,0.6061,True
+all windows,"RF, unweighted (headline)",participant_weighted,0.3268,0.3119,0.3426,0.3269,40,0.5,True
+all windows,"RF, scaled, balanced",window,0.3242,0.3014,0.3487,0.3321,26,0.7692,True
+all windows,"RF, scaled, balanced",recording,0.3144,0.2841,0.3408,0.327,22,0.9091,True
+all windows,"RF, scaled, balanced",participant_weighted,0.332,0.3066,0.3566,0.3293,41,0.4878,True
+all windows,"LogReg, scaled, unweighted",window,0.3238,0.3,0.3499,0.3319,23,0.8696,True
+all windows,"LogReg, scaled, unweighted",recording,0.3424,0.311,0.3764,0.3315,122,0.1639,True
+all windows,"LogReg, scaled, unweighted",participant_weighted,0.3284,0.3038,0.3522,0.3299,42,0.4762,True
+all windows,"LogReg, scaled, balanced",window,0.3393,0.2972,0.3838,0.3369,48,0.4167,True
+all windows,"LogReg, scaled, balanced",recording,0.3385,0.2862,0.3893,0.3366,34,0.5882,True
+all windows,"LogReg, scaled, balanced",participant_weighted,0.3491,0.3079,0.3871,0.3357,70,0.2857,True
+corroborated recordings,"RF, unweighted (headline)",window,0.3065,0.2795,0.3301,0.321,22,0.9091,True
+corroborated recordings,"RF, unweighted (headline)",recording,0.3111,0.281,0.3393,0.3235,25,0.8,True
+corroborated recordings,"RF, unweighted (headline)",participant_weighted,0.3012,0.2699,0.3329,0.3183,21,0.9524,True
+corroborated recordings,"RF, scaled, balanced",window,0.3026,0.2662,0.3345,0.3196,23,0.8696,True
+corroborated recordings,"RF, scaled, balanced",recording,0.2984,0.252,0.3409,0.3191,23,0.8696,True
+corroborated recordings,"RF, scaled, balanced",participant_weighted,0.2929,0.2571,0.33,0.3148,20,1.0,True
+corroborated recordings,"LogReg, scaled, unweighted",window,0.3054,0.2811,0.3294,0.3114,30,0.6667,True
+corroborated recordings,"LogReg, scaled, unweighted",recording,0.3009,0.2711,0.3288,0.3113,29,0.6897,True
+corroborated recordings,"LogReg, scaled, unweighted",participant_weighted,0.3097,0.2783,0.3421,0.3139,35,0.5714,True
+corroborated recordings,"LogReg, scaled, balanced",window,0.3365,0.3072,0.3639,0.3099,189,0.1058,True
+corroborated recordings,"LogReg, scaled, balanced",recording,0.3209,0.2803,0.365,0.3008,89,0.2247,True
+corroborated recordings,"LogReg, scaled, balanced",participant_weighted,0.3363,0.296,0.3725,0.3134,107,0.1869,True
+last 60 s before awakening,"RF, unweighted (headline)",window,0.3446,0.3246,0.3632,0.3344,127,0.1575,True
+last 60 s before awakening,"RF, unweighted (headline)",recording,0.3421,0.3201,0.3625,0.3342,90,0.2222,True
+last 60 s before awakening,"RF, unweighted (headline)",participant_weighted,0.3462,0.3279,0.365,0.3373,158,0.1266,True
+last 60 s before awakening,"RF, scaled, balanced",window,0.3398,0.3184,0.3612,0.3396,45,0.4444,True
+last 60 s before awakening,"RF, scaled, balanced",recording,0.3457,0.3164,0.3715,0.3398,62,0.3226,True
+last 60 s before awakening,"RF, scaled, balanced",participant_weighted,0.3375,0.3165,0.3596,0.3416,31,0.6452,True
+last 60 s before awakening,"LogReg, scaled, unweighted",window,0.3595,0.3333,0.3844,0.3315,1000,0.017,True
+last 60 s before awakening,"LogReg, scaled, unweighted",recording,0.3527,0.3218,0.3818,0.3306,316,0.0633,True
+last 60 s before awakening,"LogReg, scaled, unweighted",participant_weighted,0.3562,0.3295,0.3816,0.3313,511,0.0391,True
+last 60 s before awakening,"LogReg, scaled, balanced",window,0.3767,0.3452,0.4027,0.3392,1000,0.017,True
+last 60 s before awakening,"LogReg, scaled, balanced",recording,0.3693,0.3346,0.3969,0.341,266,0.0752,True
+last 60 s before awakening,"LogReg, scaled, balanced",participant_weighted,0.3811,0.3405,0.4191,0.3388,1000,0.02,True

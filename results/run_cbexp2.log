@@ -1,0 +1,32 @@
+==============================================================================
+CBRAMOD CONTROL ON SLEEP-EDF EXPANDED
+==============================================================================
+cached raw array: (34163, 2, 4000), 100 participants
+
+computing spectral features on the identical windows...
+usable windows: 34163 of 34163
+spectral (LogReg) : accuracy 0.7816 | balanced 0.7799
+spectral (RF)     : balanced 0.7762
+
+CBraMod: device cuda, full fine-tune, 20 epochs max, batch 64
+  fold 1: balanced 0.8042 (n=6956)
+  fold 2: balanced 0.7952 (n=6671)
+  fold 3: balanced 0.7821 (n=6865)
+  fold 4: balanced 0.7832 (n=6828)
+  fold 5: balanced 0.7899 (n=6843)
+
+==============================================================================
+MATCHED COMPARISON -- same cohort, same windows, same folds
+==============================================================================
+model                                accuracy   balanced
+------------------------------------------------------------------------------
+Spectral features, LogReg              0.7816     0.7799
+Spectral features, RandomForest                   0.7762
+CBraMod (9,000 h pretraining)          0.7915     0.7906
+
+difference, CBraMod minus best spectral: +0.0107
+
+For reference, the 8-recording Sleep-EDF 1.0.0 cohort used in the
+submitted manuscript gave CBraMod 0.8217 and spectral 0.8831.
+
+Wrote E:\Dream GAN\analysis\out\cbramod_expanded.csv

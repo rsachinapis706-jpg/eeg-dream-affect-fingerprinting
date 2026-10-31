@@ -1,0 +1,2 @@
+source,n,cohens_dz,alpha,power_t,power_signed_rank_resampled,resamples,seed,n_for_power_080_t
+within_subject.csv,28,0.264312476128116,0.05,0.3892229679254231,0.2352,10000,20260727,90

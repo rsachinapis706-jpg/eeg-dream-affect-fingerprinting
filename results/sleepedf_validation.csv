@@ -1,0 +1,5 @@
+task,clf,accuracy,balanced_accuracy,majority,chance,n
+W/N1/N2 (matches DEED control),LogReg,0.8869,0.8831,0.6554,0.3333,12235
+W/N1/N2 (matches DEED control),RF,0.91,0.7945,0.6554,0.3333,12235
+5-class (W/N1/N2/N3/REM),LogReg,0.8072,0.7562,0.5297,0.2,15140
+5-class (W/N1/N2/N3/REM),RF,0.8371,0.7272,0.5297,0.2,15140

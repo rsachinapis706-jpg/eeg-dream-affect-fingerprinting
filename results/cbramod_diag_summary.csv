@@ -1,0 +1,5 @@
+config,folds,windows,pooled_bal,pooled_acc,constant_folds,zero_bal_folds,zero_bal_single_class_test,chosen_epoch_1,chosen_epoch_median,best_val_bal_median,best_val_bal_max,val_windows_median,pred_share_neg,pred_share_neu,pred_share_pos,bal_lo,bal_hi
+published,34,6144,0.3378,0.3844,34,3,2,34,1.0,0.3333,0.3333,184.0,0.0563,0.4691,0.4746,0.2836,0.3955
+scratch,34,6144,0.3685,0.4422,19,0,0,20,1.0,0.3333,0.4156,184.0,0.1204,0.6493,0.2303,0.3246,0.4105
+revised,34,6144,0.3517,0.3143,8,4,1,6,4.0,0.3417,0.4027,1181.5,0.5638,0.2137,0.2225,0.2999,0.4035
+scratch_revised,34,6144,0.3267,0.3247,0,1,1,7,4.0,0.351,0.3736,1161.5,0.3252,0.3101,0.3647,0.3009,0.3495

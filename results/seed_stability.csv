@@ -1,0 +1,23 @@
+config,seed,observed,null_mean,null_p95,p,n_perm,obs_sd,seeds_significant,p_bonferroni
+"LogReg, scaled, no weight",20260727,0.3537,0.3326,0.3525,0.0495,100,,,
+"LogReg, scaled, no weight",20260728,0.3537,0.3328,0.3535,0.0594,100,,,
+"LogReg, scaled, no weight",20260729,0.3516,0.3313,0.3533,0.0792,100,,,
+"LogReg, scaled, no weight",20260730,0.3516,0.3342,0.3565,0.1386,100,,,
+"LogReg, scaled, no weight",20260731,0.3537,0.3328,0.3502,0.0396,100,,,
+"LogReg, scaled, no weight",20260732,0.3516,0.3355,0.3665,0.1683,100,,,
+"LogReg, scaled, no weight",20260733,0.3537,0.3336,0.3569,0.099,100,,,
+"LogReg, scaled, no weight",20260734,0.3516,0.3332,0.3562,0.1287,100,,,
+"LogReg, scaled, no weight",20260735,0.3537,0.3327,0.355,0.0693,100,,,
+"LogReg, scaled, no weight",20260736,0.3516,0.3343,0.3536,0.0792,100,,,
+"LogReg, scaled, no weight",-1,0.3526,0.3333,0.3562,0.0799,1000,0.001,2.0,0.3996
+"RF, no scaling, no weight (paper)",20260727,0.3204,0.3342,0.3513,0.9756,40,,,
+"RF, no scaling, no weight (paper)",20260728,0.3236,0.3351,0.3551,0.7561,40,,,
+"RF, no scaling, no weight (paper)",20260729,0.322,0.3338,0.3498,0.8537,40,,,
+"RF, no scaling, no weight (paper)",20260730,0.3242,0.3363,0.3585,0.8293,40,,,
+"RF, no scaling, no weight (paper)",20260731,0.3223,0.3337,0.352,0.7805,40,,,
+"RF, no scaling, no weight (paper)",20260732,0.3206,0.3319,0.3464,0.878,40,,,
+"RF, no scaling, no weight (paper)",20260733,0.3255,0.3324,0.3534,0.6829,40,,,
+"RF, no scaling, no weight (paper)",20260734,0.3203,0.3329,0.3496,0.8293,40,,,
+"RF, no scaling, no weight (paper)",20260735,0.3235,0.3304,0.3486,0.7317,40,,,
+"RF, no scaling, no weight (paper)",20260736,0.3219,0.333,0.3528,0.8537,40,,,
+"RF, no scaling, no weight (paper)",-1,0.3224,0.3334,0.353,0.813,400,0.0017,0.0,1.0

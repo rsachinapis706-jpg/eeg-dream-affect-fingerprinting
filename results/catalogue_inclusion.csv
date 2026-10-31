@@ -1,0 +1,21 @@
+set_id,dataset,records_all,participants_all,records_valid,participants_valid,records_kept,participants_kept,included,reason
+1,Zhang & Wamsley 2019,308,28,308,28,308,28,True,
+2,Oudiette_N1Data,246,63,246,63,246,63,True,
+3,LODE,190,28,190,28,187,26,True,
+4,TWC_USA,33,19,33,19,13,3,True,
+5,Dream Database from Donders,7,5,7,5,0,0,False,fewer than 3 participants with >= 3 records
+6,REM_Turku,134,18,134,18,132,17,True,
+7,ChildrenDreaming,30,30,30,30,0,0,False,fewer than 3 participants with >= 3 records
+8,SCANDataset,85,18,85,18,82,16,True,
+9,Multiple awakenings,456,19,435,19,435,19,True,
+10,Sleep Talking,22,12,22,12,0,0,False,fewer than 3 participants with >= 3 records
+11,Dream_YoungAdults,65,65,65,65,0,0,False,fewer than 3 participants with >= 3 records
+12,Older adults,40,40,40,40,0,0,False,fewer than 3 participants with >= 3 records
+13,Tononi Serial Awakenings,809,39,809,39,809,39,True,
+14,Brain Institute - Federal University of Rio Grande do Norte,41,41,41,41,0,0,False,fewer than 3 participants with >= 3 records
+15,Noreika_Motor_tDCS,49,10,49,10,49,10,False,fewer than two label classes
+16,DATA1,324,10,288,10,288,10,True,
+17,Aamodt_evening_sleep,158,27,158,27,150,23,True,
+18,Aamodt_morning_sleep,97,16,95,16,93,15,True,
+19,"Kumral et al., 2023",66,19,66,19,63,17,True,
+20,MEG Kyushu,31,1,28,1,28,1,False,fewer than 3 participants with >= 3 records

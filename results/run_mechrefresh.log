@@ -1,0 +1,47 @@
+==============================================================================
+FINGERPRINTING AND REPLICATION, PINNED ENVIRONMENT, 10 SEEDS
+==============================================================================
+
+### DEED: 6144 windows, 34 participants, 492 recordings
+
+-- identity decoding (34-way, chance 0.0294) --
+  window-shuffled       0.8040 +/- 0.0014
+  recording-grouped     0.7254 +/- 0.0028
+
+-- identity-only oracle and mutual information (no CV) --
+  oracle accuracy        0.5465
+  oracle balanced        0.5021
+  I(subject;label)/H     0.1624
+
+### Tononi: 668 windows, 18 participants, 113 recordings
+
+-- partitioning rule --
+  window-shuffled       acc 0.6398 +/- 0.0111   bal 0.6034 +/- 0.0107
+  recording-grouped     acc 0.3611 +/- 0.0143   bal 0.3262 +/- 0.0144
+  participant-wise      acc 0.3946 +/- 0.0115   bal 0.3381 +/- 0.0128
+
+-- identity decoding (18-way, chance 0.0556) --
+  window-shuffled       0.8722 +/- 0.0056
+  recording-grouped     0.7311 +/- 0.0064
+
+  oracle accuracy        0.5778
+  I(subject;label)/H     0.1902
+
+==============================================================================
+DRIFT AGAINST THE SUBMITTED VALUES
+==============================================================================
+dataset  quantity                        submitted      now    delta
+------------------------------------------------------------------------------
+DEED     identity window-shuffled           0.8037   0.8040  +0.0003
+DEED     identity recording-grouped         0.7313   0.7254  -0.0059
+DEED     oracle accuracy                    0.5465   0.5465  +0.0000
+DEED     mi normalised                      0.1624   0.1624  -0.0000
+Tononi   acc window-shuffled                0.6183   0.6398  +0.0215
+Tononi   acc recording-grouped              0.3757   0.3611  -0.0146
+Tononi   acc participant-wise               0.3892   0.3946  +0.0054
+Tononi   identity window-shuffled           0.8668   0.8722  +0.0054
+Tononi   identity recording-grouped         0.7380   0.7311  -0.0069
+Tononi   oracle accuracy                    0.5778   0.5778  +0.0000
+Tononi   mi normalised                      0.1902   0.1902  +0.0000
+
+Wrote E:\Dream GAN\analysis\out\mechanism_refresh.csv

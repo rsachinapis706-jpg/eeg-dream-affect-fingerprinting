@@ -1,0 +1,10 @@
+classifier,held_out,accuracy,balanced_accuracy,majority
+KNN,random,0.4067,0.3715,0.4617
+KNN,segment,0.3929,0.3665,0.4617
+KNN,subject,0.3763,0.3306,0.4617
+SVM,random,0.4711,0.3562,0.4617
+SVM,segment,0.4649,0.3559,0.4617
+SVM,subject,0.4474,0.3291,0.4617
+RF,random,0.4649,0.3475,0.4617
+RF,segment,0.4739,0.3646,0.4617
+RF,subject,0.4531,0.3298,0.4617

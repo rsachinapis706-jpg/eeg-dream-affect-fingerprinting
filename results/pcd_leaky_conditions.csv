@@ -1,0 +1,1213 @@
+partition,labelling,rule,coverage,bal_retained
+participant-separated,observed,all inputs,1.0,0.339094
+participant-separated,observed,PCD alpha=0.10,0.124674,0.344273
+participant-separated,observed,PCD alpha=0.05,0.070964,0.354013
+participant-separated,observed,PCD alpha=0.01,0.017415,0.404964
+participant-separated,observed,Max-softmax>0.5,0.405599,0.326083
+participant-separated,observed,Entropy<0.9,0.329102,0.323772
+window-level,observed,all inputs,1.0,0.464826
+window-level,observed,PCD alpha=0.10,0.099609,0.554302
+window-level,observed,PCD alpha=0.05,0.045573,0.56693
+window-level,observed,PCD alpha=0.01,0.008138,0.617361
+window-level,observed,Max-softmax>0.5,0.325358,0.526968
+window-level,observed,Entropy<0.9,0.254232,0.52442
+participant-separated,null 0,all inputs,1.0,0.346894
+participant-separated,null 0,PCD alpha=0.10,0.12207,0.328358
+participant-separated,null 0,PCD alpha=0.05,0.063802,0.324722
+participant-separated,null 0,PCD alpha=0.01,0.013835,0.402313
+participant-separated,null 0,Max-softmax>0.5,0.398112,0.336391
+participant-separated,null 0,Entropy<0.9,0.319499,0.330066
+window-level,null 0,all inputs,1.0,0.478074
+window-level,null 0,PCD alpha=0.10,0.133138,0.601327
+window-level,null 0,PCD alpha=0.05,0.070312,0.623275
+window-level,null 0,PCD alpha=0.01,0.016113,0.658459
+window-level,null 0,Max-softmax>0.5,0.356283,0.562242
+window-level,null 0,Entropy<0.9,0.262533,0.562675
+participant-separated,null 1,all inputs,1.0,0.318451
+participant-separated,null 1,PCD alpha=0.10,0.094238,0.374269
+participant-separated,null 1,PCD alpha=0.05,0.041504,0.384504
+participant-separated,null 1,PCD alpha=0.01,0.006836,0.411272
+participant-separated,null 1,Max-softmax>0.5,0.362793,0.337153
+participant-separated,null 1,Entropy<0.9,0.260417,0.335713
+window-level,null 1,all inputs,1.0,0.469723
+window-level,null 1,PCD alpha=0.10,0.108724,0.590111
+window-level,null 1,PCD alpha=0.05,0.053548,0.553557
+window-level,null 1,PCD alpha=0.01,0.009277,0.433578
+window-level,null 1,Max-softmax>0.5,0.291667,0.587639
+window-level,null 1,Entropy<0.9,0.197591,0.580936
+participant-separated,null 2,all inputs,1.0,0.351632
+participant-separated,null 2,PCD alpha=0.10,0.095378,0.363405
+participant-separated,null 2,PCD alpha=0.05,0.049805,0.383998
+participant-separated,null 2,PCD alpha=0.01,0.006348,0.354386
+participant-separated,null 2,Max-softmax>0.5,0.366862,0.357156
+participant-separated,null 2,Entropy<0.9,0.292318,0.346389
+window-level,null 2,all inputs,1.0,0.46481
+window-level,null 2,PCD alpha=0.10,0.088704,0.545814
+window-level,null 2,PCD alpha=0.05,0.04362,0.592528
+window-level,null 2,PCD alpha=0.01,0.00765,0.507782
+window-level,null 2,Max-softmax>0.5,0.275228,0.553155
+window-level,null 2,Entropy<0.9,0.203451,0.56124
+participant-separated,null 3,all inputs,1.0,0.317676
+participant-separated,null 3,PCD alpha=0.10,0.116536,0.305132
+participant-separated,null 3,PCD alpha=0.05,0.055827,0.303656
+participant-separated,null 3,PCD alpha=0.01,0.008464,0.305556
+participant-separated,null 3,Max-softmax>0.5,0.370768,0.312714
+participant-separated,null 3,Entropy<0.9,0.270996,0.303603
+window-level,null 3,all inputs,1.0,0.447176
+window-level,null 3,PCD alpha=0.10,0.073242,0.536513
+window-level,null 3,PCD alpha=0.05,0.031738,0.542208
+window-level,null 3,PCD alpha=0.01,0.007812,0.4
+window-level,null 3,Max-softmax>0.5,0.262858,0.512059
+window-level,null 3,Entropy<0.9,0.181966,0.533805
+participant-separated,null 4,all inputs,1.0,0.351322
+participant-separated,null 4,PCD alpha=0.10,0.117188,0.406401
+participant-separated,null 4,PCD alpha=0.05,0.057454,0.422713
+participant-separated,null 4,PCD alpha=0.01,0.01123,0.475956
+participant-separated,null 4,Max-softmax>0.5,0.360352,0.379692
+participant-separated,null 4,Entropy<0.9,0.278646,0.377683
+window-level,null 4,all inputs,1.0,0.471195
+window-level,null 4,PCD alpha=0.10,0.125,0.63193
+window-level,null 4,PCD alpha=0.05,0.064616,0.658578
+window-level,null 4,PCD alpha=0.01,0.014648,0.631238
+window-level,null 4,Max-softmax>0.5,0.314453,0.569285
+window-level,null 4,Entropy<0.9,0.215658,0.578849
+participant-separated,null 5,all inputs,1.0,0.370881
+participant-separated,null 5,PCD alpha=0.10,0.135254,0.395261
+participant-separated,null 5,PCD alpha=0.05,0.06429,0.425015
+participant-separated,null 5,PCD alpha=0.01,0.013346,0.390972
+participant-separated,null 5,Max-softmax>0.5,0.416341,0.395998
+participant-separated,null 5,Entropy<0.9,0.328776,0.394347
+window-level,null 5,all inputs,1.0,0.493594
+window-level,null 5,PCD alpha=0.10,0.15332,0.60846
+window-level,null 5,PCD alpha=0.05,0.082845,0.600894
+window-level,null 5,PCD alpha=0.01,0.01123,0.57705
+window-level,null 5,Max-softmax>0.5,0.389323,0.577594
+window-level,null 5,Entropy<0.9,0.2889,0.579474
+participant-separated,null 6,all inputs,1.0,0.30974
+participant-separated,null 6,PCD alpha=0.10,0.119303,0.333497
+participant-separated,null 6,PCD alpha=0.05,0.061523,0.347225
+participant-separated,null 6,PCD alpha=0.01,0.006673,0.309524
+participant-separated,null 6,Max-softmax>0.5,0.387533,0.312698
+participant-separated,null 6,Entropy<0.9,0.299154,0.309754
+window-level,null 6,all inputs,1.0,0.445739
+window-level,null 6,PCD alpha=0.10,0.091471,0.502658
+window-level,null 6,PCD alpha=0.05,0.043783,0.4984
+window-level,null 6,PCD alpha=0.01,0.009603,0.522273
+window-level,null 6,Max-softmax>0.5,0.297852,0.51338
+window-level,null 6,Entropy<0.9,0.228841,0.514562
+participant-separated,null 7,all inputs,1.0,0.35445
+participant-separated,null 7,PCD alpha=0.10,0.166667,0.353647
+participant-separated,null 7,PCD alpha=0.05,0.099772,0.347373
+participant-separated,null 7,PCD alpha=0.01,0.029297,0.320489
+participant-separated,null 7,Max-softmax>0.5,0.426595,0.351873
+participant-separated,null 7,Entropy<0.9,0.34196,0.352337
+window-level,null 7,all inputs,1.0,0.474134
+window-level,null 7,PCD alpha=0.10,0.124674,0.615669
+window-level,null 7,PCD alpha=0.05,0.057943,0.661488
+window-level,null 7,PCD alpha=0.01,0.010742,0.754458
+window-level,null 7,Max-softmax>0.5,0.366862,0.553238
+window-level,null 7,Entropy<0.9,0.285319,0.545638
+participant-separated,null 8,all inputs,1.0,0.323963
+participant-separated,null 8,PCD alpha=0.10,0.11263,0.297031
+participant-separated,null 8,PCD alpha=0.05,0.055013,0.260959
+participant-separated,null 8,PCD alpha=0.01,0.009766,0.155303
+participant-separated,null 8,Max-softmax>0.5,0.374349,0.301358
+participant-separated,null 8,Entropy<0.9,0.275228,0.292065
+window-level,null 8,all inputs,1.0,0.450128
+window-level,null 8,PCD alpha=0.10,0.09375,0.554281
+window-level,null 8,PCD alpha=0.05,0.043783,0.519666
+window-level,null 8,PCD alpha=0.01,0.006673,0.485009
+window-level,null 8,Max-softmax>0.5,0.303711,0.519858
+window-level,null 8,Entropy<0.9,0.212891,0.51354
+participant-separated,null 9,all inputs,1.0,0.372948
+participant-separated,null 9,PCD alpha=0.10,0.130697,0.382492
+participant-separated,null 9,PCD alpha=0.05,0.070801,0.37271
+participant-separated,null 9,PCD alpha=0.01,0.021159,0.27369
+participant-separated,null 9,Max-softmax>0.5,0.395345,0.361672
+participant-separated,null 9,Entropy<0.9,0.304199,0.354624
+window-level,null 9,all inputs,1.0,0.474089
+window-level,null 9,PCD alpha=0.10,0.124186,0.59768
+window-level,null 9,PCD alpha=0.05,0.058431,0.612428
+window-level,null 9,PCD alpha=0.01,0.012695,0.597093
+window-level,null 9,Max-softmax>0.5,0.356445,0.535185
+window-level,null 9,Entropy<0.9,0.253906,0.544827
+participant-separated,null 10,all inputs,1.0,0.30703
+participant-separated,null 10,PCD alpha=0.10,0.112467,0.315882
+participant-separated,null 10,PCD alpha=0.05,0.054362,0.331766
+participant-separated,null 10,PCD alpha=0.01,0.012207,0.355664
+participant-separated,null 10,Max-softmax>0.5,0.374023,0.288581
+participant-separated,null 10,Entropy<0.9,0.27002,0.296872
+window-level,null 10,all inputs,1.0,0.458658
+window-level,null 10,PCD alpha=0.10,0.092773,0.555868
+window-level,null 10,PCD alpha=0.05,0.048665,0.524678
+window-level,null 10,PCD alpha=0.01,0.009277,0.422576
+window-level,null 10,Max-softmax>0.5,0.280273,0.546168
+window-level,null 10,Entropy<0.9,0.21696,0.550093
+participant-separated,null 11,all inputs,1.0,0.320299
+participant-separated,null 11,PCD alpha=0.10,0.100749,0.346005
+participant-separated,null 11,PCD alpha=0.05,0.050618,0.384161
+participant-separated,null 11,PCD alpha=0.01,0.00944,0.305556
+participant-separated,null 11,Max-softmax>0.5,0.347493,0.32213
+participant-separated,null 11,Entropy<0.9,0.261393,0.329644
+window-level,null 11,all inputs,1.0,0.441769
+window-level,null 11,PCD alpha=0.10,0.094401,0.506838
+window-level,null 11,PCD alpha=0.05,0.050293,0.516254
+window-level,null 11,PCD alpha=0.01,0.008464,0.53305
+window-level,null 11,Max-softmax>0.5,0.266276,0.513235
+window-level,null 11,Entropy<0.9,0.20166,0.517566
+participant-separated,null 12,all inputs,1.0,0.351328
+participant-separated,null 12,PCD alpha=0.10,0.085612,0.364801
+participant-separated,null 12,PCD alpha=0.05,0.039551,0.405264
+participant-separated,null 12,PCD alpha=0.01,0.009277,0.390338
+participant-separated,null 12,Max-softmax>0.5,0.366211,0.372
+participant-separated,null 12,Entropy<0.9,0.300456,0.367794
+window-level,null 12,all inputs,1.0,0.474827
+window-level,null 12,PCD alpha=0.10,0.125326,0.63
+window-level,null 12,PCD alpha=0.05,0.056478,0.673477
+window-level,null 12,PCD alpha=0.01,0.011068,0.736048
+window-level,null 12,Max-softmax>0.5,0.342936,0.576398
+window-level,null 12,Entropy<0.9,0.24821,0.582838
+participant-separated,null 13,all inputs,1.0,0.360468
+participant-separated,null 13,PCD alpha=0.10,0.135905,0.400452
+participant-separated,null 13,PCD alpha=0.05,0.072754,0.415637
+participant-separated,null 13,PCD alpha=0.01,0.014974,0.442982
+participant-separated,null 13,Max-softmax>0.5,0.422201,0.368731
+participant-separated,null 13,Entropy<0.9,0.361654,0.378198
+window-level,null 13,all inputs,1.0,0.479761
+window-level,null 13,PCD alpha=0.10,0.133952,0.619547
+window-level,null 13,PCD alpha=0.05,0.070312,0.616949
+window-level,null 13,PCD alpha=0.01,0.012695,0.663988
+window-level,null 13,Max-softmax>0.5,0.366862,0.56555
+window-level,null 13,Entropy<0.9,0.284505,0.592422
+participant-separated,null 14,all inputs,1.0,0.325625
+participant-separated,null 14,PCD alpha=0.10,0.114095,0.329777
+participant-separated,null 14,PCD alpha=0.05,0.056315,0.344017
+participant-separated,null 14,PCD alpha=0.01,0.006836,0.155556
+participant-separated,null 14,Max-softmax>0.5,0.378906,0.332127
+participant-separated,null 14,Entropy<0.9,0.282715,0.333427
+window-level,null 14,all inputs,1.0,0.450928
+window-level,null 14,PCD alpha=0.10,0.099609,0.612942
+window-level,null 14,PCD alpha=0.05,0.051921,0.649592
+window-level,null 14,PCD alpha=0.01,0.009928,0.602506
+window-level,null 14,Max-softmax>0.5,0.287109,0.537791
+window-level,null 14,Entropy<0.9,0.19401,0.560767
+participant-separated,null 15,all inputs,1.0,0.304286
+participant-separated,null 15,PCD alpha=0.10,0.112142,0.329443
+participant-separated,null 15,PCD alpha=0.05,0.047852,0.359987
+participant-separated,null 15,PCD alpha=0.01,0.006022,0.28655
+participant-separated,null 15,Max-softmax>0.5,0.412109,0.304804
+participant-separated,null 15,Entropy<0.9,0.335286,0.32257
+window-level,null 15,all inputs,1.0,0.458201
+window-level,null 15,PCD alpha=0.10,0.102376,0.569357
+window-level,null 15,PCD alpha=0.05,0.050293,0.583421
+window-level,null 15,PCD alpha=0.01,0.008301,0.562549
+window-level,null 15,Max-softmax>0.5,0.316406,0.534235
+window-level,null 15,Entropy<0.9,0.253255,0.55173
+participant-separated,null 16,all inputs,1.0,0.334439
+participant-separated,null 16,PCD alpha=0.10,0.090007,0.277402
+participant-separated,null 16,PCD alpha=0.05,0.046387,0.262587
+participant-separated,null 16,PCD alpha=0.01,0.008789,0.251282
+participant-separated,null 16,Max-softmax>0.5,0.35791,0.320047
+participant-separated,null 16,Entropy<0.9,0.279622,0.305251
+window-level,null 16,all inputs,1.0,0.466125
+window-level,null 16,PCD alpha=0.10,0.091146,0.56878
+window-level,null 16,PCD alpha=0.05,0.042318,0.539041
+window-level,null 16,PCD alpha=0.01,0.007975,0.412385
+window-level,null 16,Max-softmax>0.5,0.304036,0.519798
+window-level,null 16,Entropy<0.9,0.21582,0.518127
+participant-separated,null 17,all inputs,1.0,0.317036
+participant-separated,null 17,PCD alpha=0.10,0.057617,0.275353
+participant-separated,null 17,PCD alpha=0.05,0.0236,0.241601
+participant-separated,null 17,PCD alpha=0.01,0.003092,0.179894
+participant-separated,null 17,Max-softmax>0.5,0.278483,0.311177
+participant-separated,null 17,Entropy<0.9,0.209798,0.311723
+window-level,null 17,all inputs,1.0,0.429648
+window-level,null 17,PCD alpha=0.10,0.063151,0.591837
+window-level,null 17,PCD alpha=0.05,0.029948,0.592017
+window-level,null 17,PCD alpha=0.01,0.004069,0.405556
+window-level,null 17,Max-softmax>0.5,0.236816,0.522012
+window-level,null 17,Entropy<0.9,0.157552,0.530593
+participant-separated,null 18,all inputs,1.0,0.340296
+participant-separated,null 18,PCD alpha=0.10,0.120931,0.426632
+participant-separated,null 18,PCD alpha=0.05,0.065755,0.43474
+participant-separated,null 18,PCD alpha=0.01,0.008138,0.349262
+participant-separated,null 18,Max-softmax>0.5,0.395833,0.349573
+participant-separated,null 18,Entropy<0.9,0.318522,0.35784
+window-level,null 18,all inputs,1.0,0.466422
+window-level,null 18,PCD alpha=0.10,0.092936,0.605963
+window-level,null 18,PCD alpha=0.05,0.047526,0.605502
+window-level,null 18,PCD alpha=0.01,0.012533,0.659722
+window-level,null 18,Max-softmax>0.5,0.303874,0.545819
+window-level,null 18,Entropy<0.9,0.224609,0.545881
+participant-separated,null 19,all inputs,1.0,0.336744
+participant-separated,null 19,PCD alpha=0.10,0.088704,0.285637
+participant-separated,null 19,PCD alpha=0.05,0.047363,0.27286
+participant-separated,null 19,PCD alpha=0.01,0.010417,0.270525
+participant-separated,null 19,Max-softmax>0.5,0.327962,0.319262
+participant-separated,null 19,Entropy<0.9,0.244303,0.317464
+window-level,null 19,all inputs,1.0,0.446278
+window-level,null 19,PCD alpha=0.10,0.098796,0.61966
+window-level,null 19,PCD alpha=0.05,0.042806,0.634834
+window-level,null 19,PCD alpha=0.01,0.008464,0.43532
+window-level,null 19,Max-softmax>0.5,0.286784,0.563095
+window-level,null 19,Entropy<0.9,0.192871,0.584503
+participant-separated,null 20,all inputs,1.0,0.342208
+participant-separated,null 20,PCD alpha=0.10,0.107096,0.312531
+participant-separated,null 20,PCD alpha=0.05,0.057129,0.293722
+participant-separated,null 20,PCD alpha=0.01,0.008138,0.160494
+participant-separated,null 20,Max-softmax>0.5,0.364258,0.361654
+participant-separated,null 20,Entropy<0.9,0.295736,0.372517
+window-level,null 20,all inputs,1.0,0.445976
+window-level,null 20,PCD alpha=0.10,0.093099,0.504568
+window-level,null 20,PCD alpha=0.05,0.053223,0.450117
+window-level,null 20,PCD alpha=0.01,0.016439,0.398883
+window-level,null 20,Max-softmax>0.5,0.305827,0.515071
+window-level,null 20,Entropy<0.9,0.236654,0.539657
+participant-separated,null 21,all inputs,1.0,0.356823
+participant-separated,null 21,PCD alpha=0.10,0.098796,0.383067
+participant-separated,null 21,PCD alpha=0.05,0.05013,0.376435
+participant-separated,null 21,PCD alpha=0.01,0.009277,0.40613
+participant-separated,null 21,Max-softmax>0.5,0.395182,0.379723
+participant-separated,null 21,Entropy<0.9,0.333496,0.360969
+window-level,null 21,all inputs,1.0,0.480856
+window-level,null 21,PCD alpha=0.10,0.135417,0.568821
+window-level,null 21,PCD alpha=0.05,0.078451,0.565027
+window-level,null 21,PCD alpha=0.01,0.012858,0.545406
+window-level,null 21,Max-softmax>0.5,0.336589,0.567453
+window-level,null 21,Entropy<0.9,0.266602,0.56799
+participant-separated,null 22,all inputs,1.0,0.326404
+participant-separated,null 22,PCD alpha=0.10,0.133301,0.344216
+participant-separated,null 22,PCD alpha=0.05,0.070312,0.326931
+participant-separated,null 22,PCD alpha=0.01,0.019043,0.304161
+participant-separated,null 22,Max-softmax>0.5,0.392904,0.340473
+participant-separated,null 22,Entropy<0.9,0.30957,0.345992
+window-level,null 22,all inputs,1.0,0.46072
+window-level,null 22,PCD alpha=0.10,0.091309,0.55407
+window-level,null 22,PCD alpha=0.05,0.044434,0.528705
+window-level,null 22,PCD alpha=0.01,0.006022,0.50303
+window-level,null 22,Max-softmax>0.5,0.288574,0.527972
+window-level,null 22,Entropy<0.9,0.195475,0.535263
+participant-separated,null 23,all inputs,1.0,0.307298
+participant-separated,null 23,PCD alpha=0.10,0.08724,0.268858
+participant-separated,null 23,PCD alpha=0.05,0.044759,0.220966
+participant-separated,null 23,PCD alpha=0.01,0.010417,0.210897
+participant-separated,null 23,Max-softmax>0.5,0.312663,0.279515
+participant-separated,null 23,Entropy<0.9,0.219076,0.261535
+window-level,null 23,all inputs,1.0,0.443703
+window-level,null 23,PCD alpha=0.10,0.076335,0.585768
+window-level,null 23,PCD alpha=0.05,0.034342,0.637399
+window-level,null 23,PCD alpha=0.01,0.005697,0.445455
+window-level,null 23,Max-softmax>0.5,0.272461,0.52104
+window-level,null 23,Entropy<0.9,0.190104,0.527711
+participant-separated,null 24,all inputs,1.0,0.312363
+participant-separated,null 24,PCD alpha=0.10,0.075846,0.332617
+participant-separated,null 24,PCD alpha=0.05,0.037598,0.319113
+participant-separated,null 24,PCD alpha=0.01,0.010579,0.42092
+participant-separated,null 24,Max-softmax>0.5,0.309733,0.313641
+participant-separated,null 24,Entropy<0.9,0.246419,0.31476
+window-level,null 24,all inputs,1.0,0.429708
+window-level,null 24,PCD alpha=0.10,0.083659,0.587097
+window-level,null 24,PCD alpha=0.05,0.042155,0.599496
+window-level,null 24,PCD alpha=0.01,0.01237,0.556777
+window-level,null 24,Max-softmax>0.5,0.251139,0.515104
+window-level,null 24,Entropy<0.9,0.205729,0.522273
+participant-separated,null 25,all inputs,1.0,0.336921
+participant-separated,null 25,PCD alpha=0.10,0.097005,0.362744
+participant-separated,null 25,PCD alpha=0.05,0.043783,0.357707
+participant-separated,null 25,PCD alpha=0.01,0.00651,0.44
+participant-separated,null 25,Max-softmax>0.5,0.349284,0.343908
+participant-separated,null 25,Entropy<0.9,0.257161,0.327623
+window-level,null 25,all inputs,1.0,0.459167
+window-level,null 25,PCD alpha=0.10,0.088704,0.658836
+window-level,null 25,PCD alpha=0.05,0.042643,0.666062
+window-level,null 25,PCD alpha=0.01,0.008789,0.622024
+window-level,null 25,Max-softmax>0.5,0.265137,0.581968
+window-level,null 25,Entropy<0.9,0.180664,0.582389
+participant-separated,null 26,all inputs,1.0,0.358826
+participant-separated,null 26,PCD alpha=0.10,0.11849,0.392875
+participant-separated,null 26,PCD alpha=0.05,0.058105,0.416664
+participant-separated,null 26,PCD alpha=0.01,0.008626,0.36045
+participant-separated,null 26,Max-softmax>0.5,0.370443,0.371901
+participant-separated,null 26,Entropy<0.9,0.300293,0.38237
+window-level,null 26,all inputs,1.0,0.457504
+window-level,null 26,PCD alpha=0.10,0.107259,0.593038
+window-level,null 26,PCD alpha=0.05,0.056641,0.641373
+window-level,null 26,PCD alpha=0.01,0.010579,0.620269
+window-level,null 26,Max-softmax>0.5,0.325033,0.536297
+window-level,null 26,Entropy<0.9,0.279134,0.549452
+participant-separated,null 27,all inputs,1.0,0.322774
+participant-separated,null 27,PCD alpha=0.10,0.113281,0.303112
+participant-separated,null 27,PCD alpha=0.05,0.056152,0.296047
+participant-separated,null 27,PCD alpha=0.01,0.011393,0.302949
+participant-separated,null 27,Max-softmax>0.5,0.337402,0.291321
+participant-separated,null 27,Entropy<0.9,0.252116,0.293945
+window-level,null 27,all inputs,1.0,0.459548
+window-level,null 27,PCD alpha=0.10,0.063151,0.580934
+window-level,null 27,PCD alpha=0.05,0.029948,0.574436
+window-level,null 27,PCD alpha=0.01,0.008789,0.546296
+window-level,null 27,Max-softmax>0.5,0.235189,0.555331
+window-level,null 27,Entropy<0.9,0.150879,0.566232
+participant-separated,null 28,all inputs,1.0,0.31822
+participant-separated,null 28,PCD alpha=0.10,0.107096,0.290995
+participant-separated,null 28,PCD alpha=0.05,0.051432,0.23439
+participant-separated,null 28,PCD alpha=0.01,0.013997,0.286436
+participant-separated,null 28,Max-softmax>0.5,0.386719,0.302443
+participant-separated,null 28,Entropy<0.9,0.299642,0.300173
+window-level,null 28,all inputs,1.0,0.450164
+window-level,null 28,PCD alpha=0.10,0.100423,0.626778
+window-level,null 28,PCD alpha=0.05,0.049316,0.675476
+window-level,null 28,PCD alpha=0.01,0.006999,0.634074
+window-level,null 28,Max-softmax>0.5,0.271647,0.561631
+window-level,null 28,Entropy<0.9,0.188151,0.578669
+participant-separated,null 29,all inputs,1.0,0.345323
+participant-separated,null 29,PCD alpha=0.10,0.065592,0.370318
+participant-separated,null 29,PCD alpha=0.05,0.026367,0.33082
+participant-separated,null 29,PCD alpha=0.01,0.00472,0.144444
+participant-separated,null 29,Max-softmax>0.5,0.29541,0.377031
+participant-separated,null 29,Entropy<0.9,0.208984,0.376622
+window-level,null 29,all inputs,1.0,0.449661
+window-level,null 29,PCD alpha=0.10,0.075195,0.591125
+window-level,null 29,PCD alpha=0.05,0.032715,0.548498
+window-level,null 29,PCD alpha=0.01,0.003581,0.388889
+window-level,null 29,Max-softmax>0.5,0.243978,0.539386
+window-level,null 29,Entropy<0.9,0.148438,0.558733
+participant-separated,null 30,all inputs,1.0,0.339767
+participant-separated,null 30,PCD alpha=0.10,0.087891,0.34723
+participant-separated,null 30,PCD alpha=0.05,0.039388,0.321263
+participant-separated,null 30,PCD alpha=0.01,0.00651,0.388889
+participant-separated,null 30,Max-softmax>0.5,0.347656,0.346788
+participant-separated,null 30,Entropy<0.9,0.250977,0.328795
+window-level,null 30,all inputs,1.0,0.474404
+window-level,null 30,PCD alpha=0.10,0.111654,0.586403
+window-level,null 30,PCD alpha=0.05,0.061361,0.582419
+window-level,null 30,PCD alpha=0.01,0.011719,0.507806
+window-level,null 30,Max-softmax>0.5,0.319336,0.565402
+window-level,null 30,Entropy<0.9,0.222982,0.582253
+participant-separated,null 31,all inputs,1.0,0.304609
+participant-separated,null 31,PCD alpha=0.10,0.078288,0.258326
+participant-separated,null 31,PCD alpha=0.05,0.031576,0.248201
+participant-separated,null 31,PCD alpha=0.01,0.005208,0.083333
+participant-separated,null 31,Max-softmax>0.5,0.30306,0.294162
+participant-separated,null 31,Entropy<0.9,0.213053,0.291846
+window-level,null 31,all inputs,1.0,0.430713
+window-level,null 31,PCD alpha=0.10,0.063151,0.612993
+window-level,null 31,PCD alpha=0.05,0.025391,0.658145
+window-level,null 31,PCD alpha=0.01,0.00472,0.568182
+window-level,null 31,Max-softmax>0.5,0.222493,0.533742
+window-level,null 31,Entropy<0.9,0.146322,0.562001
+participant-separated,null 32,all inputs,1.0,0.295818
+participant-separated,null 32,PCD alpha=0.10,0.071126,0.290396
+participant-separated,null 32,PCD alpha=0.05,0.033366,0.307377
+participant-separated,null 32,PCD alpha=0.01,0.007812,0.238462
+participant-separated,null 32,Max-softmax>0.5,0.298503,0.280503
+participant-separated,null 32,Entropy<0.9,0.225749,0.284505
+window-level,null 32,all inputs,1.0,0.435268
+window-level,null 32,PCD alpha=0.10,0.065918,0.525241
+window-level,null 32,PCD alpha=0.05,0.034342,0.532841
+window-level,null 32,PCD alpha=0.01,0.005371,0.428571
+window-level,null 32,Max-softmax>0.5,0.222005,0.504425
+window-level,null 32,Entropy<0.9,0.145182,0.509096
+participant-separated,null 33,all inputs,1.0,0.334683
+participant-separated,null 33,PCD alpha=0.10,0.122884,0.323986
+participant-separated,null 33,PCD alpha=0.05,0.057617,0.3246
+participant-separated,null 33,PCD alpha=0.01,0.009277,0.37491
+participant-separated,null 33,Max-softmax>0.5,0.400553,0.32347
+participant-separated,null 33,Entropy<0.9,0.301595,0.32471
+window-level,null 33,all inputs,1.0,0.476312
+window-level,null 33,PCD alpha=0.10,0.115072,0.610323
+window-level,null 33,PCD alpha=0.05,0.056478,0.619232
+window-level,null 33,PCD alpha=0.01,0.009928,0.571725
+window-level,null 33,Max-softmax>0.5,0.330241,0.562189
+window-level,null 33,Entropy<0.9,0.246419,0.550616
+participant-separated,null 34,all inputs,1.0,0.332456
+participant-separated,null 34,PCD alpha=0.10,0.080404,0.391951
+participant-separated,null 34,PCD alpha=0.05,0.035807,0.409215
+participant-separated,null 34,PCD alpha=0.01,0.005859,0.311988
+participant-separated,null 34,Max-softmax>0.5,0.338379,0.355667
+participant-separated,null 34,Entropy<0.9,0.267415,0.35443
+window-level,null 34,all inputs,1.0,0.445344
+window-level,null 34,PCD alpha=0.10,0.08724,0.565803
+window-level,null 34,PCD alpha=0.05,0.038411,0.593753
+window-level,null 34,PCD alpha=0.01,0.005859,0.623529
+window-level,null 34,Max-softmax>0.5,0.272461,0.526343
+window-level,null 34,Entropy<0.9,0.194173,0.551207
+participant-separated,null 35,all inputs,1.0,0.325835
+participant-separated,null 35,PCD alpha=0.10,0.111165,0.316032
+participant-separated,null 35,PCD alpha=0.05,0.059733,0.292208
+participant-separated,null 35,PCD alpha=0.01,0.008138,0.234127
+participant-separated,null 35,Max-softmax>0.5,0.378418,0.305271
+participant-separated,null 35,Entropy<0.9,0.284342,0.310536
+window-level,null 35,all inputs,1.0,0.45887
+window-level,null 35,PCD alpha=0.10,0.095215,0.595268
+window-level,null 35,PCD alpha=0.05,0.046712,0.575497
+window-level,null 35,PCD alpha=0.01,0.008138,0.564163
+window-level,null 35,Max-softmax>0.5,0.296712,0.530344
+window-level,null 35,Entropy<0.9,0.20459,0.540176
+participant-separated,null 36,all inputs,1.0,0.340577
+participant-separated,null 36,PCD alpha=0.10,0.102214,0.308321
+participant-separated,null 36,PCD alpha=0.05,0.048665,0.2869
+participant-separated,null 36,PCD alpha=0.01,0.006999,0.322391
+participant-separated,null 36,Max-softmax>0.5,0.367188,0.347486
+participant-separated,null 36,Entropy<0.9,0.282552,0.349985
+window-level,null 36,all inputs,1.0,0.463934
+window-level,null 36,PCD alpha=0.10,0.107747,0.584656
+window-level,null 36,PCD alpha=0.05,0.057129,0.587935
+window-level,null 36,PCD alpha=0.01,0.010742,0.552518
+window-level,null 36,Max-softmax>0.5,0.320312,0.547009
+window-level,null 36,Entropy<0.9,0.227865,0.559803
+participant-separated,null 37,all inputs,1.0,0.326712
+participant-separated,null 37,PCD alpha=0.10,0.129232,0.35319
+participant-separated,null 37,PCD alpha=0.05,0.074707,0.358881
+participant-separated,null 37,PCD alpha=0.01,0.025391,0.414456
+participant-separated,null 37,Max-softmax>0.5,0.363444,0.338806
+participant-separated,null 37,Entropy<0.9,0.271647,0.349293
+window-level,null 37,all inputs,1.0,0.459699
+window-level,null 37,PCD alpha=0.10,0.110352,0.598127
+window-level,null 37,PCD alpha=0.05,0.056478,0.602521
+window-level,null 37,PCD alpha=0.01,0.014811,0.504674
+window-level,null 37,Max-softmax>0.5,0.296061,0.567822
+window-level,null 37,Entropy<0.9,0.21696,0.574025
+participant-separated,null 38,all inputs,1.0,0.358409
+participant-separated,null 38,PCD alpha=0.10,0.113444,0.413276
+participant-separated,null 38,PCD alpha=0.05,0.055827,0.43352
+participant-separated,null 38,PCD alpha=0.01,0.010254,0.428893
+participant-separated,null 38,Max-softmax>0.5,0.373047,0.370444
+participant-separated,null 38,Entropy<0.9,0.307129,0.375782
+window-level,null 38,all inputs,1.0,0.463871
+window-level,null 38,PCD alpha=0.10,0.111328,0.630761
+window-level,null 38,PCD alpha=0.05,0.057292,0.622874
+window-level,null 38,PCD alpha=0.01,0.008952,0.501118
+window-level,null 38,Max-softmax>0.5,0.307454,0.559842
+window-level,null 38,Entropy<0.9,0.227539,0.588202
+participant-separated,null 39,all inputs,1.0,0.344521
+participant-separated,null 39,PCD alpha=0.10,0.07959,0.379734
+participant-separated,null 39,PCD alpha=0.05,0.038249,0.359398
+participant-separated,null 39,PCD alpha=0.01,0.006999,0.11943
+participant-separated,null 39,Max-softmax>0.5,0.317708,0.350765
+participant-separated,null 39,Entropy<0.9,0.25472,0.366414
+window-level,null 39,all inputs,1.0,0.464768
+window-level,null 39,PCD alpha=0.10,0.101725,0.588663
+window-level,null 39,PCD alpha=0.05,0.048665,0.581924
+window-level,null 39,PCD alpha=0.01,0.004395,0.365967
+window-level,null 39,Max-softmax>0.5,0.305339,0.560792
+window-level,null 39,Entropy<0.9,0.211426,0.582883
+participant-separated,null 40,all inputs,1.0,0.327662
+participant-separated,null 40,PCD alpha=0.10,0.138997,0.247449
+participant-separated,null 40,PCD alpha=0.05,0.078288,0.21862
+participant-separated,null 40,PCD alpha=0.01,0.016439,0.284317
+participant-separated,null 40,Max-softmax>0.5,0.425781,0.292337
+participant-separated,null 40,Entropy<0.9,0.344889,0.277446
+window-level,null 40,all inputs,1.0,0.485987
+window-level,null 40,PCD alpha=0.10,0.145671,0.570251
+window-level,null 40,PCD alpha=0.05,0.078939,0.549182
+window-level,null 40,PCD alpha=0.01,0.015462,0.438241
+window-level,null 40,Max-softmax>0.5,0.368978,0.569933
+window-level,null 40,Entropy<0.9,0.29248,0.566366
+participant-separated,null 41,all inputs,1.0,0.340002
+participant-separated,null 41,PCD alpha=0.10,0.078451,0.373473
+participant-separated,null 41,PCD alpha=0.05,0.033366,0.351254
+participant-separated,null 41,PCD alpha=0.01,0.007161,0.274074
+participant-separated,null 41,Max-softmax>0.5,0.295736,0.347605
+participant-separated,null 41,Entropy<0.9,0.222005,0.350447
+window-level,null 41,all inputs,1.0,0.462789
+window-level,null 41,PCD alpha=0.10,0.10791,0.606335
+window-level,null 41,PCD alpha=0.05,0.055664,0.602701
+window-level,null 41,PCD alpha=0.01,0.007324,0.547071
+window-level,null 41,Max-softmax>0.5,0.283691,0.567442
+window-level,null 41,Entropy<0.9,0.189453,0.569783
+participant-separated,null 42,all inputs,1.0,0.329538
+participant-separated,null 42,PCD alpha=0.10,0.107096,0.345076
+participant-separated,null 42,PCD alpha=0.05,0.046549,0.32673
+participant-separated,null 42,PCD alpha=0.01,0.009115,0.268078
+participant-separated,null 42,Max-softmax>0.5,0.360352,0.357853
+participant-separated,null 42,Entropy<0.9,0.273926,0.373061
+window-level,null 42,all inputs,1.0,0.459111
+window-level,null 42,PCD alpha=0.10,0.120931,0.598227
+window-level,null 42,PCD alpha=0.05,0.056641,0.594208
+window-level,null 42,PCD alpha=0.01,0.007975,0.580952
+window-level,null 42,Max-softmax>0.5,0.323242,0.565574
+window-level,null 42,Entropy<0.9,0.244954,0.597808
+participant-separated,null 43,all inputs,1.0,0.346543
+participant-separated,null 43,PCD alpha=0.10,0.085938,0.372781
+participant-separated,null 43,PCD alpha=0.05,0.047526,0.437351
+participant-separated,null 43,PCD alpha=0.01,0.011719,0.555365
+participant-separated,null 43,Max-softmax>0.5,0.355957,0.357322
+participant-separated,null 43,Entropy<0.9,0.284505,0.368287
+window-level,null 43,all inputs,1.0,0.471448
+window-level,null 43,PCD alpha=0.10,0.106283,0.56413
+window-level,null 43,PCD alpha=0.05,0.055827,0.549524
+window-level,null 43,PCD alpha=0.01,0.01416,0.568482
+window-level,null 43,Max-softmax>0.5,0.283691,0.559047
+window-level,null 43,Entropy<0.9,0.196777,0.558547
+participant-separated,null 44,all inputs,1.0,0.341651
+participant-separated,null 44,PCD alpha=0.10,0.068197,0.296989
+participant-separated,null 44,PCD alpha=0.05,0.029134,0.293032
+participant-separated,null 44,PCD alpha=0.01,0.00293,0.231481
+participant-separated,null 44,Max-softmax>0.5,0.306641,0.339788
+participant-separated,null 44,Entropy<0.9,0.230143,0.330765
+window-level,null 44,all inputs,1.0,0.454886
+window-level,null 44,PCD alpha=0.10,0.075846,0.539929
+window-level,null 44,PCD alpha=0.05,0.037272,0.512864
+window-level,null 44,PCD alpha=0.01,0.005697,0.453968
+window-level,null 44,Max-softmax>0.5,0.244466,0.534097
+window-level,null 44,Entropy<0.9,0.160807,0.547504
+participant-separated,null 45,all inputs,1.0,0.311373
+participant-separated,null 45,PCD alpha=0.10,0.14209,0.295895
+participant-separated,null 45,PCD alpha=0.05,0.072103,0.278324
+participant-separated,null 45,PCD alpha=0.01,0.010091,0.281015
+participant-separated,null 45,Max-softmax>0.5,0.409668,0.318259
+participant-separated,null 45,Entropy<0.9,0.34554,0.315671
+window-level,null 45,all inputs,1.0,0.433827
+window-level,null 45,PCD alpha=0.10,0.090169,0.583922
+window-level,null 45,PCD alpha=0.05,0.043457,0.598595
+window-level,null 45,PCD alpha=0.01,0.008789,0.62229
+window-level,null 45,Max-softmax>0.5,0.292969,0.521386
+window-level,null 45,Entropy<0.9,0.217936,0.523966
+participant-separated,null 46,all inputs,1.0,0.331999
+participant-separated,null 46,PCD alpha=0.10,0.082682,0.367549
+participant-separated,null 46,PCD alpha=0.05,0.038411,0.351523
+participant-separated,null 46,PCD alpha=0.01,0.007487,0.342231
+participant-separated,null 46,Max-softmax>0.5,0.326497,0.344191
+participant-separated,null 46,Entropy<0.9,0.237793,0.357732
+window-level,null 46,all inputs,1.0,0.445096
+window-level,null 46,PCD alpha=0.10,0.072754,0.595289
+window-level,null 46,PCD alpha=0.05,0.034505,0.602677
+window-level,null 46,PCD alpha=0.01,0.007324,0.702778
+window-level,null 46,Max-softmax>0.5,0.238281,0.551793
+window-level,null 46,Entropy<0.9,0.151693,0.574364
+participant-separated,null 47,all inputs,1.0,0.335355
+participant-separated,null 47,PCD alpha=0.10,0.085449,0.2896
+participant-separated,null 47,PCD alpha=0.05,0.045247,0.254302
+participant-separated,null 47,PCD alpha=0.01,0.012858,0.259367
+participant-separated,null 47,Max-softmax>0.5,0.32015,0.317517
+participant-separated,null 47,Entropy<0.9,0.235514,0.31494
+window-level,null 47,all inputs,1.0,0.453959
+window-level,null 47,PCD alpha=0.10,0.077474,0.566146
+window-level,null 47,PCD alpha=0.05,0.034993,0.567789
+window-level,null 47,PCD alpha=0.01,0.006348,0.518058
+window-level,null 47,Max-softmax>0.5,0.264323,0.537408
+window-level,null 47,Entropy<0.9,0.173991,0.52752
+participant-separated,null 48,all inputs,1.0,0.327921
+participant-separated,null 48,PCD alpha=0.10,0.076986,0.289333
+participant-separated,null 48,PCD alpha=0.05,0.030762,0.277471
+participant-separated,null 48,PCD alpha=0.01,0.004395,0.241453
+participant-separated,null 48,Max-softmax>0.5,0.322591,0.338979
+participant-separated,null 48,Entropy<0.9,0.227214,0.336764
+window-level,null 48,all inputs,1.0,0.438123
+window-level,null 48,PCD alpha=0.10,0.06429,0.538464
+window-level,null 48,PCD alpha=0.05,0.031087,0.564873
+window-level,null 48,PCD alpha=0.01,0.00651,0.636508
+window-level,null 48,Max-softmax>0.5,0.229004,0.50947
+window-level,null 48,Entropy<0.9,0.148275,0.51618
+participant-separated,null 49,all inputs,1.0,0.343823
+participant-separated,null 49,PCD alpha=0.10,0.180339,0.382965
+participant-separated,null 49,PCD alpha=0.05,0.108236,0.403875
+participant-separated,null 49,PCD alpha=0.01,0.0236,0.376594
+participant-separated,null 49,Max-softmax>0.5,0.480794,0.359262
+participant-separated,null 49,Entropy<0.9,0.396159,0.355608
+window-level,null 49,all inputs,1.0,0.477447
+window-level,null 49,PCD alpha=0.10,0.125163,0.565238
+window-level,null 49,PCD alpha=0.05,0.060221,0.543923
+window-level,null 49,PCD alpha=0.01,0.008952,0.55641
+window-level,null 49,Max-softmax>0.5,0.373535,0.544717
+window-level,null 49,Entropy<0.9,0.284993,0.540557
+participant-separated,null 50,all inputs,1.0,0.332147
+participant-separated,null 50,PCD alpha=0.10,0.099935,0.25546
+participant-separated,null 50,PCD alpha=0.05,0.061198,0.243279
+participant-separated,null 50,PCD alpha=0.01,0.017253,0.253837
+participant-separated,null 50,Max-softmax>0.5,0.363932,0.299858
+participant-separated,null 50,Entropy<0.9,0.314779,0.308137
+window-level,null 50,all inputs,1.0,0.474105
+window-level,null 50,PCD alpha=0.10,0.09847,0.581381
+window-level,null 50,PCD alpha=0.05,0.048665,0.548781
+window-level,null 50,PCD alpha=0.01,0.007324,0.387992
+window-level,null 50,Max-softmax>0.5,0.31071,0.56051
+window-level,null 50,Entropy<0.9,0.232422,0.573054
+participant-separated,null 51,all inputs,1.0,0.322917
+participant-separated,null 51,PCD alpha=0.10,0.079264,0.353848
+participant-separated,null 51,PCD alpha=0.05,0.040039,0.325157
+participant-separated,null 51,PCD alpha=0.01,0.008464,0.342424
+participant-separated,null 51,Max-softmax>0.5,0.279785,0.337284
+participant-separated,null 51,Entropy<0.9,0.196777,0.316194
+window-level,null 51,all inputs,1.0,0.431935
+window-level,null 51,PCD alpha=0.10,0.066243,0.555121
+window-level,null 51,PCD alpha=0.05,0.030599,0.616261
+window-level,null 51,PCD alpha=0.01,0.007487,0.563889
+window-level,null 51,Max-softmax>0.5,0.227865,0.51465
+window-level,null 51,Entropy<0.9,0.145996,0.510969
+participant-separated,null 52,all inputs,1.0,0.332261
+participant-separated,null 52,PCD alpha=0.10,0.069499,0.3352
+participant-separated,null 52,PCD alpha=0.05,0.031413,0.332513
+participant-separated,null 52,PCD alpha=0.01,0.002441,0.348214
+participant-separated,null 52,Max-softmax>0.5,0.311198,0.319026
+participant-separated,null 52,Entropy<0.9,0.231608,0.327048
+window-level,null 52,all inputs,1.0,0.45414
+window-level,null 52,PCD alpha=0.10,0.096029,0.63308
+window-level,null 52,PCD alpha=0.05,0.047689,0.586478
+window-level,null 52,PCD alpha=0.01,0.006185,0.459596
+window-level,null 52,Max-softmax>0.5,0.28597,0.576545
+window-level,null 52,Entropy<0.9,0.196126,0.580318
+participant-separated,null 53,all inputs,1.0,0.310321
+participant-separated,null 53,PCD alpha=0.10,0.061849,0.234526
+participant-separated,null 53,PCD alpha=0.05,0.027507,0.263901
+participant-separated,null 53,PCD alpha=0.01,0.008464,0.199152
+participant-separated,null 53,Max-softmax>0.5,0.28776,0.291645
+participant-separated,null 53,Entropy<0.9,0.194661,0.282215
+window-level,null 53,all inputs,1.0,0.438169
+window-level,null 53,PCD alpha=0.10,0.058594,0.558785
+window-level,null 53,PCD alpha=0.05,0.026855,0.463691
+window-level,null 53,PCD alpha=0.01,0.003581,0.436869
+window-level,null 53,Max-softmax>0.5,0.202474,0.524508
+window-level,null 53,Entropy<0.9,0.12321,0.53268
+participant-separated,null 54,all inputs,1.0,0.320866
+participant-separated,null 54,PCD alpha=0.10,0.066569,0.317557
+participant-separated,null 54,PCD alpha=0.05,0.032878,0.328105
+participant-separated,null 54,PCD alpha=0.01,0.00472,0.335859
+participant-separated,null 54,Max-softmax>0.5,0.302572,0.322323
+participant-separated,null 54,Entropy<0.9,0.231283,0.316025
+window-level,null 54,all inputs,1.0,0.465264
+window-level,null 54,PCD alpha=0.10,0.139486,0.62548
+window-level,null 54,PCD alpha=0.05,0.092448,0.595656
+window-level,null 54,PCD alpha=0.01,0.03418,0.567733
+window-level,null 54,Max-softmax>0.5,0.325846,0.583593
+window-level,null 54,Entropy<0.9,0.25944,0.596913
+participant-separated,null 55,all inputs,1.0,0.318783
+participant-separated,null 55,PCD alpha=0.10,0.114258,0.325271
+participant-separated,null 55,PCD alpha=0.05,0.052572,0.370615
+participant-separated,null 55,PCD alpha=0.01,0.011556,0.493939
+participant-separated,null 55,Max-softmax>0.5,0.39388,0.321145
+participant-separated,null 55,Entropy<0.9,0.318197,0.317381
+window-level,null 55,all inputs,1.0,0.464785
+window-level,null 55,PCD alpha=0.10,0.10026,0.5714
+window-level,null 55,PCD alpha=0.05,0.050618,0.592389
+window-level,null 55,PCD alpha=0.01,0.011882,0.667531
+window-level,null 55,Max-softmax>0.5,0.294434,0.545304
+window-level,null 55,Entropy<0.9,0.225423,0.535751
+participant-separated,null 56,all inputs,1.0,0.354922
+participant-separated,null 56,PCD alpha=0.10,0.121745,0.440296
+participant-separated,null 56,PCD alpha=0.05,0.066569,0.477629
+participant-separated,null 56,PCD alpha=0.01,0.026693,0.557047
+participant-separated,null 56,Max-softmax>0.5,0.380208,0.370856
+participant-separated,null 56,Entropy<0.9,0.293457,0.387591
+window-level,null 56,all inputs,1.0,0.470888
+window-level,null 56,PCD alpha=0.10,0.111491,0.572444
+window-level,null 56,PCD alpha=0.05,0.058757,0.594365
+window-level,null 56,PCD alpha=0.01,0.016113,0.672669
+window-level,null 56,Max-softmax>0.5,0.349121,0.538397
+window-level,null 56,Entropy<0.9,0.280599,0.553298
+participant-separated,null 57,all inputs,1.0,0.34616
+participant-separated,null 57,PCD alpha=0.10,0.123861,0.362593
+participant-separated,null 57,PCD alpha=0.05,0.060221,0.367665
+participant-separated,null 57,PCD alpha=0.01,0.012533,0.417854
+participant-separated,null 57,Max-softmax>0.5,0.437012,0.345437
+participant-separated,null 57,Entropy<0.9,0.367513,0.340503
+window-level,null 57,all inputs,1.0,0.45646
+window-level,null 57,PCD alpha=0.10,0.104818,0.621199
+window-level,null 57,PCD alpha=0.05,0.048014,0.654597
+window-level,null 57,PCD alpha=0.01,0.008464,0.691176
+window-level,null 57,Max-softmax>0.5,0.326823,0.549377
+window-level,null 57,Entropy<0.9,0.219889,0.577735
+participant-separated,null 58,all inputs,1.0,0.302091
+participant-separated,null 58,PCD alpha=0.10,0.070475,0.291295
+participant-separated,null 58,PCD alpha=0.05,0.033854,0.321974
+participant-separated,null 58,PCD alpha=0.01,0.007487,0.408995
+participant-separated,null 58,Max-softmax>0.5,0.291016,0.307172
+participant-separated,null 58,Entropy<0.9,0.199382,0.300082
+window-level,null 58,all inputs,1.0,0.460054
+window-level,null 58,PCD alpha=0.10,0.088379,0.543245
+window-level,null 58,PCD alpha=0.05,0.0389,0.550454
+window-level,null 58,PCD alpha=0.01,0.007487,0.53663
+window-level,null 58,Max-softmax>0.5,0.272949,0.520819
+window-level,null 58,Entropy<0.9,0.174316,0.529496
+participant-separated,null 59,all inputs,1.0,0.362432
+participant-separated,null 59,PCD alpha=0.10,0.107259,0.409825
+participant-separated,null 59,PCD alpha=0.05,0.052083,0.408108
+participant-separated,null 59,PCD alpha=0.01,0.010579,0.411111
+participant-separated,null 59,Max-softmax>0.5,0.364746,0.399346
+participant-separated,null 59,Entropy<0.9,0.260579,0.388622
+window-level,null 59,all inputs,1.0,0.500818
+window-level,null 59,PCD alpha=0.10,0.162598,0.68134
+window-level,null 59,PCD alpha=0.05,0.096354,0.661854
+window-level,null 59,PCD alpha=0.01,0.025716,0.647345
+window-level,null 59,Max-softmax>0.5,0.381022,0.615168
+window-level,null 59,Entropy<0.9,0.283691,0.63086
+participant-separated,null 60,all inputs,1.0,0.329273
+participant-separated,null 60,PCD alpha=0.10,0.094889,0.326193
+participant-separated,null 60,PCD alpha=0.05,0.044759,0.316296
+participant-separated,null 60,PCD alpha=0.01,0.010417,0.363505
+participant-separated,null 60,Max-softmax>0.5,0.359212,0.323714
+participant-separated,null 60,Entropy<0.9,0.265788,0.326849
+window-level,null 60,all inputs,1.0,0.458039
+window-level,null 60,PCD alpha=0.10,0.10319,0.57267
+window-level,null 60,PCD alpha=0.05,0.05013,0.603137
+window-level,null 60,PCD alpha=0.01,0.010417,0.416667
+window-level,null 60,Max-softmax>0.5,0.321289,0.539543
+window-level,null 60,Entropy<0.9,0.246582,0.543225
+participant-separated,null 61,all inputs,1.0,0.352432
+participant-separated,null 61,PCD alpha=0.10,0.093913,0.369823
+participant-separated,null 61,PCD alpha=0.05,0.040853,0.389424
+participant-separated,null 61,PCD alpha=0.01,0.006673,0.403199
+participant-separated,null 61,Max-softmax>0.5,0.375,0.345131
+participant-separated,null 61,Entropy<0.9,0.30306,0.333845
+window-level,null 61,all inputs,1.0,0.475207
+window-level,null 61,PCD alpha=0.10,0.129883,0.640298
+window-level,null 61,PCD alpha=0.05,0.064779,0.671624
+window-level,null 61,PCD alpha=0.01,0.012695,0.758421
+window-level,null 61,Max-softmax>0.5,0.352214,0.562929
+window-level,null 61,Entropy<0.9,0.270345,0.581553
+participant-separated,null 62,all inputs,1.0,0.35061
+participant-separated,null 62,PCD alpha=0.10,0.109701,0.339939
+participant-separated,null 62,PCD alpha=0.05,0.053874,0.334305
+participant-separated,null 62,PCD alpha=0.01,0.010091,0.226852
+participant-separated,null 62,Max-softmax>0.5,0.383138,0.35301
+participant-separated,null 62,Entropy<0.9,0.29362,0.342147
+window-level,null 62,all inputs,1.0,0.477151
+window-level,null 62,PCD alpha=0.10,0.126628,0.620164
+window-level,null 62,PCD alpha=0.05,0.07487,0.660286
+window-level,null 62,PCD alpha=0.01,0.015951,0.582556
+window-level,null 62,Max-softmax>0.5,0.335612,0.568243
+window-level,null 62,Entropy<0.9,0.243164,0.56037
+participant-separated,null 63,all inputs,1.0,0.326207
+participant-separated,null 63,PCD alpha=0.10,0.091634,0.368815
+participant-separated,null 63,PCD alpha=0.05,0.052734,0.405704
+participant-separated,null 63,PCD alpha=0.01,0.01123,0.485714
+participant-separated,null 63,Max-softmax>0.5,0.331217,0.332268
+participant-separated,null 63,Entropy<0.9,0.255046,0.323966
+window-level,null 63,all inputs,1.0,0.44642
+window-level,null 63,PCD alpha=0.10,0.094889,0.568792
+window-level,null 63,PCD alpha=0.05,0.047689,0.58695
+window-level,null 63,PCD alpha=0.01,0.011882,0.629185
+window-level,null 63,Max-softmax>0.5,0.286947,0.529866
+window-level,null 63,Entropy<0.9,0.216146,0.531437
+participant-separated,null 64,all inputs,1.0,0.325639
+participant-separated,null 64,PCD alpha=0.10,0.072754,0.323749
+participant-separated,null 64,PCD alpha=0.05,0.032715,0.288396
+participant-separated,null 64,PCD alpha=0.01,0.006673,0.105882
+participant-separated,null 64,Max-softmax>0.5,0.32959,0.312562
+participant-separated,null 64,Entropy<0.9,0.233073,0.313267
+window-level,null 64,all inputs,1.0,0.460395
+window-level,null 64,PCD alpha=0.10,0.083659,0.561145
+window-level,null 64,PCD alpha=0.05,0.041992,0.52447
+window-level,null 64,PCD alpha=0.01,0.009277,0.356481
+window-level,null 64,Max-softmax>0.5,0.263184,0.535147
+window-level,null 64,Entropy<0.9,0.171061,0.546841
+participant-separated,null 65,all inputs,1.0,0.345633
+participant-separated,null 65,PCD alpha=0.10,0.118815,0.35913
+participant-separated,null 65,PCD alpha=0.05,0.061686,0.378285
+participant-separated,null 65,PCD alpha=0.01,0.013672,0.451852
+participant-separated,null 65,Max-softmax>0.5,0.385417,0.351871
+participant-separated,null 65,Entropy<0.9,0.30599,0.355006
+window-level,null 65,all inputs,1.0,0.478257
+window-level,null 65,PCD alpha=0.10,0.125326,0.601663
+window-level,null 65,PCD alpha=0.05,0.066569,0.621669
+window-level,null 65,PCD alpha=0.01,0.014323,0.504274
+window-level,null 65,Max-softmax>0.5,0.308431,0.572426
+window-level,null 65,Entropy<0.9,0.210612,0.581099
+participant-separated,null 66,all inputs,1.0,0.343036
+participant-separated,null 66,PCD alpha=0.10,0.131022,0.373206
+participant-separated,null 66,PCD alpha=0.05,0.07015,0.37076
+participant-separated,null 66,PCD alpha=0.01,0.017253,0.404902
+participant-separated,null 66,Max-softmax>0.5,0.426595,0.351974
+participant-separated,null 66,Entropy<0.9,0.353841,0.347562
+window-level,null 66,all inputs,1.0,0.465945
+window-level,null 66,PCD alpha=0.10,0.129069,0.556477
+window-level,null 66,PCD alpha=0.05,0.058594,0.563614
+window-level,null 66,PCD alpha=0.01,0.010579,0.503922
+window-level,null 66,Max-softmax>0.5,0.378581,0.542672
+window-level,null 66,Entropy<0.9,0.309896,0.548329
+participant-separated,null 67,all inputs,1.0,0.332247
+participant-separated,null 67,PCD alpha=0.10,0.106771,0.335781
+participant-separated,null 67,PCD alpha=0.05,0.058757,0.303106
+participant-separated,null 67,PCD alpha=0.01,0.012207,0.286325
+participant-separated,null 67,Max-softmax>0.5,0.362305,0.323001
+participant-separated,null 67,Entropy<0.9,0.286133,0.326691
+window-level,null 67,all inputs,1.0,0.475636
+window-level,null 67,PCD alpha=0.10,0.15625,0.674153
+window-level,null 67,PCD alpha=0.05,0.095378,0.663578
+window-level,null 67,PCD alpha=0.01,0.025879,0.705503
+window-level,null 67,Max-softmax>0.5,0.34375,0.592757
+window-level,null 67,Entropy<0.9,0.282389,0.614691
+participant-separated,null 68,all inputs,1.0,0.323483
+participant-separated,null 68,PCD alpha=0.10,0.0625,0.268083
+participant-separated,null 68,PCD alpha=0.05,0.027507,0.262362
+participant-separated,null 68,PCD alpha=0.01,0.007975,0.299808
+participant-separated,null 68,Max-softmax>0.5,0.300293,0.291378
+participant-separated,null 68,Entropy<0.9,0.212891,0.289435
+window-level,null 68,all inputs,1.0,0.445607
+window-level,null 68,PCD alpha=0.10,0.076172,0.566614
+window-level,null 68,PCD alpha=0.05,0.034668,0.554665
+window-level,null 68,PCD alpha=0.01,0.006999,0.581643
+window-level,null 68,Max-softmax>0.5,0.264974,0.536491
+window-level,null 68,Entropy<0.9,0.187337,0.527025
+participant-separated,null 69,all inputs,1.0,0.344734
+participant-separated,null 69,PCD alpha=0.10,0.10791,0.313586
+participant-separated,null 69,PCD alpha=0.05,0.043783,0.275838
+participant-separated,null 69,PCD alpha=0.01,0.00472,0.355556
+participant-separated,null 69,Max-softmax>0.5,0.402181,0.351582
+participant-separated,null 69,Entropy<0.9,0.309733,0.343389
+window-level,null 69,all inputs,1.0,0.469413
+window-level,null 69,PCD alpha=0.10,0.106608,0.570806
+window-level,null 69,PCD alpha=0.05,0.048177,0.562488
+window-level,null 69,PCD alpha=0.01,0.009115,0.422222
+window-level,null 69,Max-softmax>0.5,0.326986,0.544232
+window-level,null 69,Entropy<0.9,0.242676,0.524046
+participant-separated,null 70,all inputs,1.0,0.339474
+participant-separated,null 70,PCD alpha=0.10,0.114258,0.306875
+participant-separated,null 70,PCD alpha=0.05,0.068034,0.294134
+participant-separated,null 70,PCD alpha=0.01,0.025228,0.317671
+participant-separated,null 70,Max-softmax>0.5,0.341634,0.325102
+participant-separated,null 70,Entropy<0.9,0.260417,0.31368
+window-level,null 70,all inputs,1.0,0.457465
+window-level,null 70,PCD alpha=0.10,0.077637,0.56803
+window-level,null 70,PCD alpha=0.05,0.032878,0.553421
+window-level,null 70,PCD alpha=0.01,0.005046,0.325
+window-level,null 70,Max-softmax>0.5,0.255859,0.550105
+window-level,null 70,Entropy<0.9,0.16748,0.53848
+participant-separated,null 71,all inputs,1.0,0.369591
+participant-separated,null 71,PCD alpha=0.10,0.114583,0.399568
+participant-separated,null 71,PCD alpha=0.05,0.056315,0.412014
+participant-separated,null 71,PCD alpha=0.01,0.011882,0.48033
+participant-separated,null 71,Max-softmax>0.5,0.407715,0.378316
+participant-separated,null 71,Entropy<0.9,0.320964,0.376594
+window-level,null 71,all inputs,1.0,0.466037
+window-level,null 71,PCD alpha=0.10,0.114095,0.628879
+window-level,null 71,PCD alpha=0.05,0.059245,0.613249
+window-level,null 71,PCD alpha=0.01,0.014974,0.56638
+window-level,null 71,Max-softmax>0.5,0.318522,0.572315
+window-level,null 71,Entropy<0.9,0.242188,0.591043
+participant-separated,null 72,all inputs,1.0,0.353647
+participant-separated,null 72,PCD alpha=0.10,0.142253,0.351377
+participant-separated,null 72,PCD alpha=0.05,0.079264,0.347576
+participant-separated,null 72,PCD alpha=0.01,0.020182,0.392408
+participant-separated,null 72,Max-softmax>0.5,0.388184,0.358653
+participant-separated,null 72,Entropy<0.9,0.313151,0.353365
+window-level,null 72,all inputs,1.0,0.456523
+window-level,null 72,PCD alpha=0.10,0.113118,0.595551
+window-level,null 72,PCD alpha=0.05,0.063802,0.624791
+window-level,null 72,PCD alpha=0.01,0.013184,0.696237
+window-level,null 72,Max-softmax>0.5,0.306478,0.554477
+window-level,null 72,Entropy<0.9,0.231283,0.569765
+participant-separated,null 73,all inputs,1.0,0.309225
+participant-separated,null 73,PCD alpha=0.10,0.107259,0.288026
+participant-separated,null 73,PCD alpha=0.05,0.050293,0.261964
+participant-separated,null 73,PCD alpha=0.01,0.009277,0.223986
+participant-separated,null 73,Max-softmax>0.5,0.366699,0.285668
+participant-separated,null 73,Entropy<0.9,0.304688,0.294074
+window-level,null 73,all inputs,1.0,0.478813
+window-level,null 73,PCD alpha=0.10,0.11556,0.531467
+window-level,null 73,PCD alpha=0.05,0.065104,0.510797
+window-level,null 73,PCD alpha=0.01,0.013184,0.501712
+window-level,null 73,Max-softmax>0.5,0.325521,0.551184
+window-level,null 73,Entropy<0.9,0.253418,0.56282
+participant-separated,null 74,all inputs,1.0,0.358778
+participant-separated,null 74,PCD alpha=0.10,0.087565,0.323934
+participant-separated,null 74,PCD alpha=0.05,0.046387,0.32423
+participant-separated,null 74,PCD alpha=0.01,0.008464,0.414915
+participant-separated,null 74,Max-softmax>0.5,0.35319,0.369046
+participant-separated,null 74,Entropy<0.9,0.253418,0.359234
+window-level,null 74,all inputs,1.0,0.481271
+window-level,null 74,PCD alpha=0.10,0.145996,0.63095
+window-level,null 74,PCD alpha=0.05,0.085612,0.664646
+window-level,null 74,PCD alpha=0.01,0.024577,0.63558
+window-level,null 74,Max-softmax>0.5,0.345052,0.586879
+window-level,null 74,Entropy<0.9,0.267741,0.598607
+participant-separated,null 75,all inputs,1.0,0.338742
+participant-separated,null 75,PCD alpha=0.10,0.108724,0.286132
+participant-separated,null 75,PCD alpha=0.05,0.055827,0.250855
+participant-separated,null 75,PCD alpha=0.01,0.014974,0.324297
+participant-separated,null 75,Max-softmax>0.5,0.373535,0.30201
+participant-separated,null 75,Entropy<0.9,0.283691,0.289459
+window-level,null 75,all inputs,1.0,0.459027
+window-level,null 75,PCD alpha=0.10,0.094076,0.501232
+window-level,null 75,PCD alpha=0.05,0.050456,0.491662
+window-level,null 75,PCD alpha=0.01,0.008952,0.426471
+window-level,null 75,Max-softmax>0.5,0.295085,0.514754
+window-level,null 75,Entropy<0.9,0.221354,0.492155
+participant-separated,null 76,all inputs,1.0,0.340984
+participant-separated,null 76,PCD alpha=0.10,0.10791,0.32502
+participant-separated,null 76,PCD alpha=0.05,0.053874,0.373894
+participant-separated,null 76,PCD alpha=0.01,0.013672,0.279291
+participant-separated,null 76,Max-softmax>0.5,0.381673,0.347724
+participant-separated,null 76,Entropy<0.9,0.310059,0.32969
+window-level,null 76,all inputs,1.0,0.499259
+window-level,null 76,PCD alpha=0.10,0.152669,0.641182
+window-level,null 76,PCD alpha=0.05,0.094401,0.653009
+window-level,null 76,PCD alpha=0.01,0.023438,0.714029
+window-level,null 76,Max-softmax>0.5,0.35612,0.608472
+window-level,null 76,Entropy<0.9,0.279785,0.615414
+participant-separated,null 77,all inputs,1.0,0.337642
+participant-separated,null 77,PCD alpha=0.10,0.083171,0.281616
+participant-separated,null 77,PCD alpha=0.05,0.046224,0.218496
+participant-separated,null 77,PCD alpha=0.01,0.011068,0.109217
+participant-separated,null 77,Max-softmax>0.5,0.335775,0.317981
+participant-separated,null 77,Entropy<0.9,0.272461,0.32294
+window-level,null 77,all inputs,1.0,0.447797
+window-level,null 77,PCD alpha=0.10,0.06901,0.583648
+window-level,null 77,PCD alpha=0.05,0.031738,0.610714
+window-level,null 77,PCD alpha=0.01,0.005208,0.500835
+window-level,null 77,Max-softmax>0.5,0.240723,0.520501
+window-level,null 77,Entropy<0.9,0.160156,0.515911
+participant-separated,null 78,all inputs,1.0,0.337519
+participant-separated,null 78,PCD alpha=0.10,0.077637,0.295124
+participant-separated,null 78,PCD alpha=0.05,0.036621,0.296883
+participant-separated,null 78,PCD alpha=0.01,0.00765,0.297893
+participant-separated,null 78,Max-softmax>0.5,0.315918,0.331029
+participant-separated,null 78,Entropy<0.9,0.224121,0.315951
+window-level,null 78,all inputs,1.0,0.441717
+window-level,null 78,PCD alpha=0.10,0.079915,0.55492
+window-level,null 78,PCD alpha=0.05,0.033854,0.559321
+window-level,null 78,PCD alpha=0.01,0.005208,0.555556
+window-level,null 78,Max-softmax>0.5,0.260091,0.529071
+window-level,null 78,Entropy<0.9,0.158366,0.50558
+participant-separated,null 79,all inputs,1.0,0.350851
+participant-separated,null 79,PCD alpha=0.10,0.082845,0.315767
+participant-separated,null 79,PCD alpha=0.05,0.035482,0.296217
+participant-separated,null 79,PCD alpha=0.01,0.008464,0.315296
+participant-separated,null 79,Max-softmax>0.5,0.340983,0.348276
+participant-separated,null 79,Entropy<0.9,0.257487,0.340708
+window-level,null 79,all inputs,1.0,0.45359
+window-level,null 79,PCD alpha=0.10,0.090169,0.533428
+window-level,null 79,PCD alpha=0.05,0.043783,0.506656
+window-level,null 79,PCD alpha=0.01,0.007487,0.409579
+window-level,null 79,Max-softmax>0.5,0.285156,0.544517
+window-level,null 79,Entropy<0.9,0.185059,0.549354
+participant-separated,null 80,all inputs,1.0,0.297325
+participant-separated,null 80,PCD alpha=0.10,0.088216,0.301107
+participant-separated,null 80,PCD alpha=0.05,0.038411,0.305021
+participant-separated,null 80,PCD alpha=0.01,0.005697,0.290498
+participant-separated,null 80,Max-softmax>0.5,0.34375,0.271575
+participant-separated,null 80,Entropy<0.9,0.252767,0.274609
+window-level,null 80,all inputs,1.0,0.448606
+window-level,null 80,PCD alpha=0.10,0.093262,0.598567
+window-level,null 80,PCD alpha=0.05,0.043294,0.632188
+window-level,null 80,PCD alpha=0.01,0.007975,0.45873
+window-level,null 80,Max-softmax>0.5,0.287109,0.552966
+window-level,null 80,Entropy<0.9,0.181803,0.560439
+participant-separated,null 81,all inputs,1.0,0.350275
+participant-separated,null 81,PCD alpha=0.10,0.099447,0.390657
+participant-separated,null 81,PCD alpha=0.05,0.05306,0.358736
+participant-separated,null 81,PCD alpha=0.01,0.009603,0.249206
+participant-separated,null 81,Max-softmax>0.5,0.361979,0.34829
+participant-separated,null 81,Entropy<0.9,0.28597,0.336637
+window-level,null 81,all inputs,1.0,0.494866
+window-level,null 81,PCD alpha=0.10,0.161296,0.648867
+window-level,null 81,PCD alpha=0.05,0.093424,0.640627
+window-level,null 81,PCD alpha=0.01,0.029622,0.564552
+window-level,null 81,Max-softmax>0.5,0.368978,0.598955
+window-level,null 81,Entropy<0.9,0.27653,0.616325
+participant-separated,null 82,all inputs,1.0,0.322221
+participant-separated,null 82,PCD alpha=0.10,0.076497,0.302669
+participant-separated,null 82,PCD alpha=0.05,0.039225,0.336912
+participant-separated,null 82,PCD alpha=0.01,0.006673,0.320728
+participant-separated,null 82,Max-softmax>0.5,0.344238,0.307953
+participant-separated,null 82,Entropy<0.9,0.247233,0.313843
+window-level,null 82,all inputs,1.0,0.457987
+window-level,null 82,PCD alpha=0.10,0.097493,0.645615
+window-level,null 82,PCD alpha=0.05,0.049967,0.669748
+window-level,null 82,PCD alpha=0.01,0.010579,0.663952
+window-level,null 82,Max-softmax>0.5,0.283366,0.539633
+window-level,null 82,Entropy<0.9,0.17627,0.58448
+participant-separated,null 83,all inputs,1.0,0.345
+participant-separated,null 83,PCD alpha=0.10,0.080892,0.346146
+participant-separated,null 83,PCD alpha=0.05,0.039388,0.320224
+participant-separated,null 83,PCD alpha=0.01,0.006348,0.272222
+participant-separated,null 83,Max-softmax>0.5,0.341309,0.364797
+participant-separated,null 83,Entropy<0.9,0.272298,0.343065
+window-level,null 83,all inputs,1.0,0.470883
+window-level,null 83,PCD alpha=0.10,0.098145,0.536975
+window-level,null 83,PCD alpha=0.05,0.04541,0.507875
+window-level,null 83,PCD alpha=0.01,0.006673,0.430213
+window-level,null 83,Max-softmax>0.5,0.294271,0.539219
+window-level,null 83,Entropy<0.9,0.202637,0.510206
+participant-separated,null 84,all inputs,1.0,0.347321
+participant-separated,null 84,PCD alpha=0.10,0.089681,0.328257
+participant-separated,null 84,PCD alpha=0.05,0.046224,0.334046
+participant-separated,null 84,PCD alpha=0.01,0.006673,0.27218
+participant-separated,null 84,Max-softmax>0.5,0.345866,0.349443
+participant-separated,null 84,Entropy<0.9,0.259603,0.350928
+window-level,null 84,all inputs,1.0,0.457708
+window-level,null 84,PCD alpha=0.10,0.09554,0.60795
+window-level,null 84,PCD alpha=0.05,0.046875,0.622103
+window-level,null 84,PCD alpha=0.01,0.008138,0.600722
+window-level,null 84,Max-softmax>0.5,0.283203,0.550403
+window-level,null 84,Entropy<0.9,0.196126,0.550381
+participant-separated,null 85,all inputs,1.0,0.336935
+participant-separated,null 85,PCD alpha=0.10,0.095703,0.296834
+participant-separated,null 85,PCD alpha=0.05,0.04362,0.26046
+participant-separated,null 85,PCD alpha=0.01,0.009277,0.265873
+participant-separated,null 85,Max-softmax>0.5,0.364258,0.34128
+participant-separated,null 85,Entropy<0.9,0.265299,0.337442
+window-level,null 85,all inputs,1.0,0.452945
+window-level,null 85,PCD alpha=0.10,0.087402,0.64531
+window-level,null 85,PCD alpha=0.05,0.040853,0.702681
+window-level,null 85,PCD alpha=0.01,0.009928,0.632211
+window-level,null 85,Max-softmax>0.5,0.277995,0.549886
+window-level,null 85,Entropy<0.9,0.195638,0.576775
+participant-separated,null 86,all inputs,1.0,0.29631
+participant-separated,null 86,PCD alpha=0.10,0.101888,0.237044
+participant-separated,null 86,PCD alpha=0.05,0.056966,0.251233
+participant-separated,null 86,PCD alpha=0.01,0.012858,0.427864
+participant-separated,null 86,Max-softmax>0.5,0.358073,0.281296
+participant-separated,null 86,Entropy<0.9,0.277832,0.280101
+window-level,null 86,all inputs,1.0,0.454864
+window-level,null 86,PCD alpha=0.10,0.09847,0.60161
+window-level,null 86,PCD alpha=0.05,0.05127,0.568254
+window-level,null 86,PCD alpha=0.01,0.012695,0.560483
+window-level,null 86,Max-softmax>0.5,0.260579,0.558441
+window-level,null 86,Entropy<0.9,0.189941,0.567356
+participant-separated,null 87,all inputs,1.0,0.329689
+participant-separated,null 87,PCD alpha=0.10,0.108887,0.366741
+participant-separated,null 87,PCD alpha=0.05,0.049316,0.412265
+participant-separated,null 87,PCD alpha=0.01,0.009928,0.328063
+participant-separated,null 87,Max-softmax>0.5,0.375977,0.336403
+participant-separated,null 87,Entropy<0.9,0.273926,0.339156
+window-level,null 87,all inputs,1.0,0.467518
+window-level,null 87,PCD alpha=0.10,0.125814,0.607782
+window-level,null 87,PCD alpha=0.05,0.070964,0.579997
+window-level,null 87,PCD alpha=0.01,0.016927,0.458333
+window-level,null 87,Max-softmax>0.5,0.339844,0.567991
+window-level,null 87,Entropy<0.9,0.258626,0.57569
+participant-separated,null 88,all inputs,1.0,0.3738
+participant-separated,null 88,PCD alpha=0.10,0.136393,0.386268
+participant-separated,null 88,PCD alpha=0.05,0.066406,0.401385
+participant-separated,null 88,PCD alpha=0.01,0.012858,0.388414
+participant-separated,null 88,Max-softmax>0.5,0.39209,0.389572
+participant-separated,null 88,Entropy<0.9,0.302409,0.375145
+window-level,null 88,all inputs,1.0,0.483488
+window-level,null 88,PCD alpha=0.10,0.134277,0.583393
+window-level,null 88,PCD alpha=0.05,0.074544,0.621637
+window-level,null 88,PCD alpha=0.01,0.012533,0.656517
+window-level,null 88,Max-softmax>0.5,0.326009,0.557901
+window-level,null 88,Entropy<0.9,0.231934,0.553686
+participant-separated,null 89,all inputs,1.0,0.350631
+participant-separated,null 89,PCD alpha=0.10,0.096191,0.371913
+participant-separated,null 89,PCD alpha=0.05,0.042806,0.365447
+participant-separated,null 89,PCD alpha=0.01,0.008464,0.299346
+participant-separated,null 89,Max-softmax>0.5,0.369629,0.351982
+participant-separated,null 89,Entropy<0.9,0.272949,0.375563
+window-level,null 89,all inputs,1.0,0.452801
+window-level,null 89,PCD alpha=0.10,0.096842,0.579738
+window-level,null 89,PCD alpha=0.05,0.041829,0.608448
+window-level,null 89,PCD alpha=0.01,0.005697,0.429293
+window-level,null 89,Max-softmax>0.5,0.312663,0.539582
+window-level,null 89,Entropy<0.9,0.214193,0.549893
+participant-separated,null 90,all inputs,1.0,0.357945
+participant-separated,null 90,PCD alpha=0.10,0.097982,0.370989
+participant-separated,null 90,PCD alpha=0.05,0.055339,0.35211
+participant-separated,null 90,PCD alpha=0.01,0.01416,0.297619
+participant-separated,null 90,Max-softmax>0.5,0.349935,0.364488
+participant-separated,null 90,Entropy<0.9,0.278483,0.36206
+window-level,null 90,all inputs,1.0,0.484165
+window-level,null 90,PCD alpha=0.10,0.129232,0.586458
+window-level,null 90,PCD alpha=0.05,0.070638,0.535316
+window-level,null 90,PCD alpha=0.01,0.011719,0.432913
+window-level,null 90,Max-softmax>0.5,0.321452,0.575393
+window-level,null 90,Entropy<0.9,0.226888,0.562099
+participant-separated,null 91,all inputs,1.0,0.362334
+participant-separated,null 91,PCD alpha=0.10,0.131022,0.348259
+participant-separated,null 91,PCD alpha=0.05,0.067546,0.359433
+participant-separated,null 91,PCD alpha=0.01,0.013997,0.326768
+participant-separated,null 91,Max-softmax>0.5,0.401204,0.359981
+participant-separated,null 91,Entropy<0.9,0.303711,0.337059
+window-level,null 91,all inputs,1.0,0.474441
+window-level,null 91,PCD alpha=0.10,0.118327,0.580514
+window-level,null 91,PCD alpha=0.05,0.058919,0.578487
+window-level,null 91,PCD alpha=0.01,0.012858,0.544231
+window-level,null 91,Max-softmax>0.5,0.353027,0.547932
+window-level,null 91,Entropy<0.9,0.263509,0.538914
+participant-separated,null 92,all inputs,1.0,0.321649
+participant-separated,null 92,PCD alpha=0.10,0.07015,0.339073
+participant-separated,null 92,PCD alpha=0.05,0.03776,0.352381
+participant-separated,null 92,PCD alpha=0.01,0.008626,0.332804
+participant-separated,null 92,Max-softmax>0.5,0.294108,0.3151
+participant-separated,null 92,Entropy<0.9,0.217936,0.306543
+window-level,null 92,all inputs,1.0,0.46938
+window-level,null 92,PCD alpha=0.10,0.08724,0.551135
+window-level,null 92,PCD alpha=0.05,0.043457,0.553249
+window-level,null 92,PCD alpha=0.01,0.009766,0.548302
+window-level,null 92,Max-softmax>0.5,0.275553,0.540614
+window-level,null 92,Entropy<0.9,0.179525,0.538667
+participant-separated,null 93,all inputs,1.0,0.338151
+participant-separated,null 93,PCD alpha=0.10,0.093099,0.322739
+participant-separated,null 93,PCD alpha=0.05,0.041992,0.303356
+participant-separated,null 93,PCD alpha=0.01,0.01123,0.259307
+participant-separated,null 93,Max-softmax>0.5,0.319824,0.336057
+participant-separated,null 93,Entropy<0.9,0.241699,0.335222
+window-level,null 93,all inputs,1.0,0.455835
+window-level,null 93,PCD alpha=0.10,0.071289,0.600488
+window-level,null 93,PCD alpha=0.05,0.033203,0.619514
+window-level,null 93,PCD alpha=0.01,0.005046,0.552381
+window-level,null 93,Max-softmax>0.5,0.265788,0.538032
+window-level,null 93,Entropy<0.9,0.173014,0.526021
+participant-separated,null 94,all inputs,1.0,0.319511
+participant-separated,null 94,PCD alpha=0.10,0.116048,0.273585
+participant-separated,null 94,PCD alpha=0.05,0.061198,0.268461
+participant-separated,null 94,PCD alpha=0.01,0.013184,0.238377
+participant-separated,null 94,Max-softmax>0.5,0.349121,0.302991
+participant-separated,null 94,Entropy<0.9,0.275391,0.294369
+window-level,null 94,all inputs,1.0,0.449298
+window-level,null 94,PCD alpha=0.10,0.076009,0.579511
+window-level,null 94,PCD alpha=0.05,0.037109,0.602099
+window-level,null 94,PCD alpha=0.01,0.007975,0.50958
+window-level,null 94,Max-softmax>0.5,0.246257,0.546426
+window-level,null 94,Entropy<0.9,0.17985,0.536748
+participant-separated,null 95,all inputs,1.0,0.334966
+participant-separated,null 95,PCD alpha=0.10,0.066732,0.356393
+participant-separated,null 95,PCD alpha=0.05,0.032064,0.373038
+participant-separated,null 95,PCD alpha=0.01,0.006673,0.341737
+participant-separated,null 95,Max-softmax>0.5,0.325684,0.343454
+participant-separated,null 95,Entropy<0.9,0.284017,0.350823
+window-level,null 95,all inputs,1.0,0.463571
+window-level,null 95,PCD alpha=0.10,0.100586,0.559273
+window-level,null 95,PCD alpha=0.05,0.055501,0.556006
+window-level,null 95,PCD alpha=0.01,0.013021,0.566667
+window-level,null 95,Max-softmax>0.5,0.308431,0.539755
+window-level,null 95,Entropy<0.9,0.228353,0.545101
+participant-separated,null 96,all inputs,1.0,0.335894
+participant-separated,null 96,PCD alpha=0.10,0.062826,0.34376
+participant-separated,null 96,PCD alpha=0.05,0.028483,0.319701
+participant-separated,null 96,PCD alpha=0.01,0.00651,0.513333
+participant-separated,null 96,Max-softmax>0.5,0.291829,0.342281
+participant-separated,null 96,Entropy<0.9,0.203613,0.342819
+window-level,null 96,all inputs,1.0,0.442032
+window-level,null 96,PCD alpha=0.10,0.07959,0.532305
+window-level,null 96,PCD alpha=0.05,0.039551,0.54082
+window-level,null 96,PCD alpha=0.01,0.00944,0.584553
+window-level,null 96,Max-softmax>0.5,0.256836,0.518864
+window-level,null 96,Entropy<0.9,0.168945,0.51808
+participant-separated,null 97,all inputs,1.0,0.333541
+participant-separated,null 97,PCD alpha=0.10,0.14974,0.314223
+participant-separated,null 97,PCD alpha=0.05,0.084147,0.287787
+participant-separated,null 97,PCD alpha=0.01,0.013997,0.311132
+participant-separated,null 97,Max-softmax>0.5,0.433757,0.32141
+participant-separated,null 97,Entropy<0.9,0.337402,0.314671
+window-level,null 97,all inputs,1.0,0.471431
+window-level,null 97,PCD alpha=0.10,0.107422,0.620127
+window-level,null 97,PCD alpha=0.05,0.055501,0.645629
+window-level,null 97,PCD alpha=0.01,0.013184,0.596303
+window-level,null 97,Max-softmax>0.5,0.340983,0.555884
+window-level,null 97,Entropy<0.9,0.270508,0.557766
+participant-separated,null 98,all inputs,1.0,0.349258
+participant-separated,null 98,PCD alpha=0.10,0.131673,0.331698
+participant-separated,null 98,PCD alpha=0.05,0.074056,0.276144
+participant-separated,null 98,PCD alpha=0.01,0.015137,0.156044
+participant-separated,null 98,Max-softmax>0.5,0.385417,0.342872
+participant-separated,null 98,Entropy<0.9,0.286947,0.333254
+window-level,null 98,all inputs,1.0,0.47221
+window-level,null 98,PCD alpha=0.10,0.125488,0.618369
+window-level,null 98,PCD alpha=0.05,0.064616,0.611035
+window-level,null 98,PCD alpha=0.01,0.010579,0.607929
+window-level,null 98,Max-softmax>0.5,0.338704,0.568961
+window-level,null 98,Entropy<0.9,0.247559,0.572733
+participant-separated,null 99,all inputs,1.0,0.339284
+participant-separated,null 99,PCD alpha=0.10,0.125163,0.382679
+participant-separated,null 99,PCD alpha=0.05,0.063802,0.388606
+participant-separated,null 99,PCD alpha=0.01,0.011393,0.307494
+participant-separated,null 99,Max-softmax>0.5,0.392578,0.345664
+participant-separated,null 99,Entropy<0.9,0.298503,0.352424
+window-level,null 99,all inputs,1.0,0.470703
+window-level,null 99,PCD alpha=0.10,0.141276,0.6442
+window-level,null 99,PCD alpha=0.05,0.087402,0.643211
+window-level,null 99,PCD alpha=0.01,0.026855,0.576064
+window-level,null 99,Max-softmax>0.5,0.328939,0.585978
+window-level,null 99,Entropy<0.9,0.241536,0.603286

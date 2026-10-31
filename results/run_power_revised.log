@@ -1,0 +1,31 @@
+==============================================================================
+SENSITIVITY FROM A TRUE NULL BASELINE
+==============================================================================
+cohort 10: null mean 0.3420, 95th percentile 0.4191
+   delta 0.00: achieved bal 0.3420 (sd 0.0426)  power 0.05 +/- 0.02
+   delta 0.02: achieved bal 0.3423 (sd 0.0431)  power 0.04 +/- 0.02
+   delta 0.04: achieved bal 0.3419 (sd 0.0408)  power 0.01 +/- 0.01
+   delta 0.06: achieved bal 0.3667 (sd 0.0378)  power 0.03 +/- 0.02
+   delta 0.08: achieved bal 0.3794 (sd 0.0396)  power 0.16 +/- 0.04
+   delta 0.10: achieved bal 0.4038 (sd 0.0452)  power 0.35 +/- 0.05
+   delta 0.14: achieved bal 0.4571 (sd 0.0476)  power 0.80 +/- 0.04
+   delta 0.20: achieved bal 0.5420 (sd 0.0514)  power 1.00 +/- 0.00
+cohort 20: null mean 0.3371, 95th percentile 0.3782
+   delta 0.00: achieved bal 0.3371 (sd 0.0269)  power 0.05 +/- 0.02
+   delta 0.02: achieved bal 0.3398 (sd 0.0256)  power 0.07 +/- 0.03
+   delta 0.04: achieved bal 0.3613 (sd 0.0317)  power 0.26 +/- 0.04
+   delta 0.06: achieved bal 0.3912 (sd 0.0285)  power 0.65 +/- 0.05
+   delta 0.08: achieved bal 0.4267 (sd 0.0316)  power 0.94 +/- 0.02
+   delta 0.10: achieved bal 0.4703 (sd 0.0348)  power 1.00 +/- 0.00
+   delta 0.14: achieved bal 0.5433 (sd 0.0367)  power 1.00 +/- 0.00
+   delta 0.20: achieved bal 0.6484 (sd 0.0415)  power 1.00 +/- 0.00
+cohort 34: null mean 0.3308, 95th percentile 0.3679
+   delta 0.00: achieved bal 0.3308 (sd 0.0204)  power 0.05 +/- 0.02
+   delta 0.02: achieved bal 0.3487 (sd 0.0213)  power 0.18 +/- 0.04
+   delta 0.04: achieved bal 0.3834 (sd 0.0220)  power 0.73 +/- 0.04
+   delta 0.06: achieved bal 0.4283 (sd 0.0248)  power 1.00 +/- 0.00
+   delta 0.08: achieved bal 0.4829 (sd 0.0256)  power 1.00 +/- 0.00
+   delta 0.10: achieved bal 0.5366 (sd 0.0276)  power 1.00 +/- 0.00
+   delta 0.14: achieved bal 0.6240 (sd 0.0287)  power 1.00 +/- 0.00
+   delta 0.20: achieved bal 0.7260 (sd 0.0317)  power 1.00 +/- 0.00
+[4.7 min]

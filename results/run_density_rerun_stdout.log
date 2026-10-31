@@ -1,0 +1,77 @@
+==============================================================================
+CHANNEL DENSITY WITH NESTED MODEL SELECTION (Tononi, experience label)
+==============================================================================
+windows 598 | participants 18 | recordings 106 | classes ['1', '2', '3']
+   6 channels: 108 features (0.18 per window)
+  12 channels: 216 features (0.36 per window)
+  24 channels: 432 features (0.72 per window)
+  48 channels: 864 features (1.44 per window)
+  64 channels: 1152 features (1.93 per window)
+  [1.1 min]
+
+-- both partitions, balanced accuracy (accuracy alongside), per model --
+   model  channels             partition  bal_mean  bal_sd  acc_mean  acc_sd  n_assignments
+lr_fixed         6 participant-separated    0.3429  0.0037    0.3662  0.0073              5
+lr_fixed         6       window-shuffled    0.4962  0.0075    0.4763  0.0069              5
+lr_fixed        12 participant-separated    0.3303  0.0091    0.3629  0.0246              5
+lr_fixed        12       window-shuffled    0.5722  0.0070    0.5572  0.0053              5
+lr_fixed        24 participant-separated    0.2856  0.0174    0.3114  0.0264              5
+lr_fixed        24       window-shuffled    0.6078  0.0159    0.6027  0.0151              5
+lr_fixed        48 participant-separated    0.3733  0.0218    0.4234  0.0194              5
+lr_fixed        48       window-shuffled    0.7197  0.0120    0.7174  0.0129              5
+lr_fixed        64 participant-separated    0.3491  0.0069    0.3997  0.0124              5
+lr_fixed        64       window-shuffled    0.7552  0.0094    0.7498  0.0100              5
+      rf         6 participant-separated    0.3592  0.0103    0.4498  0.0094              5
+      rf         6       window-shuffled    0.6151  0.0184    0.6575  0.0123              5
+      rf        12 participant-separated    0.3188  0.0029    0.4000  0.0039              5
+      rf        12       window-shuffled    0.6359  0.0231    0.6863  0.0201              5
+      rf        24 participant-separated    0.3279  0.0133    0.4151  0.0222              5
+      rf        24       window-shuffled    0.6685  0.0146    0.7107  0.0127              5
+      rf        48 participant-separated    0.3397  0.0141    0.4298  0.0201              5
+      rf        48       window-shuffled    0.7018  0.0126    0.7408  0.0113              5
+      rf        64 participant-separated    0.3331  0.0061    0.4211  0.0099              5
+      rf        64       window-shuffled    0.7044  0.0082    0.7441  0.0073              5
+  [6.2 min]
+
+    model           channels  bal_mean  bal_sd   ci_lo  ci_hi
+ lr_fixed                  6    0.3429  0.0037  0.2794 0.4094
+ lr_fixed                 12    0.3303  0.0091  0.2684 0.3890
+ lr_fixed                 24    0.2856  0.0174  0.2406 0.3440
+ lr_fixed                 48    0.3733  0.0218  0.3069 0.4332
+ lr_fixed                 64    0.3491  0.0069  0.2902 0.4127
+ lr_fixed         64 minus 6    0.0061  0.0096 -0.0871 0.0974
+ lr_fixed slope per doubling    0.0060  0.0023 -0.0222 0.0330
+lr_nested                  6    0.3742  0.0118  0.3178 0.4344
+lr_nested                 12    0.3231  0.0127  0.2663 0.3769
+lr_nested                 24    0.3223  0.0212  0.2868 0.3672
+lr_nested                 48    0.3363  0.0165  0.2864 0.3850
+lr_nested                 64    0.3113  0.0223  0.2573 0.3752
+lr_nested         64 minus 6   -0.0629  0.0154 -0.1340 0.0042
+lr_nested slope per doubling   -0.0126  0.0032 -0.0334 0.0080
+   pca_lr                  6    0.3043  0.0186  0.2466 0.3581
+   pca_lr                 12    0.3076  0.0321  0.2611 0.3530
+   pca_lr                 24    0.3155  0.0334  0.2747 0.3578
+   pca_lr                 48    0.3009  0.0540  0.2584 0.3408
+   pca_lr                 64    0.3029  0.0114  0.2469 0.3665
+   pca_lr         64 minus 6   -0.0014  0.0081 -0.0845 0.0970
+   pca_lr slope per doubling   -0.0009  0.0128 -0.0235 0.0238
+       rf                  6    0.3592  0.0103  0.3160 0.3998
+       rf                 12    0.3188  0.0029  0.2781 0.3553
+       rf                 24    0.3279  0.0133  0.2885 0.3650
+       rf                 48    0.3397  0.0141  0.3014 0.3777
+       rf                 64    0.3331  0.0061  0.2903 0.3769
+       rf         64 minus 6   -0.0261  0.0080 -0.0689 0.0120
+       rf slope per doubling   -0.0038  0.0041 -0.0162 0.0077
+
+    model  channels  observed  null_mean      p  n_perm
+lr_nested         6    0.3885     0.3386 0.1584     100
+lr_nested        12    0.3358     0.3353 0.4752     100
+lr_nested        24    0.3481     0.3344 0.3663     100
+lr_nested        48    0.3163     0.3278 0.5941     100
+lr_nested        64    0.3345     0.3320 0.4851     100
+   pca_lr         6    0.3269     0.3350 0.5545     100
+   pca_lr        12    0.3459     0.3344 0.3960     100
+   pca_lr        24    0.3394     0.3338 0.4752     100
+   pca_lr        48    0.2418     0.3283 0.9802     100
+   pca_lr        64    0.3161     0.3339 0.6535     100
+  [20.6 min]

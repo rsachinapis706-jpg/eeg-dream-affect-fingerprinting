@@ -1,0 +1,5 @@
+dataset,level,windows,participants,median,share_above_0_70,n_above_0_70
+DEED,recordings,6144,34,0.5762,0.3824,13
+DEED,windows,6144,34,0.5411,0.3824,13
+Tononi,recordings,668,18,0.5357,0.1667,3
+Tononi,windows,668,18,0.5357,0.1667,3

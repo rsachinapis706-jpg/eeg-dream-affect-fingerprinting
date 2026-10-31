@@ -1,0 +1,1 @@
+factorial written: partition +0.1658, oversampling (windows) +0.1206, (participants) +0.0081 / with selection +0.0150; selection max |d| 0.0082, all CIs include 0: True

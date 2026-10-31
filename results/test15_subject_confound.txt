@@ -1,0 +1,39 @@
+==========================================================================
+IS DREAM-EMOTION DECODING PARTLY SUBJECT FINGERPRINTING?
+==========================================================================
+windows 6144 | subjects 34 | features 108
+reference: affect accuracy was 0.5732 (window-shuffled) vs 0.4025 (subject-wise)
+
+-- 1. Subject identity decodability (34-way) --
+window-shuffled split : accuracy 0.8037  balanced 0.7033
+recording-grouped     : accuracy 0.7313  balanced 0.5835
+chance (1/34)            : 0.0294
+
+-- 2. Oracle using ONLY subject id (no EEG at all) --
+accuracy from subject id alone : 0.5465
+balanced accuracy              : 0.5021
+observed window-shuffled affect : 0.5732
+observed subject-wise affect    : 0.4025
+
+>> pure fingerprinting explains 95.4% of the window-shuffled accuracy
+
+-- 3. Subject/label confounding --
+I(subject; label)  = 0.1713 nats
+H(label)           = 1.0548 nats
+normalised         = 0.1624  (fraction of label entropy explained by subject identity)
+
+per-subject majority-class share: mean 0.624, median 0.541, max 1.000
+subjects whose windows are >70% one class: 13/34
+
+-- 4. Affect decoding WITHIN the most-balanced subjects only --
+subjects with no dominant class (19): accuracy 0.3529  balanced 0.3383
+(if fingerprinting drove the earlier numbers, this should sit at chance)
+
+==========================================================================
+INTERPRETATION
+==========================================================================
+Subjects are highly identifiable from these features, and knowing
+the subject alone -- with no EEG -- recovers most of the accuracy
+reported under window-shuffled validation. The mechanism behind the
+inflation is subject fingerprinting combined with per-subject label
+imbalance, not dream-related neural information.

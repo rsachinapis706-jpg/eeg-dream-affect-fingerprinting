@@ -1,0 +1,28 @@
+====================================================================
+LEAKAGE DEMONSTRATION
+====================================================================
+features file : features_epoch_filtered.parquet
+epochs        : 7418 | segments: 532 | subjects: 34
+classifier    : RandomForest(300) | 5-fold | seed 20260727
+
+### Reported dream valence (3-class)
+epochs = 6144 | majority-class baseline = 0.4616
+
+held out      accuracy   balanced   interpretation
+--------------------------------------------------------------------
+random          0.5732     0.4942   epochs shuffled  <- published protocol
+segment         0.4243     0.3484   no within-recording leakage
+subject         0.4025     0.3070   no subject leakage  <- honest
+
+>> accuracy drop, random -> subject : +0.1707 (29.8% of the reported figure)
+
+### Sleep stage (W/N1/N2)
+epochs = 6287 | majority-class baseline = 0.4368
+
+held out      accuracy   balanced   interpretation
+--------------------------------------------------------------------
+random          0.5965     0.5162   epochs shuffled  <- published protocol
+segment         0.4901     0.4204   no within-recording leakage
+subject         0.4630     0.3765   no subject leakage  <- honest
+
+>> accuracy drop, random -> subject : +0.1334 (22.4% of the reported figure)
